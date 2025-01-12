@@ -5,3 +5,5 @@ plots/*
 .RData
 .RHistory
 line_count.R
+.RDataTmp
+data/mapped/*
