@@ -6,4 +6,3 @@ plots/*
 .RHistory
 line_count.R
 .RDataTmp
-data/mapped/*
