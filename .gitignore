@@ -1,6 +1,5 @@
 output/*
 data/raw/*
-data/normalized/*
 plots/*
 .RData
 .RHistory

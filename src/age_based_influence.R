@@ -84,7 +84,6 @@ for (i in 2:5) {
   }
 }
 age_based_influence <- age_based_influence / 15
-cat(sprintf("\nFinal age_based_influence: %f\n", age_based_influence))
 
 # --------------------------
 # Plot the influence_list
@@ -117,5 +116,4 @@ plot(
   ylim = c(0, ymax_rounded)  # from 0 to the "rounded up" maximum
 )
 
-# Optionally, add a horizontal reference line
-abline(h=0, col="gray60", lty="dashed")
+cat(sprintf("\nFinal age_based_influence: %f\n", age_based_influence))
