@@ -7,6 +7,7 @@
 # Given a tissue name and gene set, find the age-based influence and plot the results.
 
 library(igraph)
+source("utility.R")
 
 # Configurable Values
 tissue_name  <- "brain_cortex"
@@ -19,24 +20,6 @@ age_groups          <- c(20, 30, 40, 50, 60, 70)
 age_based_influence <- 0
 influence_list      <- numeric(length(age_groups))
 
-# --------------------------
-# Define the influence functions
-# --------------------------
-influence_g1_g2 <- function(graph, g1, g2, lambda = 1) {
-  d <- distances(graph, v = g1, to = g2)
-  return(exp(-d * lambda))
-}
-
-influence_S_g <- function(graph, S, g, lambda = 1) {
-  d_min <- min(distances(graph, v = S, to = g))
-  return(exp(-d_min * lambda))
-}
-
-influence_S_V <- function(graph, S, lambda = 1) {
-  all_genes  <- V(graph)$name
-  inf_values <- sapply(all_genes, function(v) influence_S_g(graph, S, v, lambda))
-  return(mean(inf_values))  # sum(...) / length(...)
-}
 
 # --------------------------
 # Loop over each age group and compute influence
