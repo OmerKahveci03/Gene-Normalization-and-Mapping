@@ -1,22 +1,21 @@
 # drug_efficacy.R - takes roughly 9 minutes
 # -----------------------------------------------------------
 # Input:
-#   - Disease genes S (read from filtered_neurodegenerative_diseases.csv) for Alzheimer Disease.
+#   - Disease genes S (from filtered_neurodegenerative_diseases.csv) for Alzheimer Disease.
 #   - Drug candidate information from filtered_drug_gene_dataset.xlsx:
-#         * "Sorted" sheet: Column A = drug name, Column B = gene count (already sorted descending).
-#         * "Raw" sheet: Column A = drug name, Column B = gene name (there may be duplicates).
+#         * "Sorted" sheet: Column A = drug name, Column B = gene count (sorted descending).
+#         * "Raw" sheet: Column A = drug name, Column B = gene name (may be duplicated).
 #
-#   For each candidate drug (from Sorted with gene count >= 20), we retrieve its target genes (from Raw),
-#   compute the intersection with the Alzheimer Disease genes, and select the drug with the highest intersection.
-#   Then we pick a representative drug target gene from that drug (preferring one that is in the disease set)
-#   and use that for efficacy calculation.
+#   For each candidate drug (with at least 20 target genes), we use its full target gene set
+#   to calculate efficacy across tissues.
 #
-#   The efficacy formula for a drug target gene d:
-#      efficacy(d, S) = (sum_{s in S} influence_g1_g2(d, s)) / (sum_{n in N} influence_g1_g2(d, n))
-#      where N = (all genes in the tissue network) \ S.
+#   The efficacy formula for a set of drug targets D is:
+#      efficacy(D, S) = ( sum_{s in S'} influence_S_g(graph, D, s, lambda) ) /
+#                       ( sum_{n in N'} influence_S_g(graph, D, n, lambda) )
+#      where S' is the set of disease genes present in the network and N' is all other genes.
 #
 #   Output:
-#     - A CSV file (data/drug/efficacy.csv) with tissues in rows and one column for the selected drug.
+#     - A CSV file (data/drug/efficacy.csv) with tissues in rows and a column for each candidate drug.
 #
 library(igraph)
 library(readxl)
@@ -30,15 +29,14 @@ if (!file.exists(nd_file)) {
   stop(sprintf("Neurodegenerative diseases file not found: %s", nd_file))
 }
 
-# Assuming the file has no header; if it does, set header = TRUE and adjust column names.
+# Read the CSV file (adjust header parameter if needed)
 nd_data <- read.csv(nd_file, header = FALSE, stringsAsFactors = FALSE)
-# Column 1: gene name, Column 2: disease name.
+# Assume Column 1 = gene name, Column 2 = disease name.
 disease_genes <- nd_data[nd_data[, 2] == "Alzheimer Disease", 1]
 if (length(disease_genes) == 0) {
   stop("No genes found for 'Alzheimer Disease' in the neurodegenerative diseases file.")
 }
-
-# (Optional) Clean the gene names (trim whitespace and/or convert case if needed)
+# Clean gene names.
 disease_genes <- trimws(disease_genes)
 
 # ------------------------------------------------------------------------------
@@ -49,44 +47,53 @@ if (!file.exists(drug_excel_file)) {
   stop(sprintf("Drug Excel file not found: %s", drug_excel_file))
 }
 
-# Read the "Sorted" sheet (Column 1: drug name, Column 2: gene count).
+# Read the "Sorted" sheet: Column A = drug name, Column B = gene count.
 sorted_data <- read_excel(drug_excel_file, sheet = "Sorted", col_names = FALSE)
-# Only consider drugs with gene count >= 20.
+# Keep only those drugs with a gene count >= 20.
 candidate_sorted <- sorted_data[sorted_data[[2]] >= 20, ]
 if(nrow(candidate_sorted) == 0) {
   stop("No candidate drugs with gene count >= 20 found in the Sorted sheet.")
 }
+# Extract candidate drug names.
+candidate_drugs <- candidate_sorted[[1]]
 
-# Read the "Raw" sheet (Column 1: drug name, Column 2: gene name).
+# Read the "Raw" sheet: Column A = drug name, Column B = gene name.
 raw_data <- read_excel(drug_excel_file, sheet = "Raw", col_names = FALSE)
 
-# For each candidate drug, compute the intersection size between its target genes and disease_genes.
-candidate_intersections <- sapply(candidate_sorted[[1]], function(drug) {
-  # Retrieve target genes for this drug from the Raw sheet.
+# Build a named list of candidate drug targets.
+# For each candidate drug, retrieve its target genes from the "Raw" sheet.
+candidate_drug_targets_list <- lapply(candidate_drugs, function(drug) {
   targets <- raw_data[[2]][raw_data[[1]] == drug]
-  length(intersect(targets, disease_genes))
+  unique(trimws(targets))
 })
-
-# Select the candidate drug with the highest intersection size.
-max_intersection <- max(candidate_intersections)
-selected_index <- which(candidate_intersections == max_intersection)[1]
-selected_drug <- candidate_sorted[[1]][selected_index]
-# Retrieve all target genes for the selected drug.
-selected_drug_targets <- raw_data[[2]][raw_data[[1]] == selected_drug]
-# Compute the intersection with disease_genes.
-selected_drug_intersection <- intersect(selected_drug_targets, disease_genes)
-# Pick a representative drug target gene.
-if (length(selected_drug_intersection) > 0) {
-  selected_drug_gene <- selected_drug_intersection[1]
-} else {
-  selected_drug_gene <- selected_drug_targets[1]
-}
-
-cat(sprintf("Selected drug: %s (using target gene: %s) with intersection count: %d\n",
-            selected_drug, selected_drug_gene, max_intersection))
+names(candidate_drug_targets_list) <- candidate_drugs
 
 # ------------------------------------------------------------------------------
-# 3. Configurable Variables for the Tissue Networks
+# 3. Pick the Top Five Drugs Based on the Intersection with Disease Genes
+# ------------------------------------------------------------------------------
+# Compute the intersection count for each candidate drug.
+candidate_intersections <- sapply(candidate_drugs, function(drug) {
+  targets <- candidate_drug_targets_list[[drug]]
+  length(intersect(targets, disease_genes))
+})
+# Order candidate drugs in descending order of intersection count.
+ordered_indices <- order(candidate_intersections, decreasing = TRUE)
+# Pick the top five candidate drugs.
+top_n <- 5
+if(length(ordered_indices) < top_n) {
+  top_n <- length(ordered_indices)
+}
+top_candidate_indices <- ordered_indices[1:top_n]
+candidate_drugs <- candidate_drugs[top_candidate_indices]
+candidate_drug_targets_list <- candidate_drug_targets_list[candidate_drugs]
+
+cat("Top candidate drugs (with intersection counts):\n")
+for(i in seq_along(candidate_drugs)) {
+  cat(sprintf("  %s: %d\n", candidate_drugs[i], candidate_intersections[top_candidate_indices[i]]))
+}
+
+# ------------------------------------------------------------------------------
+# 4. Configurable Variables for the Tissue Networks
 # ------------------------------------------------------------------------------
 age_group <- 20
 lambda    <- 1
@@ -112,13 +119,6 @@ if (!dir.exists(drug_dir)) {
 output_file <- file.path(drug_dir, "efficacy.csv")
 
 # ------------------------------------------------------------------------------
-# 4. Prepare the Results Container
-# ------------------------------------------------------------------------------
-# The header now has "Tissue-Name" and the selected drug name.
-efficacy_matrix <- list()
-efficacy_matrix[[1]] <- c("Tissue-Name", selected_drug)
-
-# ------------------------------------------------------------------------------
 # 5. Updated Helper Function: Calculate Efficacy Using a Set of Drug Target Genes
 # ------------------------------------------------------------------------------
 calc_efficacy <- function(graph, drug_targets, disease_genes, non_disease_genes, lambda = 1) {
@@ -134,10 +134,12 @@ calc_efficacy <- function(graph, drug_targets, disease_genes, non_disease_genes,
     return(0)
   }
   
+  # Numerator: sum over disease genes using influence_S_g (the influence of the drug target set on gene s).
   numerator <- sum(sapply(valid_disease_genes, function(s) {
     influence_S_g(graph, valid_drug_targets, s, lambda)
   }))
   
+  # Denominator: sum over non-disease genes.
   denominator <- sum(sapply(non_disease_genes, function(n) {
     influence_S_g(graph, valid_drug_targets, n, lambda)
   }))
@@ -150,9 +152,16 @@ calc_efficacy <- function(graph, drug_targets, disease_genes, non_disease_genes,
 }
 
 # ------------------------------------------------------------------------------
-# 6. Loop Over Each Tissue CSV and Compute the Efficacy for the Selected Drug Targets
+# 6. Prepare the Results Container (one column per candidate drug)
 # ------------------------------------------------------------------------------
-row_index <- 2  # first row is the header
+# Header: first column is Tissue-Name, then one column per candidate drug.
+efficacy_matrix <- list()
+efficacy_matrix[[1]] <- c("Tissue-Name", candidate_drugs)
+
+# ------------------------------------------------------------------------------
+# 7. Loop Over Each Tissue CSV and Compute the Efficacy for Each Top Candidate Drug
+# ------------------------------------------------------------------------------
+row_index <- 2  # Row 1 is the header.
 for (mapped_file in mapped_files) {
   filename    <- basename(mapped_file)  # e.g., "mapped_brain_cortex_20.csv"
   tissue_name <- sub(paste0("^mapped_(.*)_", age_group, "\\.csv$"), "\\1", filename)
@@ -161,35 +170,46 @@ for (mapped_file in mapped_files) {
   
   edges <- read.csv(mapped_file, header = TRUE, stringsAsFactors = FALSE)
   if (nrow(edges) == 0) {
-    row_values <- c(tissue_name, "0")
+    # No edges: assign efficacy = 0 for all candidate drugs.
+    row_values <- c(tissue_name, rep("0", length(candidate_drugs)))
     efficacy_matrix[[row_index]] <- row_values
     row_index <- row_index + 1
-    cat("  --> No edges found, efficacy=0.\n")
+    cat("  --> No edges found, all efficacy=0.\n")
     next
   }
   
+  # Build the tissue network graph.
   g <- graph_from_data_frame(edges, directed = FALSE)
   all_genes <- V(g)$name
   
-  # non_disease_genes: all genes in the network not in the full disease list.
+  # non_disease_genes: all genes in the network not in the full disease gene list.
   non_disease_genes <- setdiff(all_genes, disease_genes)
   
-  if (length(intersect(selected_drug_targets, all_genes)) == 0) {
-    cat(sprintf("  --> Warning: none of the targets for '%s' found in tissue %s. Setting efficacy=0.\n", 
-                selected_drug, tissue_name))
-    efficacy_val <- 0
-  } else {
-    efficacy_val <- calc_efficacy(g, selected_drug_targets, disease_genes, non_disease_genes, lambda)
+  # For each candidate drug, compute the efficacy.
+  drug_vals <- character(length(candidate_drugs))
+  for (i in seq_along(candidate_drugs)) {
+    drug <- candidate_drugs[i]
+    targets <- candidate_drug_targets_list[[drug]]
+    
+    # Check if at least one target gene is present in this tissue network.
+    if (length(intersect(targets, all_genes)) == 0) {
+      cat(sprintf("  --> Warning: none of the targets for '%s' found in tissue %s. Setting efficacy=0.\n",
+                  drug, tissue_name))
+      drug_vals[i] <- "0"
+    } else {
+      eff_val <- calc_efficacy(g, targets, disease_genes, non_disease_genes, lambda)
+      drug_vals[i] <- as.character(eff_val)
+    }
   }
   
-  row_values <- c(tissue_name, as.character(efficacy_val))
+  # Build the row for this tissue and add it to the results.
+  row_values <- c(tissue_name, drug_vals)
   efficacy_matrix[[row_index]] <- row_values
   row_index <- row_index + 1
 }
 
-
 # ------------------------------------------------------------------------------
-# 7. Write the Efficacy Matrix to CSV
+# 8. Write the Efficacy Matrix to CSV
 # ------------------------------------------------------------------------------
 cat(sprintf("\nWriting CSV to: %s\n", output_file))
 file_conn <- file(output_file, open = "w")
