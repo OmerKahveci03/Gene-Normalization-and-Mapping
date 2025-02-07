@@ -1,0 +1,5949 @@
+geneSymbol,diseaseName
+PRNP,Creutzfeldt-Jakob Syndrome
+APP,Alzheimer Disease
+MAPT,Frontotemporal Dementia
+SOD1,Amyotrophic lateral sclerosis 1
+HTT,Huntington Disease
+VCP,Inclusion Body Myopathy With Early-Onset Paget Disease And Frontotemporal Dementia
+ZEB2,Mowat-Wilson syndrome
+FXN,Friedreich Ataxia 1
+UCHL1,"PARKINSON DISEASE 5, AUTOSOMAL DOMINANT"
+LRRK2,"PARKINSON DISEASE 8, AUTOSOMAL DOMINANT"
+TDP1,"Spinocerebellar ataxia, autosomal recessive, with axonal neuropathy"
+SNCA,"PARKINSON DISEASE 1, AUTOSOMAL DOMINANT"
+PINK1,"Parkinson Disease 6, Autosomal Recessive Early-Onset"
+VAPB,Amyotrophic Lateral Sclerosis 8
+SETX,"Spinocerebellar ataxia, autosomal recessive 1"
+ATP13A2,Parkinson disease 9
+C10orf2,Infantile onset spinocerebellar ataxia
+CHMP2B,"Frontotemporal Dementia, Chromosome 3-Linked"
+KCNC3,Spinocerebellar ataxia 13
+PRKCG,Spinocerebellar ataxia 14
+SLC6A3,"Parkinsonism-Dystonia, Infantile"
+ABCB7,"Anemia, sideroblastic spinocerebellar ataxia"
+ITPR1,Spinocerebellar Ataxia 15
+PLA2G6,"Dystonia-Parkinsonism, Adult-Onset"
+FGF14,Spinocerebellar ataxia 27
+ZNF592,"Spinocerebellar ataxia, autosomal recessive 5"
+ITPR1,Spinocerebellar Ataxia 29
+OPTN,AMYOTROPHIC LATERAL SCLEROSIS 12
+FIG4,Amyotrophic Lateral Sclerosis 11
+SETX,"Amyotrophic Lateral Sclerosis 4, Juvenile"
+PLEKHG5,"Spinal Muscular Atrophy, Distal, Autosomal Recessive, 4"
+ATP7A,"Spinal Muscular Atrophy, Distal, X-Linked 3"
+PSEN2,Alzheimer disease type 4
+AFG3L2,Spinocerebellar ataxia 28
+ADCK3,"Spinocerebellar Ataxia, Autosomal Recessive 9"
+PARK7,"Parkinson Disease 7, Autosomal Recessive Early-Onset"
+GIGYF2,Parkinson Disease 11
+PDYN,Spinocerebellar ataxia 23
+IGHMBP2,Spinal muscular atrophy with respiratory distress 1
+PARK2,"PARKINSON DISEASE 2, AUTOSOMAL RECESSIVE JUVENILE"
+CACNA1A,SPINOCEREBELLAR ATAXIA 6
+HTRA2,"PARKINSON DISEASE 13, AUTOSOMAL DOMINANT, SUSCEPTIBILITY TO"
+SPTBN2,SPINOCEREBELLAR ATAXIA 5
+JPH3,Huntington Disease-Like 2
+PSEN1,"Alzheimer disease, familial, type 3"
+TARDBP,"AMYOTROPHIC LATERAL SCLEROSIS 10, WITH OR WITHOUT FRONTOTEMPORAL DEMENTIA"
+SNCA,"Parkinson Disease 4, Autosomal Dominant Lewy Body"
+APOE,Alzheimer Disease
+FXN,Friedreich Ataxia
+PSEN1,Alzheimer Disease
+SNCA,Parkinson Disease
+MAPT,Alzheimer Disease
+PSEN1,Frontotemporal Dementia
+PRKAG2,Wolff-Parkinson-White Syndrome
+TRPV4,"SPINAL MUSCULAR ATROPHY, SCAPULOPERONEAL"
+DCTN1,Amyotrophic lateral sclerosis 1
+ANG,Amyotrophic Lateral Sclerosis 9
+TBP,Spinocerebellar Ataxia 17
+ALS2,Primary lateral sclerosis juvenile
+SMN1,spinal muscular atrophy type ii
+ATXN10,Spinocerebellar Ataxia 10
+ATXN8OS,Spinocerebellar ataxia 8
+PPP2R2B,Spinocerebellar Ataxia 12
+ALS2,"Amyotrophic Lateral Sclerosis 2, Juvenile"
+DYNC1H1,"Spinal Muscular Atrophy, Childhood, Proximal, Autosomal Dominant"
+SYNJ1,"PARKINSON DISEASE 20, EARLY-ONSET"
+PNPLA6,"Chorioretinal Dystrophy, Spinocerebellar Ataxia, and Hypogonadotropic Hypogonadism"
+ATP2B3,"Spinocerebellar Ataxia, X-Linked 1"
+SIGMAR1,"AMYOTROPHIC LATERAL SCLEROSIS 16, JUVENILE"
+FUS,"Amyotrophic Lateral Sclerosis 6, Autosomal Recessive"
+TTBK2,Spinocerebellar Ataxia 11
+PSEN1,"Alzheimer Disease, Familial, 3, with Spastic Paraparesis and Apraxia"
+VPS35,PARKINSON DISEASE 17
+C19orf12,NEURODEGENERATION WITH BRAIN IRON ACCUMULATION 4
+WWOX,"SPINOCEREBELLAR ATAXIA, AUTOSOMAL RECESSIVE 12"
+HNRNPA2B1,INCLUSION BODY MYOPATHY WITH EARLY-ONSET PAGET DISEASE WITH OR WITHOUT FRONTOTEMPORAL DEMENTIA 2
+COASY,NEURODEGENERATION WITH BRAIN IRON ACCUMULATION 6
+EIF4G1,PARKINSON DISEASE 18
+ANO10,"SPINOCEREBELLAR ATAXIA, AUTOSOMAL RECESSIVE 10"
+UBQLN2,"AMYOTROPHIC LATERAL SCLEROSIS 15, WITH OR WITHOUT FRONTOTEMPORAL DEMENTIA"
+KCND3,Spinocerebellar ataxia 19
+EEF2,Spinocerebellar ataxia 26
+BEAN1,Spinocerebellar Ataxia 31
+ATXN8,Spinocerebellar ataxia 8
+ADAM10,ALZHEIMER DISEASE 18
+HNRNPA1,INCLUSION BODY MYOPATHY WITH EARLY-ONSET PAGET DISEASE WITH OR WITHOUT FRONTOTEMPORAL DEMENTIA 3
+HNRNPA1,AMYOTROPHIC LATERAL SCLEROSIS 20
+PFN1,AMYOTROPHIC LATERAL SCLEROSIS 18
+BICD2,"SPINAL MUSCULAR ATROPHY, LOWER EXTREMITY-PREDOMINANT, 2, AUTOSOMAL DOMINANT"
+VCP,"AMYOTROPHIC LATERAL SCLEROSIS 14, WITH OR WITHOUT FRONTOTEMPORAL DEMENTIA"
+SYT14,"SPINOCEREBELLAR ATAXIA, AUTOSOMAL RECESSIVE 11"
+ERBB4,AMYOTROPHIC LATERAL SCLEROSIS 19
+TPP1,"Spinocerebellar Ataxia, Autosomal Recessive 7"
+FUS,"AMYOTROPHIC LATERAL SCLEROSIS 6, WITH OR WITHOUT FRONTOTEMPORAL DEMENTIA"
+SYNE1,"Spinocerebellar Ataxia, Autosomal Recessive 8"
+ACE,Alzheimer Disease
+IL1B,Alzheimer Disease
+PSEN2,Alzheimer Disease
+BDNF,Alzheimer Disease
+MAOB,Parkinson Disease
+SOD1,Amyotrophic Lateral Sclerosis
+HLA-DRB1,Multiple Sclerosis
+LRRK2,Parkinson Disease
+DRD2,Parkinson Disease
+PARK2,Parkinson Disease
+PLAU,Alzheimer Disease
+PINK1,Parkinson Disease
+TARDBP,Amyotrophic Lateral Sclerosis
+INS,Alzheimer Disease
+ATXN1,SPINOCEREBELLAR ATAXIA 1
+SLC18A2,Parkinson Disease
+BACE1,Alzheimer Disease
+ATXN2,SPINOCEREBELLAR ATAXIA 2
+IGF2,Alzheimer Disease
+BCL2,Alzheimer Disease
+DRD1,Parkinson Disease
+ATXN7,spinocerebellar ataxia-7
+DDC,Parkinson Disease
+GDNF,Parkinsonian Disorders
+NEFH,Amyotrophic lateral sclerosis 1
+BAX,Alzheimer Disease
+DRD2,Parkinsonian Disorders
+IGF1R,Parkinson Disease
+APOE,Multiple Sclerosis
+PARK7,Parkinson Disease
+GBA,Parkinson Disease
+SORL1,Alzheimer Disease
+HLA-DQB1,Multiple Sclerosis
+MAPT,Parkinson Disease
+TNF,Alzheimer Disease
+BCHE,Alzheimer Disease
+MTHFR,Alzheimer Disease
+IL7R,Multiple Sclerosis
+A2M,Alzheimer Disease
+IL2RA,Multiple Sclerosis
+CYP46A1,Alzheimer Disease
+PRNP,Alzheimer Disease
+PINK1,Parkinsonian Disorders
+CST3,Alzheimer Disease
+PARK2,Parkinsonian Disorders
+MAPT,Parkinsonian Disorders
+ESR1,Alzheimer Disease
+HFE,Alzheimer Disease
+IFNB1,Multiple Sclerosis
+IDE,Alzheimer Disease
+CYP2D6,Parkinson Disease
+ATXN1,Spinocerebellar Ataxias
+BDNF,Parkinson Disease
+GRN,Frontotemporal Dementia
+CLEC16A,Multiple Sclerosis
+SLC6A3,Parkinson Disease
+LRRK2,Parkinsonian Disorders
+TF,Alzheimer Disease
+CLU,Alzheimer Disease
+GSTM1,Parkinson Disease
+ATP13A2,Parkinson Disease
+NOS3,Alzheimer Disease
+IL1B,Multiple Sclerosis
+ABCB1,Parkinson Disease
+TNF,Parkinson Disease
+CACNA1A,Spinocerebellar Ataxias
+CD58,Multiple Sclerosis
+HLA-DPB1,Multiple Sclerosis
+CHRNA7,Alzheimer Disease
+VEGFA,Alzheimer Disease
+PICALM,Alzheimer Disease
+PTPRC,Multiple Sclerosis
+ATXN2,Spinocerebellar Ataxias
+NCSTN,Alzheimer Disease
+ATXN7,Spinocerebellar Ataxias
+GSTP1,Parkinson Disease
+GSK3B,Alzheimer Disease
+TFAM,Alzheimer Disease
+CR1,Alzheimer Disease
+HLA-DRA,Multiple Sclerosis
+CHRNB2,Alzheimer Disease
+HFE,Parkinson Disease
+POLG,Parkinsonian Disorders
+NQO1,Parkinson Disease
+HMOX1,Alzheimer Disease
+DPP6,Amyotrophic Lateral Sclerosis
+TNFRSF1A,Multiple Sclerosis
+MPO,Alzheimer Disease
+CYP2D6,Alzheimer Disease
+PPARG,Alzheimer Disease
+BIN1,Alzheimer Disease
+SNCA,Parkinsonian Disorders
+PRKCG,Spinocerebellar Ataxias
+MAOA,Parkinson Disease
+CIITA,Multiple Sclerosis
+ACHE,Alzheimer Disease
+ICAM1,Multiple Sclerosis
+IRF8,Multiple Sclerosis
+TYK2,Multiple Sclerosis
+CP,Parkinson Disease
+IL12A,Multiple Sclerosis
+CD6,Multiple Sclerosis
+SOD2,Parkinson Disease
+SLC1A2,Amyotrophic Lateral Sclerosis
+CD40,Multiple Sclerosis
+SLC11A1,Multiple Sclerosis
+CD24,Multiple Sclerosis
+BLMH,Alzheimer Disease
+BST1,Parkinson Disease
+CYP2E1,Parkinson Disease
+APBB2,Alzheimer Disease
+PCDH11X,Alzheimer Disease
+GAPDHS,Alzheimer Disease
+IL6,Parkinson Disease
+IGF1,Alzheimer Disease
+MS,Multiple Sclerosis
+PLEKHG4,Spinocerebellar Ataxias
+DHCR24,Alzheimer Disease
+CBLB,Multiple Sclerosis
+HMOX1,Parkinson Disease
+IL7,Multiple Sclerosis
+PPP2R2B,Spinocerebellar Ataxias
+CHMP2B,Frontotemporal Dementia
+CASP3,Alzheimer Disease
+GAK,Parkinson Disease
+ABCA7,Alzheimer Disease
+UNC13A,Amyotrophic Lateral Sclerosis
+SOD2,Alzheimer Disease
+SPTBN2,Spinocerebellar Ataxias
+SOD1,Parkinson Disease
+CNR1,Multiple Sclerosis
+APOE,"Multiple Sclerosis, Relapsing-Remitting"
+RELN,Alzheimer Disease
+HSPA9,Parkinson Disease
+EIF2S1,Alzheimer Disease
+ENO1,Alzheimer Disease
+SELE,Multiple Sclerosis
+IGF2R,Alzheimer Disease
+GSTA4,Parkinson Disease
+IGF2,Parkinson Disease
+INS,Parkinson Disease
+VCAM1,Multiple Sclerosis
+CD33,Alzheimer Disease
+PANK2,Neurodegeneration with brain iron accumulation (NBIA)
+ATP1A3,Parkinsonian Disorders
+CHMP2B,Amyotrophic Lateral Sclerosis
+PTGS2,Amyotrophic Lateral Sclerosis
+TREM2,Alzheimer Disease
+KIF1B,Multiple Sclerosis
+TTBK2,Spinocerebellar Ataxias
+TH,Parkinsonian Disorders
+OGG1,Huntington Disease
+MIR146A,Alzheimer Disease
+SLC30A6,Alzheimer Disease
+PDCD1,Multiple Sclerosis
+HLA-DRA,Parkinson Disease
+PARK16,Parkinson Disease
+SQSTM1,Amyotrophic Lateral Sclerosis
+AFG3L2,Spinocerebellar Ataxias
+GDNF,Huntington Disease
+DPYSL2,Alzheimer Disease
+TNFAIP3,Multiple Sclerosis
+TNFSF14,Multiple Sclerosis
+CD2AP,Alzheimer Disease
+F2,Alzheimer Disease
+FAAH,Huntington Disease
+ATP5A1,Alzheimer Disease
+SLC30A4,Alzheimer Disease
+GSTP1,Amyotrophic Lateral Sclerosis
+ATXN1L,Spinocerebellar Ataxias
+GPX1,Parkinson Disease
+MAP3K5,Parkinson Disease
+EPHA1,Alzheimer Disease
+IGF1R,Alzheimer Disease
+HSPA1A,Parkinson Disease
+GFAP,Amyotrophic Lateral Sclerosis
+PON1,"Amyotrophic Lateral Sclerosis, Sporadic"
+SIGMAR1,Amyotrophic Lateral Sclerosis
+TP53,Amyotrophic Lateral Sclerosis
+APOE,Alzheimer disease type 2
+PRKRA,Parkinsonian Disorders
+WDR45,Neurodegeneration with brain iron accumulation (NBIA)
+POMC,Multiple Sclerosis
+CNR1,Huntington Disease
+MAPT,"PARKINSON DISEASE, LATE-ONSET"
+CASP1,Amyotrophic lateral sclerosis 1
+CNTF,Amyotrophic lateral sclerosis 1
+GDNF,Parkinson Disease
+HSPA5,Spinocerebellar Ataxia 17
+HSPA8,Spinocerebellar Ataxia 17
+P2RX7,Multiple Sclerosis
+STAT4,Multiple Sclerosis
+AIFM1,Huntington Disease
+RCAN1,Huntington Disease
+AD5,Alzheimer Disease
+CALM1,Alzheimer Disease
+CRH,Alzheimer Disease
+PAXIP1,Alzheimer Disease
+FMO1,"Amyotrophic Lateral Sclerosis, Sporadic"
+TMEM240,Spinocerebellar ataxia 21
+AD5,Alzheimer Disease 5
+PARK2,"PARKINSON DISEASE, LATE-ONSET"
+CAMK1G,Amyotrophic Lateral Sclerosis
+CD40LG,Amyotrophic Lateral Sclerosis
+DBR1,Amyotrophic Lateral Sclerosis
+PLA2G4A,Amyotrophic Lateral Sclerosis
+SLC6A1,Amyotrophic Lateral Sclerosis
+MAPT,Progressive supranuclear palsy atypical
+XIAP,Amyotrophic lateral sclerosis 1
+PDYN,Parkinsonian Disorders
+SLC18A2,Parkinsonian Disorders
+AD13,Alzheimer Disease 13
+SCAR2,"Spinocerebellar Ataxia, Autosomal Recessive 2"
+ATP5B,Spinocerebellar Ataxia 17
+HMOX1,Spinocerebellar Ataxia 17
+HYOU1,Spinocerebellar Ataxia 17
+NQO1,Spinocerebellar Ataxia 17
+P4HB,Spinocerebellar Ataxia 17
+PDIA3,Spinocerebellar Ataxia 17
+BCHE,Multiple Sclerosis
+MCAM,Multiple Sclerosis
+MS2,Multiple Sclerosis
+MS3,Multiple Sclerosis
+MS4,Multiple Sclerosis
+DIABLO,Huntington Disease
+IP6K2,Huntington Disease
+PARK3,"Parkinson Disease 3, Autosomal Dominant Lewy Body"
+AD10,Alzheimer Disease
+AD6,Alzheimer Disease
+AD8,Alzheimer Disease
+AD9,Alzheimer Disease
+AMFR,Alzheimer Disease
+ARC,Alzheimer Disease
+LEP,Alzheimer Disease
+MS4A4A,Alzheimer Disease
+NPY,Alzheimer Disease
+PYY,Alzheimer Disease
+TPI1,Alzheimer Disease
+TPP1,Alzheimer Disease
+SCAX4,"Spinocerebellar ataxia, X-linked, 4"
+AD11,Alzheimer Disease 11
+SCAX3,"Spinocerebellar ataxia, X-linked, 3"
+SCA21,Spinocerebellar ataxia 21
+SCAR3,"Spinocerebellar ataxia, autosomal recessive 3"
+AD9,Alzheimer Disease 9
+SCA25,Spinocerebellar ataxia 25
+PARK16,Parkinson Disease 16
+ALS3,Amyotrophic Lateral Sclerosis 3
+CHMP2B,"Amyotrophic Lateral Sclerosis, Chmp2B-Related"
+HMNJ,"Spinal muscular atrophy, Jerash type"
+ALS7,Amyotrophic Lateral Sclerosis 7
+FRDA2,Friedreich Ataxia 1
+PRNP,Huntington Disease-Like 1
+TRPV4,"Spinal Muscular Atrophy, Distal, Congenital Nonprogressive"
+SMAL,"Spinal Muscular Atrophy, Distal, Congenital Nonprogressive"
+SMN1,Spinal muscular atrophy 4
+CLA3,"Spinocerebellar ataxia, autosomal recessive 6"
+COQ2,"MULTIPLE SYSTEM ATROPHY 1, SUSCEPTIBILITY TO"
+FRDA2,Friedreich Ataxia 2
+PLSA1,"Primary Lateral Sclerosis, Adult, 1"
+ADH1C,"PARKINSON DISEASE, LATE-ONSET"
+DBH,"PARKINSON DISEASE, LATE-ONSET"
+DRD4,"PARKINSON DISEASE, LATE-ONSET"
+FGF20,"PARKINSON DISEASE, LATE-ONSET"
+NDUFV2,"PARKINSON DISEASE, LATE-ONSET"
+NR4A2,"PARKINSON DISEASE, LATE-ONSET"
+PARK10,"PARKINSON DISEASE, LATE-ONSET"
+PARK12,"PARKINSON DISEASE, LATE-ONSET"
+PARK3,"PARKINSON DISEASE, LATE-ONSET"
+SNCAIP,"PARKINSON DISEASE, LATE-ONSET"
+TBP,"PARKINSON DISEASE, LATE-ONSET"
+UCHL1,"PARKINSON DISEASE, LATE-ONSET"
+SCAX5,"Spinocerebellar Ataxia, X-Linked 5"
+SCA26,Spinocerebellar ataxia 26
+GSR,Amyotrophic Lateral Sclerosis
+PLEKHG4,Spinocerebellar Ataxia 31
+AD7,Alzheimer Disease 7
+AD6,Alzheimer Disease 6
+MATR3,AMYOTROPHIC LATERAL SCLEROSIS 21
+SMAR,"Spinal Muscular Atrophy, Distal, Autosomal Recessive, 3"
+ND1,"ALZHEIMER DISEASE, SUSCEPTIBILITY TO, MITOCHONDRIAL"
+ND2,"ALZHEIMER DISEASE, SUSCEPTIBILITY TO, MITOCHONDRIAL"
+ANG,Amyotrophic lateral sclerosis 1
+BCL2L1,Amyotrophic lateral sclerosis 1
+BSG,Amyotrophic lateral sclerosis 1
+CALB2,Amyotrophic lateral sclerosis 1
+CD68,Amyotrophic lateral sclerosis 1
+CD7,Amyotrophic lateral sclerosis 1
+CLU,Amyotrophic lateral sclerosis 1
+CREBBP,Amyotrophic lateral sclerosis 1
+CST3,Amyotrophic lateral sclerosis 1
+CTSD,Amyotrophic lateral sclerosis 1
+DBX1,Amyotrophic lateral sclerosis 1
+FGF6,Amyotrophic lateral sclerosis 1
+FOS,Amyotrophic lateral sclerosis 1
+GABRA1,Amyotrophic lateral sclerosis 1
+GBX2,Amyotrophic lateral sclerosis 1
+GDI1,Amyotrophic lateral sclerosis 1
+GFAP,Amyotrophic lateral sclerosis 1
+GRIA3,Amyotrophic lateral sclerosis 1
+GSX2,Amyotrophic lateral sclerosis 1
+INA,Amyotrophic lateral sclerosis 1
+JAK3,Amyotrophic lateral sclerosis 1
+JUND,Amyotrophic lateral sclerosis 1
+KIF3C,Amyotrophic lateral sclerosis 1
+LAT,Amyotrophic lateral sclerosis 1
+LDLR,Amyotrophic lateral sclerosis 1
+OTOG,Amyotrophic lateral sclerosis 1
+PDGFA,Amyotrophic lateral sclerosis 1
+PENK,Amyotrophic lateral sclerosis 1
+PRPH,Amyotrophic lateral sclerosis 1
+RXRA,Amyotrophic lateral sclerosis 1
+SELPLG,Amyotrophic lateral sclerosis 1
+SHC1,Amyotrophic lateral sclerosis 1
+SIX2,Amyotrophic lateral sclerosis 1
+SNAI1,Amyotrophic lateral sclerosis 1
+TIAM1,Amyotrophic lateral sclerosis 1
+TLE3,Amyotrophic lateral sclerosis 1
+TMSB4X,Amyotrophic lateral sclerosis 1
+TNF,Amyotrophic lateral sclerosis 1
+VIM,Amyotrophic lateral sclerosis 1
+WNT7A,Amyotrophic lateral sclerosis 1
+TARDBP,Amyotrophic Lateral Sclerosis 10
+SCAX2,"Spinocerebellar ataxia, X-linked, 2"
+VAPB,"Spinal Muscular Atrophy, Proximal, Adult, Autosomal Dominant"
+AD8,Alzheimer Disease 8
+AD16,Alzheimer Disease 16
+ALDH1A1,Parkinsonian Disorders
+ALDH1A2,Parkinsonian Disorders
+DCTN1,Parkinsonian Disorders
+DDC,Parkinsonian Disorders
+GSR,Parkinsonian Disorders
+NGF,Parkinsonian Disorders
+PARP1,Parkinsonian Disorders
+PRKCD,Parkinsonian Disorders
+PRL,Parkinsonian Disorders
+ATP13A2,"Parkinson Disease, Secondary"
+GDNF,"Parkinson Disease, Secondary"
+PARK2,"Parkinson Disease, Secondary"
+RGS2,"Parkinson Disease, Secondary"
+SHH,"Parkinson Disease, Secondary"
+AD10,Alzheimer Disease 10
+WSN,"Parkinsonism, early onset with mental retardation"
+PARK10,Parkinson Disease 10
+TRPM7,AMYOTROPHIC LATERAL SCLEROSIS-PARKINSONISM/DEMENTIA COMPLEX 1
+CIC,Spinocerebellar Ataxias
+FOXC1,Spinocerebellar Ataxias
+GFI1,Spinocerebellar Ataxias
+RBM17,Spinocerebellar Ataxias
+SCA9,Spinocerebellar Ataxias
+PARK12,Parkinson Disease 12
+HLA-DQB1,Creutzfeldt-Jakob Syndrome
+AIF1,Parkinson Disease
+DDIT4,Parkinson Disease
+EDN1,Parkinson Disease
+FBP1,Parkinson Disease
+FGB,Parkinson Disease
+GFAP,Parkinson Disease
+HGF,Parkinson Disease
+IGF2R,Parkinson Disease
+INSR,Parkinson Disease
+KCNJ4,Parkinson Disease
+MAG,Parkinson Disease
+NGF,Parkinson Disease
+RPL14,Parkinson Disease
+RPL23A,Parkinson Disease
+RPL6,Parkinson Disease
+RPS8,Parkinson Disease
+TALDO1,Parkinson Disease
+ALS5,Amyotrophic Lateral Sclerosis 5
+SCA30,Spinocerebellar ataxia 30
+PLD3,ALZHEIMER DISEASE 19
+HDL3,Huntington Disease-Like 3
+AD15,Alzheimer Disease 15
+SCA20,Spinocerebellar ataxia 20
+SCASI,"Spinocerebellar ataxia, autosomal recessive 4"
+AD14,Alzheimer Disease 14
+AD12,Alzheimer Disease 12
+VAPB,"Spinal Muscular Atrophy, Late-Onset, Finkel Type"
+ND1,Alzheimer Disease
+GLUD2,Parkinson Disease
+C9orf72,Frontotemporal Dementia With Motor Neuron Disease
+WDR45,NEURODEGENERATION WITH BRAIN IRON ACCUMULATION 5
+NOP56,SPINOCEREBELLAR ATAXIA 36
+DNAJC13,Parkinson Disease
+DRD1,Huntington Disease
+SPTBN2,"SPINOCEREBELLAR ATAXIA, AUTOSOMAL RECESSIVE 14"
+HNRNPA1,"Multiple Sclerosis, Relapsing-Remitting"
+HDAC8,Wilson-Turner X-linked mental retardation syndrome
+HLA-DRB1,"MULTIPLE SCLEROSIS, SUSCEPTIBILITY TO"
+PSEN1,"Alzheimer Disease, Familial, 3, with Spastic Paraparesis and Unusual Plaques"
+ATP6AP2,"PARKINSONISM WITH SPASTICITY, X-LINKED"
+NOS3,"ALZHEIMER DISEASE, LATE-ONSET, SUSCEPTIBILITY TO"
+TRNK,"Parkinson Disease, Mitochondrial"
+APP,"Alzheimer Disease, Familial, 1"
+TNFRSF1A,"MULTIPLE SCLEROSIS, SUSCEPTIBILITY TO, 5"
+DNAJC6,"PARKINSON DISEASE 19, JUVENILE-ONSET"
+KIAA0226,"SPINOCEREBELLAR ATAXIA, AUTOSOMAL RECESSIVE 15"
+GRM1,"SPINOCEREBELLAR ATAXIA, AUTOSOMAL RECESSIVE 13"
+PSEN1,Alzheimer disease type 4
+DNAJB2,"SPINAL MUSCULAR ATROPHY, DISTAL, AUTOSOMAL RECESSIVE, 5"
+HNRNPA1,"Multiple Sclerosis, Chronic Progressive"
+APP,"Alzheimer Disease, Early-Onset, With Cerebral Amyloid Angiopathy"
+LRP1,Alzheimer Disease
+CHAT,Alzheimer Disease
+MME,Alzheimer Disease
+TARDBP,Frontotemporal Dementia
+IL1B,Parkinson Disease
+PIN1,Alzheimer Disease
+PTGS2,Alzheimer Disease
+PARK7,Parkinsonian Disorders
+IL4R,Multiple Sclerosis
+TH,Parkinson Disease
+AGER,Alzheimer Disease
+CCR5,Alzheimer Disease
+SOD1,Alzheimer Disease
+ND3,Parkinson Disease
+TARDBP,Amyotrophic lateral sclerosis 1
+PTGS1,Alzheimer Disease
+NOS2,Alzheimer Disease
+PPARGC1A,Alzheimer Disease
+PPP3CA,Alzheimer Disease
+CAV1,Alzheimer Disease
+CASP3,Amyotrophic Lateral Sclerosis
+NGF,Alzheimer Disease
+SLC6A3,Parkinsonian Disorders
+ZDHHC17,Huntington Disease
+S100B,Alzheimer Disease
+LEP,Huntington Disease
+CNTF,Huntington Disease
+APLP2,Alzheimer Disease
+HTR1A,Parkinson Disease
+HSPD1,Alzheimer Disease
+GRK5,Parkinson Disease
+SMN2,spinal muscular atrophy type ii
+AQP4,Amyotrophic Lateral Sclerosis
+C3,Amyotrophic Lateral Sclerosis
+ITPR1,Huntington Disease
+SNCA,"PARKINSON DISEASE, LATE-ONSET"
+KCNJ10,Amyotrophic Lateral Sclerosis
+COMT,Parkinsonian Disorders
+ZDHHC13,Huntington Disease
+SERPINF1,Alzheimer Disease
+MAP2,Alzheimer Disease
+MSTN,Amyotrophic Lateral Sclerosis
+CASP12,Amyotrophic Lateral Sclerosis
+C5AR1,Amyotrophic Lateral Sclerosis
+SOD2,Amyotrophic lateral sclerosis 1
+HSPA9,Parkinsonian Disorders
+CSF2,Parkinsonian Disorders
+SLC11A2,Parkinsonian Disorders
+HSPA8,Parkinson Disease
+PTGS2,Huntington Disease
+NOS3,Huntington Disease
+CAT,Huntington Disease
+CNR2,Huntington Disease
+KALRN,Huntington Disease
+E2F1,Huntington Disease
+ND3,Huntington Disease
+DUSP1,Huntington Disease
+MBP,Huntington Disease
+SPR,"Parkinson Disease 3, Autosomal Dominant Lewy Body"
+BMPR1A,Wolff-Parkinson-White Syndrome
+PLCB1,Alzheimer Disease
+TRIB2,Alzheimer Disease
+ADAMTS4,Alzheimer Disease
+TNF,"MULTIPLE SCLEROSIS, SUSCEPTIBILITY TO"
+PRF1,"MULTIPLE SCLEROSIS, SUSCEPTIBILITY TO"
+PADI2,"MULTIPLE SCLEROSIS, SUSCEPTIBILITY TO"
+ATG7,"PARKINSON DISEASE, LATE-ONSET"
+ADH7,"PARKINSON DISEASE, LATE-ONSET"
+C10orf2,"Parkinson Disease, Mitochondrial"
+TFAM,"Parkinson Disease, Mitochondrial"
+PTPRZ1,Amyotrophic Lateral Sclerosis
+CASP9,Amyotrophic Lateral Sclerosis
+RARA,Amyotrophic Lateral Sclerosis
+IGF2R,Amyotrophic Lateral Sclerosis
+SNCG,Amyotrophic lateral sclerosis 1
+VEGFA,Amyotrophic lateral sclerosis 1
+VPS54,Amyotrophic lateral sclerosis 1
+SERPINA3,Amyotrophic lateral sclerosis 1
+UCN,Parkinsonian Disorders
+GFRA1,Parkinsonian Disorders
+RET,Parkinsonian Disorders
+GRM8,Parkinsonian Disorders
+VIP,Parkinsonian Disorders
+NOS1,Parkinsonian Disorders
+PTGS2,Parkinsonian Disorders
+FKBP1A,Parkinsonian Disorders
+ENO2,Parkinsonian Disorders
+ABCC8,Parkinsonian Disorders
+ADCYAP1,Parkinsonian Disorders
+ABCC9,Parkinsonian Disorders
+CNR1,Parkinsonian Disorders
+KCNJ11,Parkinsonian Disorders
+VHL,Parkinsonian Disorders
+EGFR,Parkinsonian Disorders
+SLC6A4,Parkinsonian Disorders
+IL1B,Parkinsonian Disorders
+CX3CL1,Parkinsonian Disorders
+LYN,Parkinsonian Disorders
+COX1,Parkinsonian Disorders
+CX3CR1,Parkinsonian Disorders
+DRD3,Parkinsonian Disorders
+SRC,Parkinsonian Disorders
+NFKB2,Parkinsonian Disorders
+RELA,Parkinsonian Disorders
+KCNJ8,Parkinsonian Disorders
+GFRA2,Parkinsonian Disorders
+ESR1,Parkinsonian Disorders
+MMP3,Parkinsonian Disorders
+GJA1,Parkinsonian Disorders
+ABAT,Parkinsonian Disorders
+APP,Alzheimer disease type 4
+HCN3,Parkinson Disease
+ADRBK2,Parkinson Disease
+FASLG,Parkinson Disease
+DLG1,Parkinson Disease
+DLG4,Parkinson Disease
+CTGF,Parkinson Disease
+GRK6,Parkinson Disease
+ADRBK1,Parkinson Disease
+HSPA4,Parkinson Disease
+ABL1,Parkinson Disease
+TNF,Multiple Sclerosis
+APOE,Parkinson Disease
+IL6,Alzheimer Disease
+CTLA4,Multiple Sclerosis
+IL1A,Alzheimer Disease
+MBP,Multiple Sclerosis
+FUS,Amyotrophic Lateral Sclerosis
+SLC6A4,Alzheimer Disease
+UCHL1,Parkinson Disease
+COMT,Parkinson Disease
+CCR5,Multiple Sclerosis
+HLA-A,Multiple Sclerosis
+HLA-DQA1,Multiple Sclerosis
+IL10,Multiple Sclerosis
+NR4A2,Parkinson Disease
+C9orf72,Amyotrophic Lateral Sclerosis
+IFNG,Multiple Sclerosis
+HLA-B,Multiple Sclerosis
+SERPINA3,Alzheimer Disease
+ABCA1,Alzheimer Disease
+PON1,Alzheimer Disease
+IL10,Alzheimer Disease
+IL6,Multiple Sclerosis
+CALHM1,Alzheimer Disease
+CTSD,Alzheimer Disease
+MOG,Multiple Sclerosis
+GIGYF2,Parkinson Disease
+TOMM40,Alzheimer Disease
+LDLR,Alzheimer Disease
+GAB2,Alzheimer Disease
+MTHFR,Parkinson Disease
+C9orf72,Frontotemporal Dementia
+GRN,Alzheimer Disease
+TBP,Spinocerebellar Ataxias
+PON1,Amyotrophic Lateral Sclerosis
+APOC1,Alzheimer Disease
+ATXN8OS,Spinocerebellar Ataxias
+HTR2A,Alzheimer Disease
+VDR,Multiple Sclerosis
+NAT2,Parkinson Disease
+IL2,Multiple Sclerosis
+MMP9,Multiple Sclerosis
+TARDBP,GRN-related frontotemporal dementia
+FGF20,Parkinson Disease
+ATXN3,Spinocerebellar Ataxias
+TGFB1,Alzheimer Disease
+DRD3,Parkinson Disease
+IL1RN,Multiple Sclerosis
+VEGFA,Amyotrophic Lateral Sclerosis
+FAS,Multiple Sclerosis
+COMT,Alzheimer Disease
+PRNP,"Creutzfeldt-Jakob Disease, Sporadic"
+HLA-C,Multiple Sclerosis
+SNCAIP,Parkinson Disease
+SNCA,Multiple System Atrophy
+UBQLN1,Alzheimer Disease
+ANG,Amyotrophic Lateral Sclerosis
+HLA-DRB5,Multiple Sclerosis
+CYP19A1,Alzheimer Disease
+PON1,Parkinson Disease
+GAA,Friedreich Ataxia
+LPL,Alzheimer Disease
+CTNNA3,Alzheimer Disease
+FAS,Alzheimer Disease
+GSTT1,Parkinson Disease
+GAPDH,Alzheimer Disease
+FMR1,Parkinson Disease
+APOD,Alzheimer Disease
+CETP,Alzheimer Disease
+LRRK2,Alzheimer Disease
+TGFB1,Multiple Sclerosis
+EVI5,Multiple Sclerosis
+TFCP2,Alzheimer Disease
+HLA-A,Alzheimer Disease
+GRN,GRN-related frontotemporal dementia
+OLR1,Alzheimer Disease
+BDNF,Multiple Sclerosis
+CH25H,Alzheimer Disease
+SPP1,Multiple Sclerosis
+GPRIN3,Parkinson Disease
+ATXN10,Spinocerebellar Ataxias
+IL4,Multiple Sclerosis
+CD226,Multiple Sclerosis
+HTRA2,Parkinson Disease
+NQO2,Parkinson Disease
+RPL5,Multiple Sclerosis
+APOE,Amyotrophic Lateral Sclerosis
+VCP,Frontotemporal Dementia
+TP53,Alzheimer Disease
+HFE,Amyotrophic Lateral Sclerosis
+CSF2,Alzheimer Disease
+SLC6A4,Parkinson Disease
+C10orf2,Spinocerebellar Ataxias
+CRYAB,Multiple Sclerosis
+APOE,Alzheimer's disease with late onset
+RBM45,Multiple Sclerosis
+HLA-G,Multiple Sclerosis
+APBB1,Alzheimer Disease
+ATN1,Spinocerebellar Ataxias
+STH,Alzheimer Disease
+IL23R,Multiple Sclerosis
+CCL2,Alzheimer Disease
+CCL5,Multiple Sclerosis
+CDK1,Alzheimer Disease
+GRIN2B,Alzheimer Disease
+ABCB1,Alzheimer Disease
+HTR6,Alzheimer Disease
+ALS2,Amyotrophic Lateral Sclerosis
+ATXN2,Parkinson Disease
+LAMC2,Alzheimer Disease
+ALOX5,Alzheimer Disease
+DAPK1,Alzheimer Disease
+ATXN3,Parkinson Disease
+IL1A,Parkinson Disease
+CDK5,Alzheimer Disease
+TTR,Alzheimer Disease
+CHRNA4,Alzheimer Disease
+CCL2,Multiple Sclerosis
+UCP2,Multiple Sclerosis
+PSEN1,familial alzheimer disease
+IL1A,Multiple Sclerosis
+IFIH1,Multiple Sclerosis
+GRIN2A,Huntington Disease
+PRNP,Variant Creutzfeldt-Jakob disease
+PRNP,"Creutzfeldt-Jakob Disease, Familial"
+ITGA4,Multiple Sclerosis
+IL1RN,Alzheimer Disease
+CXCL12,Multiple Sclerosis
+TBP,Huntington Disease
+FGGY,Amyotrophic Lateral Sclerosis
+OGG1,Alzheimer Disease
+FUS,Amyotrophic lateral sclerosis 1
+PON2,Alzheimer Disease
+ATXN2,Parkinsonian Disorders
+ITPR1,Spinocerebellar Ataxias
+BTNL2,Multiple Sclerosis
+MC1R,Multiple Sclerosis
+GPC5,Multiple Sclerosis
+PCK1,Alzheimer Disease
+GSTP1,Alzheimer Disease
+NEDD9,Alzheimer Disease
+TBP,Parkinson Disease
+SERPINA3,Parkinson Disease
+DBH,Parkinson Disease
+ESR2,Alzheimer Disease
+CCK,Parkinson Disease
+GOLM1,Alzheimer Disease
+PITX3,Parkinson Disease
+DLST,Alzheimer Disease
+ACE,Parkinson Disease
+SEMA5A,Parkinson Disease
+SMN1,Amyotrophic Lateral Sclerosis
+GRIN2B,Huntington Disease
+SOD1,"Amyotrophic Lateral Sclerosis, Sporadic"
+PVRL2,Alzheimer Disease
+TNK1,Alzheimer Disease
+CYP27B1,Multiple Sclerosis
+BDNF,Huntington Disease
+TLR4,Multiple Sclerosis
+SNCA,Alzheimer Disease
+HLA-E,Multiple Sclerosis
+IGFALS,Amyotrophic Lateral Sclerosis
+LTA,Multiple Sclerosis
+LINGO1,Parkinson Disease
+CNTF,Multiple Sclerosis
+IRF5,Multiple Sclerosis
+LRRK2,Multiple System Atrophy
+NOS2,Multiple Sclerosis
+MAOA,Alzheimer Disease
+HLA-DRB1,"Multiple Sclerosis, Relapsing-Remitting"
+JPH3,Huntington Disease
+CP,Alzheimer Disease
+NGFR,Alzheimer Disease
+MTOR,Alzheimer Disease
+CDK5R1,Alzheimer Disease
+LRRK1,Parkinson Disease
+FMR1,Parkinsonian Disorders
+TDP1,Spinocerebellar Ataxias
+MTHFR,Multiple Sclerosis
+HSD17B10,Alzheimer Disease
+PARK10,Parkinson Disease
+POLG,Parkinson Disease
+ELAVL4,Parkinson Disease
+IFNAR1,Multiple Sclerosis
+APOA1,Alzheimer Disease
+VLDLR,Alzheimer Disease
+CBS,Alzheimer Disease
+CXCL8,Alzheimer Disease
+IL18,Alzheimer Disease
+PRND,Creutzfeldt-Jakob Syndrome
+CTSD,Creutzfeldt-Jakob Syndrome
+NRG1,Alzheimer Disease
+LHCGR,Alzheimer Disease
+CFH,Alzheimer Disease
+VAPB,Amyotrophic Lateral Sclerosis
+SLC6A3,Alzheimer Disease
+IL12B,Multiple Sclerosis
+FASLG,Multiple Sclerosis
+FGF1,Alzheimer Disease
+SOAT1,Alzheimer Disease
+ICAM1,Alzheimer Disease
+SST,Alzheimer Disease
+GSK3B,Parkinson Disease
+MPO,Multiple Sclerosis
+FYN,Alzheimer Disease
+CXCL8,Parkinson Disease
+CXCL12,Alzheimer Disease
+NQO1,Alzheimer Disease
+LRPAP1,Alzheimer Disease
+PPARA,Alzheimer Disease
+HMGCR,Alzheimer Disease
+UCHL1,Huntington Disease
+VDR,Alzheimer Disease
+DNMBP,Alzheimer Disease
+ALDH2,Alzheimer Disease
+XRCC1,Alzheimer Disease
+ESR2,Parkinson Disease
+ND2,Parkinson Disease
+MPHOSPH9,Multiple Sclerosis
+NOD2,Multiple Sclerosis
+NR1H2,Alzheimer Disease
+SORCS1,Alzheimer Disease
+PON2,Amyotrophic Lateral Sclerosis
+NOS1,Parkinson Disease
+HTR2A,Parkinson Disease
+HLA-DRB4,Multiple Sclerosis
+TARDBP,Alzheimer Disease
+VCP,Amyotrophic Lateral Sclerosis
+ATXN2,Amyotrophic Lateral Sclerosis
+RCAN1,Alzheimer Disease
+HAP1,Huntington Disease
+TNF,Amyotrophic Lateral Sclerosis
+CSF2,Multiple Sclerosis
+LILRA3,Multiple Sclerosis
+PECAM1,Multiple Sclerosis
+PON1,Multiple Sclerosis
+DYRK1A,Alzheimer Disease
+TAP2,Multiple Sclerosis
+IL4,Alzheimer Disease
+FMR1,Spinocerebellar Ataxias
+HFE,Multiple Sclerosis
+SIRT1,Alzheimer Disease
+GRN,Amyotrophic Lateral Sclerosis
+LAMC2,Multiple Sclerosis
+CRP,Alzheimer Disease
+FGF14,Spinocerebellar Ataxias
+GRIA2,Amyotrophic Lateral Sclerosis
+NR3C1,Multiple Sclerosis
+SELPLG,Multiple Sclerosis
+OAS1,Multiple Sclerosis
+MTHFR,Huntington Disease
+GRN,Parkinson Disease
+STAT3,Multiple Sclerosis
+IFNG,Alzheimer Disease
+NPC1,Alzheimer Disease
+GSTO1,Parkinson Disease
+KCNH7,Multiple Sclerosis
+GCA,Multiple Sclerosis
+ST8SIA1,Multiple Sclerosis
+ADORA2A,Huntington Disease
+BACE2,Alzheimer Disease
+FUS,Frontotemporal Dementia
+PSEN1,Alzheimer's disease with early onset
+C9orf72,GRN-related frontotemporal dementia
+CD14,Multiple Sclerosis
+MICB,Multiple Sclerosis
+ABCA2,Alzheimer Disease
+TLR4,Alzheimer Disease
+DNM2,Alzheimer Disease
+ADAM10,Alzheimer Disease
+CRYAB,Alzheimer Disease
+FCRL3,Multiple Sclerosis
+MTR,Alzheimer Disease
+ECE1,Alzheimer Disease
+DRD3,Alzheimer Disease
+GSTO2,Parkinson Disease
+NDUFV2,Parkinson Disease
+EBF1,Multiple Sclerosis
+MMP3,Multiple Sclerosis
+STAT1,Multiple Sclerosis
+SIGMAR1,Alzheimer Disease
+HSPG2,Alzheimer Disease
+UCHL1,Alzheimer Disease
+NTRK2,Alzheimer Disease
+ADRB2,Alzheimer Disease
+ITPR2,Amyotrophic Lateral Sclerosis
+GCH1,Parkinson Disease
+APOE,Frontotemporal Dementia
+LY6E,Spinocerebellar Ataxias
+APBA1,Alzheimer Disease
+PARP1,Parkinson Disease
+PTGS2,Parkinson Disease
+IFNG,Parkinson Disease
+PACRG,Parkinson Disease
+CD86,Multiple Sclerosis
+RGS1,Multiple Sclerosis
+AR,Alzheimer Disease
+WWC1,Alzheimer Disease
+HLA-DRB1,"Multiple Sclerosis, Chronic Progressive"
+NOS2,Parkinson Disease
+CAST,Parkinson Disease
+COX2,Alzheimer Disease
+ND5,Multiple Sclerosis
+GSTM1,Multiple Sclerosis
+C3,Alzheimer Disease
+NOTCH4,Alzheimer Disease
+HTR2C,Alzheimer Disease
+ADRB1,Alzheimer Disease
+CD14,Alzheimer Disease
+TNFRSF1B,Alzheimer Disease
+GSTT1,Alzheimer Disease
+CCKAR,Parkinson Disease
+USP24,Parkinson Disease
+USP40,Parkinson Disease
+NEDD9,Parkinson Disease
+ND5,Parkinson Disease
+MAPT,Amyotrophic Lateral Sclerosis
+ATP13A2,Parkinsonian Disorders
+IL17A,Multiple Sclerosis
+ZMIZ1,Multiple Sclerosis
+FAM69A,Multiple Sclerosis
+BRINP1,Multiple Sclerosis
+C6orf10,Multiple Sclerosis
+GC,Alzheimer Disease
+TCN1,Alzheimer Disease
+SLC18A3,Alzheimer Disease
+LTA,Alzheimer Disease
+KIF11,Alzheimer Disease
+IL1R1,Alzheimer Disease
+APOC3,Alzheimer Disease
+PPARD,Alzheimer Disease
+LRAT,Alzheimer Disease
+LMNA,Alzheimer Disease
+GALP,Alzheimer Disease
+PGBD1,Alzheimer Disease
+THRA,Alzheimer Disease
+RXRA,Alzheimer Disease
+PON3,Amyotrophic Lateral Sclerosis
+SHROOM3,Amyotrophic Lateral Sclerosis
+DRD4,Parkinson Disease
+GSTM3,Parkinson Disease
+MTR,Parkinson Disease
+IL10,Parkinson Disease
+NUCKS1,Parkinson Disease
+TFAM,Parkinson Disease
+SPPL2C,Parkinson Disease
+NSF,Parkinson Disease
+SLC41A1,Parkinson Disease
+DGKQ,Parkinson Disease
+SMN2,Amyotrophic Lateral Sclerosis
+IFNB1,"Multiple Sclerosis, Relapsing-Remitting"
+NEFL,Amyotrophic Lateral Sclerosis
+TNFSF10,Multiple Sclerosis
+MAPT,Creutzfeldt-Jakob Syndrome
+APTX,"Spinocerebellar ataxia, autosomal recessive 1"
+PRPH,Amyotrophic Lateral Sclerosis
+UBB,Alzheimer Disease
+NEFH,Amyotrophic Lateral Sclerosis
+GSTO1,Alzheimer Disease
+OPTN,Amyotrophic Lateral Sclerosis
+HAVCR2,Multiple Sclerosis
+AQP4,Multiple Sclerosis
+TGM2,Huntington Disease
+PARK3,Parkinson Disease
+MEFV,Multiple Sclerosis
+FRAXA,Parkinsonian Disorders
+MX1,Multiple Sclerosis
+CST3,Amyotrophic Lateral Sclerosis
+IL18,Multiple Sclerosis
+ADAM17,Multiple Sclerosis
+PAWR,Alzheimer Disease
+SH2D2A,Multiple Sclerosis
+PTPN22,Multiple Sclerosis
+PRF1,Multiple Sclerosis
+KIR3DL1,Multiple Sclerosis
+PTPRA,Alzheimer Disease
+COX1,Alzheimer Disease
+CASR,Alzheimer Disease
+KIFAP3,Amyotrophic Lateral Sclerosis
+IRF1,Multiple Sclerosis
+SERPINE1,Multiple Sclerosis
+COL25A1,Alzheimer Disease
+MMP9,Amyotrophic Lateral Sclerosis
+HGF,Amyotrophic Lateral Sclerosis
+TARDBP,"Amyotrophic Lateral Sclerosis, Sporadic"
+KLC1,Alzheimer Disease
+ADAP1,Alzheimer Disease
+PTGDS,Alzheimer Disease
+EIF2AK2,Alzheimer Disease
+APP,Amyotrophic Lateral Sclerosis
+PARP1,Amyotrophic Lateral Sclerosis
+CCL7,Multiple Sclerosis
+TAC1,Multiple Sclerosis
+KIR2DS1,Multiple Sclerosis
+KIR2DL5A,Multiple Sclerosis
+MGAT5,Multiple Sclerosis
+KIF21B,Multiple Sclerosis
+PLA2G4A,Alzheimer Disease
+CD80,Multiple Sclerosis
+CXCL8,Multiple Sclerosis
+PVRL2,Multiple Sclerosis
+SERPINA1,Alzheimer Disease
+NTF3,Alzheimer Disease
+ALOX15,Alzheimer Disease
+LRRTM3,Alzheimer Disease
+GAL,Alzheimer Disease
+YWHAZ,Alzheimer Disease
+ELP3,Amyotrophic Lateral Sclerosis
+VPS54,Amyotrophic Lateral Sclerosis
+CNTN4,Spinocerebellar Ataxias
+SNCB,Parkinson Disease
+ERVW-1,Multiple Sclerosis
+UBQLN2,Amyotrophic Lateral Sclerosis
+GCH1,Parkinsonian Disorders
+SETX,Amyotrophic Lateral Sclerosis
+KCNA3,Multiple Sclerosis
+TGM1,Huntington Disease
+CHRM2,Alzheimer Disease
+RTN4,Amyotrophic Lateral Sclerosis
+TAP1,Multiple Sclerosis
+PRKCA,Multiple Sclerosis
+LAG3,Multiple Sclerosis
+IFNAR2,Multiple Sclerosis
+KLRB1,Multiple Sclerosis
+CXCR4,Multiple Sclerosis
+TLR3,Multiple Sclerosis
+GSTO2,Alzheimer Disease
+REN,Alzheimer Disease
+SERPINE1,Alzheimer Disease
+PARP1,Alzheimer Disease
+AGT,Alzheimer Disease
+ALAD,Amyotrophic Lateral Sclerosis
+IL1A,Multiple System Atrophy
+BCL2L1,Multiple Sclerosis
+PTAFR,Multiple Sclerosis
+PNMT,Multiple Sclerosis
+CD4,Multiple Sclerosis
+GLO1,Multiple Sclerosis
+ICOS,Multiple Sclerosis
+NCF1,Multiple Sclerosis
+MMP12,Multiple Sclerosis
+STMN1,Multiple Sclerosis
+TBATA,Multiple Sclerosis
+CCL22,Multiple Sclerosis
+ABCG1,Alzheimer Disease
+DKK1,Alzheimer Disease
+NOS1,Alzheimer Disease
+PTGER2,Alzheimer Disease
+PPP2R2B,Alzheimer Disease
+GH1,Alzheimer Disease
+DDX39B,Alzheimer Disease
+TP73,Alzheimer Disease
+ADAM17,Alzheimer Disease
+CXCL8,Multiple System Atrophy
+ICAM1,Multiple System Atrophy
+SQSTM1,Multiple System Atrophy
+SPRN,Creutzfeldt-Jakob Syndrome
+ADH1C,Parkinson Disease
+IDE,Parkinson Disease
+HIVEP3,Parkinson Disease
+SPR,Parkinson Disease
+HS1BP3,Parkinson Disease
+GCNT2,Multiple Sclerosis
+SLC6A4,Huntington Disease
+PARK2,Autosomal Recessive Parkinsonism
+IGFALS,Amyotrophic lateral sclerosis 1
+CNTF,Amyotrophic Lateral Sclerosis
+GRM2,Amyotrophic Lateral Sclerosis
+NFKB1,Multiple Sclerosis
+CAPN1,Alzheimer Disease
+LOC643387,Alzheimer Disease
+PRDX6,Alzheimer Disease
+TSC2,Alzheimer Disease
+KLK6,Alzheimer Disease
+AGRN,Alzheimer Disease
+COL18A1,Alzheimer Disease
+HSP90AA1,Alzheimer Disease
+RTN4R,Alzheimer Disease
+MAP2K1,Alzheimer Disease
+RNF19A,Amyotrophic Lateral Sclerosis
+CNR1,Parkinson Disease
+ADAMTS14,Multiple Sclerosis
+SELP,Multiple Sclerosis
+HLA-DMB,Multiple Sclerosis
+PSMB9,Multiple Sclerosis
+KIR2DS4,Multiple Sclerosis
+KIR2DL4,Multiple Sclerosis
+KIR2DL2,Multiple Sclerosis
+IL12RB2,Multiple Sclerosis
+CYP24A1,Multiple Sclerosis
+CCL8,Multiple Sclerosis
+EOMES,Multiple Sclerosis
+ATN1,Huntington Disease
+GRIK2,Huntington Disease
+CFB,Alzheimer Disease
+PRND,Alzheimer Disease
+NAT2,Alzheimer Disease
+MMP3,Alzheimer Disease
+MMP1,Alzheimer Disease
+APH1B,Alzheimer Disease
+F13A1,Alzheimer Disease
+COX3,Alzheimer Disease
+NCAPD2,Alzheimer Disease
+IRS1,Alzheimer Disease
+IL2,Alzheimer Disease
+GSTM3,Alzheimer Disease
+TAPBPL,Alzheimer Disease
+ADH7,Multiple System Atrophy
+ESR1,Parkinson Disease
+CALB1,Parkinson Disease
+RAB29,Parkinson Disease
+MCCC1,Parkinson Disease
+APOE,Creutzfeldt-Jakob Syndrome
+IL5RA,Multiple Sclerosis
+IDO1,Multiple Sclerosis
+NGF,Multiple Sclerosis
+STH,Huntington Disease
+CHRNA3,Alzheimer Disease
+AHSG,Alzheimer Disease
+MAPK8IP1,Alzheimer Disease
+MAOB,Alzheimer Disease
+LRP8,Alzheimer Disease
+TPH1,Alzheimer Disease
+WT1,Alzheimer Disease
+TBP,Alzheimer Disease
+ANK3,Alzheimer Disease
+IREB2,Alzheimer Disease
+LRP6,Alzheimer Disease
+SOS2,Alzheimer Disease
+NTRK1,Alzheimer Disease
+ABL1,Alzheimer Disease
+TET1,Alzheimer Disease
+ARMS2,Alzheimer Disease
+ALOX12,Alzheimer Disease
+FRK,Alzheimer Disease
+EIF4EBP1,Alzheimer Disease
+CD40LG,Alzheimer Disease
+TNFRSF1A,Alzheimer Disease
+TNFAIP1,Alzheimer Disease
+TIMP2,Alzheimer Disease
+TIMP1,Alzheimer Disease
+GNB3,Alzheimer Disease
+CYP7B1,Alzheimer Disease
+ERBB4,Alzheimer Disease
+VSNL1,Alzheimer Disease
+CP,Amyotrophic Lateral Sclerosis
+SCA21,Spinocerebellar Ataxias
+CCL5,Parkinson Disease
+CCL2,Parkinson Disease
+TF,Parkinson Disease
+HTR6,Parkinson Disease
+YWHAH,Parkinson Disease
+FRAXE,Parkinson Disease
+SIAH1,Parkinson Disease
+ND1,Parkinson Disease
+MIR133B,Parkinson Disease
+MTIF3,Parkinson Disease
+HP,Parkinson Disease
+VDR,Parkinson Disease
+FUS,GRN-related frontotemporal dementia
+MAPT,GRN-related frontotemporal dementia
+IL23A,Multiple Sclerosis
+HLA-DMA,Multiple Sclerosis
+CCL11,Multiple Sclerosis
+CTSS,Multiple Sclerosis
+PTGER4,Multiple Sclerosis
+PRNP,Multiple Sclerosis
+PDE4B,Multiple Sclerosis
+KANK1,Multiple Sclerosis
+KIR3DS1,Multiple Sclerosis
+KIR2DS5,Multiple Sclerosis
+KIR2DS3,Multiple Sclerosis
+KIR2DS2,Multiple Sclerosis
+KIR2DL3,Multiple Sclerosis
+KIR2DL1,Multiple Sclerosis
+ALK,Multiple Sclerosis
+DDX58,Multiple Sclerosis
+TLR1,Multiple Sclerosis
+IL1R1,Multiple Sclerosis
+HLA-F,Multiple Sclerosis
+GABBR1,Multiple Sclerosis
+HCG9,Multiple Sclerosis
+TRIM40,Multiple Sclerosis
+RNF39,Multiple Sclerosis
+TRIM15,Multiple Sclerosis
+SLC44A4,Multiple Sclerosis
+TRIM26,Multiple Sclerosis
+CFB,Multiple Sclerosis
+TAGAP,Multiple Sclerosis
+PLEK,Multiple Sclerosis
+HAAO,Multiple Sclerosis
+ST13P4,Multiple Sclerosis
+HHEX,Alzheimer Disease
+CYP1A1,Alzheimer Disease
+C1R,Alzheimer Disease
+APOB,Alzheimer Disease
+ADRA2A,Alzheimer Disease
+ACTA1,Alzheimer Disease
+NAT1,Alzheimer Disease
+HSPA1A,Alzheimer Disease
+HSD11B1,Alzheimer Disease
+PSMB9,Alzheimer Disease
+SREBF1,Alzheimer Disease
+CYP17A1,Alzheimer Disease
+APOA5,Alzheimer Disease
+CAMK2G,Alzheimer Disease
+HMGCS2,Alzheimer Disease
+PLAT,Alzheimer Disease
+PSENEN,Alzheimer Disease
+USF2,Alzheimer Disease
+ADAM12,Alzheimer Disease
+USF1,Alzheimer Disease
+PLA2G7,Alzheimer Disease
+MYH13,Alzheimer Disease
+ABCG2,Alzheimer Disease
+LRP2,Alzheimer Disease
+IL33,Alzheimer Disease
+ND4,Alzheimer Disease
+ATP8,Alzheimer Disease
+ND5,Alzheimer Disease
+ND4L,Alzheimer Disease
+ND2,Alzheimer Disease
+IL6R,Alzheimer Disease
+GHR,Alzheimer Disease
+FGG,Alzheimer Disease
+EDNRB,Alzheimer Disease
+DRD2,Alzheimer Disease
+APH1A,Alzheimer Disease
+ADRB3,Alzheimer Disease
+MTHFD1L,Alzheimer Disease
+CARD8,Alzheimer Disease
+TRPC4AP,Alzheimer Disease
+TRAF2,Alzheimer Disease
+TNFRSF6B,Alzheimer Disease
+STK11,Alzheimer Disease
+SELP,Alzheimer Disease
+DISC1,Alzheimer Disease
+RFC3,Alzheimer Disease
+ZNF224,Alzheimer Disease
+MTHFD1,Alzheimer Disease
+GSTM1,Alzheimer Disease
+MPP7,Alzheimer Disease
+MS4A4E,Alzheimer Disease
+HLA-DQB1,"Multiple Sclerosis, Relapsing-Remitting"
+SERPINE1,Amyotrophic Lateral Sclerosis
+LIPC,Amyotrophic Lateral Sclerosis
+CLNK,Amyotrophic Lateral Sclerosis
+IFNK,Amyotrophic Lateral Sclerosis
+KCNS3,Amyotrophic Lateral Sclerosis
+HLA-DQB1,"Multiple Sclerosis, Chronic Progressive"
+GSTZ1,Parkinson Disease
+FUT1,Parkinson Disease
+FTL,Parkinson Disease
+CCKBR,Parkinson Disease
+CACNA1A,Parkinson Disease
+ASCL1,Parkinson Disease
+PRNP,Parkinson Disease
+FTH1,Parkinson Disease
+CDCP2,Parkinson Disease
+CHRNA4,Parkinson Disease
+CYP1B1,Parkinson Disease
+EPHX1,Parkinson Disease
+PLXNC1,Parkinson Disease
+MTRR,Parkinson Disease
+LMX1B,Parkinson Disease
+ATP6,Parkinson Disease
+COX2,Parkinson Disease
+COX1,Parkinson Disease
+HNMT,Parkinson Disease
+GRIN2B,Parkinson Disease
+CYP1A2,Parkinson Disease
+KANSL1,Parkinson Disease
+PHACTR2,Parkinson Disease
+UNC5C,Parkinson Disease
+RGS2,Parkinson Disease
+BRINP1,Parkinson Disease
+PLA2G6,Parkinson Disease
+WNT3,Parkinson Disease
+SLC2A13,Parkinson Disease
+GABRG3,Parkinson Disease
+NELL1,Parkinson Disease
+TMEM175,Parkinson Disease
+TMEM163,Parkinson Disease
+RIT2,Parkinson Disease
+CYP2D6,Parkinsonian Disorders
+ISG20,Multiple Sclerosis
+INS-IGF2,Alzheimer Disease
+SOD1,Frontotemporal Dementia
+LY6E,SPINOCEREBELLAR ATAXIA 2
+PSEN2,familial alzheimer disease
+TIMP1,Multiple Sclerosis
+FOXP3,Multiple Sclerosis
+GDNF,Amyotrophic Lateral Sclerosis
+APP,familial alzheimer disease
+LRRK2,Autosomal Dominant Parkinsonism
+CD28,Multiple Sclerosis
+PPARGC1A,Huntington Disease
+GFAP,Alzheimer Disease
+GBA,Parkinsonian Disorders
+PTBP1,Amyotrophic Lateral Sclerosis
+RBMY1A1,Amyotrophic Lateral Sclerosis
+SRRM2,Amyotrophic Lateral Sclerosis
+RBMS3,Amyotrophic Lateral Sclerosis
+PNO1,Amyotrophic Lateral Sclerosis
+MAK16,Amyotrophic Lateral Sclerosis
+C9orf72,Amyotrophic lateral sclerosis 1
+LY6E,Parkinsonian Disorders
+CD46,Multiple Sclerosis
+ITM2B,Alzheimer Disease
+APEX1,Amyotrophic Lateral Sclerosis
+P4HB,Amyotrophic Lateral Sclerosis
+CCL2,Amyotrophic Lateral Sclerosis
+ESR1,Multiple Sclerosis
+APOE,Huntington Disease
+PPARG,Amyotrophic Lateral Sclerosis
+FRAXA,Spinocerebellar Ataxias
+ATXN8,Spinocerebellar Ataxias
+JPH3,Spinocerebellar Ataxias
+IFNA1,Multiple Sclerosis
+IFNA13,Multiple Sclerosis
+MBL2,Multiple Sclerosis
+FUS,"Amyotrophic Lateral Sclerosis, Sporadic"
+PFN1,Amyotrophic Lateral Sclerosis
+PLA2G6,Parkinsonian Disorders
+PLA2G6,Neurodegeneration with brain iron accumulation (NBIA)
+PTPN6,Multiple Sclerosis
+CD40,Alzheimer Disease
+TNFRSF1B,Amyotrophic Lateral Sclerosis
+PSEN1,Parkinsonian Disorders
+ACE,Multiple Sclerosis
+PSEN2,Frontotemporal Dementia
+DCTN1,Amyotrophic Lateral Sclerosis
+EPO,Amyotrophic Lateral Sclerosis
+HLA-DQB2,Multiple Sclerosis
+PRG2,Multiple Sclerosis
+APOE,familial alzheimer disease
+CXCR3,Multiple Sclerosis
+CD40LG,Multiple Sclerosis
+IL17C,Multiple Sclerosis
+CASP1,Multiple Sclerosis
+SYN3,Multiple Sclerosis
+CX3CR1,Multiple Sclerosis
+PLAT,Multiple Sclerosis
+CNR2,Multiple Sclerosis
+CX3CL1,Multiple Sclerosis
+AGT,Multiple Sclerosis
+CASP6,Alzheimer Disease
+SQSTM1,Alzheimer Disease
+ADRBK1,Alzheimer Disease
+IL10,"Multiple Sclerosis, Relapsing-Remitting"
+BDNF,"Multiple Sclerosis, Relapsing-Remitting"
+CHGB,Amyotrophic Lateral Sclerosis
+CCS,Amyotrophic Lateral Sclerosis
+NOS1,Amyotrophic Lateral Sclerosis
+ATXN2,Multiple System Atrophy
+BCL2,Multiple Sclerosis
+TP53,Multiple Sclerosis
+CXCL10,Multiple Sclerosis
+PPARG,Multiple Sclerosis
+MMP2,Multiple Sclerosis
+LIF,Multiple Sclerosis
+IL21,Multiple Sclerosis
+CD274,Multiple Sclerosis
+TLR9,Multiple Sclerosis
+MAPK1,Multiple Sclerosis
+MMP9,Alzheimer Disease
+ENO2,Alzheimer Disease
+C4B,Alzheimer Disease
+GZMB,Alzheimer Disease
+AR,Spinocerebellar Ataxias
+AGPS,Alzheimer Disease
+IGFALS,Frontotemporal Dementia
+PINK1,Autosomal Recessive Parkinsonism
+SOD1,Parkinsonian Disorders
+CSF2,Creutzfeldt-Jakob Syndrome
+LAMC2,Creutzfeldt-Jakob Syndrome
+C19orf12,Neurodegeneration with brain iron accumulation (NBIA)
+MST1R,Multiple Sclerosis
+OLIG1,Multiple Sclerosis
+HTATIP2,Multiple Sclerosis
+PADI2,Multiple Sclerosis
+LINGO1,Multiple Sclerosis
+HMGB1,Multiple Sclerosis
+TIMP2,Multiple Sclerosis
+CNP,Multiple Sclerosis
+TP53,Huntington Disease
+GAPDH,Huntington Disease
+NOTCH1,Alzheimer Disease
+PDYN,Alzheimer Disease
+SP1,Alzheimer Disease
+E2F1,Alzheimer Disease
+MEOX2,Alzheimer Disease
+PRDX2,Alzheimer Disease
+PLA2G2A,Alzheimer Disease
+TIMP1,Amyotrophic Lateral Sclerosis
+PIN1,Amyotrophic Lateral Sclerosis
+GRIA1,Amyotrophic Lateral Sclerosis
+VGF,Amyotrophic Lateral Sclerosis
+AQP4,Creutzfeldt-Jakob Syndrome
+ATXN2,Multiple Sclerosis
+NOS1,Multiple Sclerosis
+CCL3,Multiple Sclerosis
+EIF2B5,Multiple Sclerosis
+CXCR2,Multiple Sclerosis
+PADI4,Multiple Sclerosis
+PTGS2,Multiple Sclerosis
+VIP,Multiple Sclerosis
+PPARA,Multiple Sclerosis
+LMNB1,Multiple Sclerosis
+LEP,Multiple Sclerosis
+APOA1,Multiple Sclerosis
+CAV1,Multiple Sclerosis
+MOK,Multiple Sclerosis
+MIF,Multiple Sclerosis
+IL18R1,Multiple Sclerosis
+GFI1,Multiple Sclerosis
+TMEM39A,Multiple Sclerosis
+CYP2D6,Multiple Sclerosis
+COMT,Multiple Sclerosis
+HAVCR1,Multiple Sclerosis
+CD1E,Multiple Sclerosis
+CD1A,Multiple Sclerosis
+CASP8,Multiple Sclerosis
+TLR2,Multiple Sclerosis
+NOTCH4,Multiple Sclerosis
+MERTK,Multiple Sclerosis
+CXCR5,Multiple Sclerosis
+ATXN1,Huntington Disease
+PON3,Alzheimer Disease
+PLG,Alzheimer Disease
+PTBP1,Alzheimer Disease
+HP,Alzheimer Disease
+DRD4,Alzheimer Disease
+VCAM1,Alzheimer Disease
+RTN3,Alzheimer Disease
+PLA2G6,Alzheimer Disease
+GPX1,Alzheimer Disease
+ATXN1,Alzheimer Disease
+CCL3,Alzheimer Disease
+C9orf72,Alzheimer Disease
+LRRK2,Frontotemporal Dementia
+NOS2,"Multiple Sclerosis, Relapsing-Remitting"
+PRNP,Amyotrophic Lateral Sclerosis
+NIPA1,Amyotrophic Lateral Sclerosis
+RASGRF1,Amyotrophic Lateral Sclerosis
+CYP2D6,Multiple System Atrophy
+FRAXA,Multiple System Atrophy
+TNF,Multiple System Atrophy
+ATP6,Spinocerebellar Ataxias
+RARB,Creutzfeldt-Jakob Syndrome
+STMN2,Creutzfeldt-Jakob Syndrome
+HTT,Parkinson Disease
+FYN,Parkinson Disease
+TOR1A,Parkinson Disease
+FBXO7,Parkinson Disease
+BDNF-AS,Multiple Sclerosis
+ATXN3,SPINOCEREBELLAR ATAXIA 2
+CSF2,Amyotrophic Lateral Sclerosis
+STMN1,Amyotrophic Lateral Sclerosis
+SNRPN,Amyotrophic Lateral Sclerosis
+VCP,Amyotrophic lateral sclerosis 1
+FBXO7,Parkinsonian Disorders
+ATXN3,SPINOCEREBELLAR ATAXIA 1
+PARK7,Multiple Sclerosis
+TNFSF9,Multiple Sclerosis
+NFASC,Multiple Sclerosis
+F2RL1,Multiple Sclerosis
+ENTPD1,Multiple Sclerosis
+SHH,Multiple Sclerosis
+KLRK1,Multiple Sclerosis
+SOD2,Multiple Sclerosis
+TNFSF11,Multiple Sclerosis
+MPZ,Multiple Sclerosis
+BDKRB1,Multiple Sclerosis
+MAPT,Multiple Sclerosis
+TNFRSF11B,Multiple Sclerosis
+HMOX1,Multiple Sclerosis
+TNFRSF19,Multiple Sclerosis
+RELA,Multiple Sclerosis
+SOD1,Multiple Sclerosis
+VIPR2,Multiple Sclerosis
+SLC1A2,Multiple Sclerosis
+CD8A,Multiple Sclerosis
+A2M,Multiple Sclerosis
+NOTCH1,Multiple Sclerosis
+CD44,Multiple Sclerosis
+TPMT,Multiple Sclerosis
+TNFRSF4,Multiple Sclerosis
+KLK6,Multiple Sclerosis
+ATP6,Multiple Sclerosis
+ND1,Multiple Sclerosis
+MSX1,Huntington Disease
+SETDB1,Huntington Disease
+TRIP10,Huntington Disease
+TARDBP,Huntington Disease
+NPY,Huntington Disease
+PRNP,Huntington Disease
+LAMP2,Wolff-Parkinson-White Syndrome
+ITGAM,Alzheimer Disease
+CXCR2,Alzheimer Disease
+PNP,Alzheimer Disease
+CNR2,Alzheimer Disease
+FAAH,Alzheimer Disease
+GRIN1,Alzheimer Disease
+S100A9,Alzheimer Disease
+CAST,Alzheimer Disease
+GNB2L1,Alzheimer Disease
+PRDX1,Alzheimer Disease
+FLOT1,Alzheimer Disease
+DDIT4,Alzheimer Disease
+MAPKAPK2,Alzheimer Disease
+GART,Alzheimer Disease
+BCYRN1,Alzheimer Disease
+ATF4,Alzheimer Disease
+RPS3A,Alzheimer Disease
+CTNNB1,Alzheimer Disease
+CTGF,Alzheimer Disease
+PPID,Alzheimer Disease
+NEFL,Alzheimer Disease
+MAPK1,Alzheimer Disease
+CSNK1D,Alzheimer Disease
+ITSN1,Alzheimer Disease
+LEPR,"Multiple Sclerosis, Relapsing-Remitting"
+LEP,"Multiple Sclerosis, Relapsing-Remitting"
+FTMT,Friedreich Ataxia
+TNNT2,Friedreich Ataxia
+BTBD10,Amyotrophic Lateral Sclerosis
+CHGA,Amyotrophic Lateral Sclerosis
+CACNA1S,Amyotrophic Lateral Sclerosis
+RAB5A,Amyotrophic Lateral Sclerosis
+MET,Amyotrophic Lateral Sclerosis
+LOX,Amyotrophic Lateral Sclerosis
+GRIA4,Amyotrophic Lateral Sclerosis
+FBXO32,Amyotrophic Lateral Sclerosis
+GRIN3B,Amyotrophic Lateral Sclerosis
+GRM1,Amyotrophic Lateral Sclerosis
+PKN1,Amyotrophic Lateral Sclerosis
+TIMP3,Amyotrophic Lateral Sclerosis
+PPP2R2B,Parkinsonian Disorders
+ATXN8OS,Multiple System Atrophy
+APTX,Multiple System Atrophy
+MAPT,Multiple System Atrophy
+DBH,Multiple System Atrophy
+UBB,Multiple System Atrophy
+PPP2R2B,Multiple System Atrophy
+CRYAB,Multiple System Atrophy
+TTPA,Spinocerebellar Ataxias
+NES,Creutzfeldt-Jakob Syndrome
+AQP1,Creutzfeldt-Jakob Syndrome
+AIF1,Creutzfeldt-Jakob Syndrome
+CASP3,Parkinson Disease
+CDNF,Parkinson Disease
+SQSTM1,Parkinson Disease
+RNF11,Parkinson Disease
+GAD1,Parkinson Disease
+APOD,Parkinson Disease
+C10orf2,Parkinson Disease
+BAX,Multiple Sclerosis
+APOC2,Multiple Sclerosis
+ADRB2,Multiple Sclerosis
+PRLR,Multiple Sclerosis
+FCGR3A,Multiple Sclerosis
+FCGR3B,Multiple Sclerosis
+NOS3,Multiple Sclerosis
+PRL,Multiple Sclerosis
+ASIC2,Multiple Sclerosis
+JAG1,Multiple Sclerosis
+POU2AF1,Multiple Sclerosis
+TAC4,Multiple Sclerosis
+ADCYAP1,Multiple Sclerosis
+TAC3,Multiple Sclerosis
+NDUFS2,Multiple Sclerosis
+MYO9B,Multiple Sclerosis
+ABCG2,Multiple Sclerosis
+ADAD1,Multiple Sclerosis
+JAK1,Multiple Sclerosis
+HNMT,Multiple Sclerosis
+DBP,Multiple Sclerosis
+SLC25A27,Multiple Sclerosis
+CYP2R1,Multiple Sclerosis
+CASP9,Multiple Sclerosis
+TH,Multiple Sclerosis
+BTG1,Multiple Sclerosis
+METTL1,Multiple Sclerosis
+POLG,Multiple Sclerosis
+MICA,Multiple Sclerosis
+SH2B3,Multiple Sclerosis
+KIF5A,Multiple Sclerosis
+IL2RB,Multiple Sclerosis
+IL21R,Multiple Sclerosis
+IFNA17,Multiple Sclerosis
+RGMA,Multiple Sclerosis
+PARP1,Multiple Sclerosis
+ZNF433,Multiple Sclerosis
+TLR8,Multiple Sclerosis
+TLR7,Multiple Sclerosis
+VAV2,Multiple Sclerosis
+BRCA1,Multiple Sclerosis
+TRB,Multiple Sclerosis
+SPARCL1,Multiple Sclerosis
+CCL17,Multiple Sclerosis
+CDSN,Multiple Sclerosis
+CPAMD8,Multiple Sclerosis
+SOX8,Multiple Sclerosis
+RPS6KB1,Multiple Sclerosis
+ZBTB46,Multiple Sclerosis
+BCL10,Multiple Sclerosis
+FEN1,Huntington Disease
+HDAC1,Huntington Disease
+ATG7,Huntington Disease
+CBS,Huntington Disease
+CCL5,Alzheimer Disease
+ARSA,Alzheimer Disease
+APOC2,Alzheimer Disease
+PTPRC,Alzheimer Disease
+PNMT,Alzheimer Disease
+LPA,Alzheimer Disease
+HLA-DRB1,Alzheimer Disease
+ALB,Alzheimer Disease
+FDPS,Alzheimer Disease
+TAP2,Alzheimer Disease
+SNCG,Alzheimer Disease
+PTGES,Alzheimer Disease
+PTGER4,Alzheimer Disease
+PTGER3,Alzheimer Disease
+PTGER1,Alzheimer Disease
+ACAT1,Alzheimer Disease
+PPIL2,Alzheimer Disease
+PIK3CA,Alzheimer Disease
+NFE2L2,Alzheimer Disease
+MMP2,Alzheimer Disease
+BMS1,Alzheimer Disease
+ATXN8,Alzheimer Disease
+APEX1,Alzheimer Disease
+IGFBP3,Alzheimer Disease
+AHR,Alzheimer Disease
+AGTR2,Alzheimer Disease
+EDN1,Alzheimer Disease
+SERPINA13P,Alzheimer Disease
+DRD1,Alzheimer Disease
+CREB1,Alzheimer Disease
+COX15,Alzheimer Disease
+CNP,Alzheimer Disease
+P3H3,Alzheimer Disease
+CDKN2A,Alzheimer Disease
+CCR2,Alzheimer Disease
+TTPA,Alzheimer Disease
+SLC2A1,Alzheimer Disease
+BMP4,Alzheimer Disease
+CX3CL1,Alzheimer Disease
+IL12A,Alzheimer Disease
+EPC2,Alzheimer Disease
+SREBF2,Alzheimer Disease
+CAT,Alzheimer Disease
+DAB1,Alzheimer Disease
+MS4A6A,Alzheimer Disease
+APP,Frontotemporal Dementia
+VEGFA,Frontotemporal Dementia
+PSEN1,Amyotrophic Lateral Sclerosis
+MTHFR,Amyotrophic Lateral Sclerosis
+GSTO1,Amyotrophic Lateral Sclerosis
+WNT5A,Amyotrophic Lateral Sclerosis
+SCNN1A,Amyotrophic Lateral Sclerosis
+ATXN1,Amyotrophic Lateral Sclerosis
+MOB3B,Amyotrophic Lateral Sclerosis
+CYP1A2,Amyotrophic Lateral Sclerosis
+CYP1A1,Amyotrophic Lateral Sclerosis
+MAP3K8,Amyotrophic Lateral Sclerosis
+GRIN2A,Amyotrophic Lateral Sclerosis
+ATXN8,Parkinsonian Disorders
+FUS,Parkinsonian Disorders
+SERPINA3,Multiple System Atrophy
+UCHL1,Multiple System Atrophy
+BDNF,Multiple System Atrophy
+GBA,Multiple System Atrophy
+EIF4EBP1,Multiple System Atrophy
+SLC1A4,Multiple System Atrophy
+IL1B,Multiple System Atrophy
+IL10,Multiple System Atrophy
+CST3,Multiple System Atrophy
+PRNT,Creutzfeldt-Jakob Syndrome
+MTMR7,Creutzfeldt-Jakob Syndrome
+FRAXA,Parkinson Disease
+WFS1,Parkinson Disease
+LMX1A,Parkinson Disease
+ND4,Parkinson Disease
+GATA2,Parkinson Disease
+AKT1,Parkinson Disease
+DCTN1,Parkinson Disease
+NUDT1,Parkinson Disease
+LINGO2,Parkinson Disease
+HLA-DRB5,Parkinson Disease
+CCDC62,Parkinson Disease
+LAMP3,Parkinson Disease
+PLG,Parkinson Disease
+NNMT,Parkinson Disease
+SREBF1,Parkinson Disease
+CDR3,Multiple Sclerosis
+TREM2,Frontotemporal Dementia
+LAMC2,Amyotrophic Lateral Sclerosis
+ATXN3,Parkinsonian Disorders
+C9orf72,Parkinsonian Disorders
+TMEM106B,GRN-related frontotemporal dementia
+EPHX3,Creutzfeldt-Jakob Syndrome
+EPHX4,Creutzfeldt-Jakob Syndrome
+KLC1,Multiple Sclerosis
+ITGA1,Multiple Sclerosis
+NAIP,Multiple Sclerosis
+ATP8,Multiple Sclerosis
+TRNL1,Multiple Sclerosis
+NEWENTRY,Multiple Sclerosis
+CAT,Multiple Sclerosis
+IL6R,Multiple Sclerosis
+XAF1,Multiple Sclerosis
+GAPDH,Multiple Sclerosis
+TRBV5-2,Multiple Sclerosis
+RTN4,Multiple Sclerosis
+GAD1,Multiple Sclerosis
+PVALB,Multiple Sclerosis
+PTPRCAP,Multiple Sclerosis
+SLC1A3,Multiple Sclerosis
+SLC1A1,Multiple Sclerosis
+NT5E,Multiple Sclerosis
+NOV,Multiple Sclerosis
+TKT,Multiple Sclerosis
+BIRC3,Multiple Sclerosis
+TPI1,Multiple Sclerosis
+TPSAB1,Multiple Sclerosis
+CCR7,Multiple Sclerosis
+BIRC2,Multiple Sclerosis
+PRSS3,Multiple Sclerosis
+XIAP,Multiple Sclerosis
+SCN8A,Multiple Sclerosis
+CDK5,Huntington Disease
+PRPF40A,Huntington Disease
+NLRP1,Huntington Disease
+ATF2,Huntington Disease
+PRKCA,Huntington Disease
+TIMP2,Huntington Disease
+ITPR3,Huntington Disease
+GHRL,Huntington Disease
+CARD16,Huntington Disease
+TGM3,Huntington Disease
+RPH3A,Huntington Disease
+NLRP3,Huntington Disease
+TPPP,Huntington Disease
+SOD1,Huntington Disease
+MMP2,Huntington Disease
+DNAJB2,Huntington Disease
+KPNA1,Huntington Disease
+CP,Huntington Disease
+AKT1,Huntington Disease
+FASA,Huntington Disease
+TCERG1,Huntington Disease
+GIT1,Huntington Disease
+RIPK2,Huntington Disease
+H2AFX,Huntington Disease
+SGK1,Huntington Disease
+ND5,Wolff-Parkinson-White Syndrome
+RNF146,Alzheimer Disease
+ITGAV,Alzheimer Disease
+PDE8B,Alzheimer Disease
+MSI1,Alzheimer Disease
+CFTR,Alzheimer Disease
+SLC30A1,Alzheimer Disease
+GLUL,Alzheimer Disease
+EEF2,Alzheimer Disease
+MRE11A,Alzheimer Disease
+EPOR,Alzheimer Disease
+MTRR,Alzheimer Disease
+S100A12,Alzheimer Disease
+SREK1,Alzheimer Disease
+CKB,Alzheimer Disease
+RPS6KB1,Alzheimer Disease
+KCNC4,Alzheimer Disease
+TNFSF10,Alzheimer Disease
+UBXN4,Alzheimer Disease
+KALRN,Alzheimer Disease
+NME1,Alzheimer Disease
+APOM,Alzheimer Disease
+STMN1,Alzheimer Disease
+NEWENTRY,Alzheimer Disease
+GRIA2,Alzheimer Disease
+ITGB1,Alzheimer Disease
+STX8,Alzheimer Disease
+NUMB,Alzheimer Disease
+SERPINI1,Alzheimer Disease
+CCNC,Alzheimer Disease
+CDKN1B,Alzheimer Disease
+CAMK2A,Alzheimer Disease
+CDH2,Alzheimer Disease
+GGA1,Alzheimer Disease
+LAMA1,Alzheimer Disease
+BHLHB9,Alzheimer Disease
+STXBP1,Alzheimer Disease
+BRCA1,Alzheimer Disease
+P2RY2,Alzheimer Disease
+RGS4,Alzheimer Disease
+BCL2L2,Alzheimer Disease
+RAF1,Alzheimer Disease
+PURA,Alzheimer Disease
+CHAF1B,Alzheimer Disease
+GPC1,Alzheimer Disease
+CASP4,Alzheimer Disease
+PAK1,Alzheimer Disease
+HTR1A,Alzheimer Disease
+HSPA5,Alzheimer Disease
+BACH1,Alzheimer Disease
+STUB1,Alzheimer Disease
+RAB6A,Alzheimer Disease
+SREK1IP1,Alzheimer Disease
+HMGB1,Alzheimer Disease
+C21orf2,Alzheimer Disease
+C5AR1,Alzheimer Disease
+RTN4,Alzheimer Disease
+MFI2,Alzheimer Disease
+MEF2A,Alzheimer Disease
+BDKRB2,Alzheimer Disease
+LRRC15,Alzheimer Disease
+LOC646506,Alzheimer Disease
+KCNIP3,Alzheimer Disease
+DLG4,Alzheimer Disease
+GABBR1,Alzheimer Disease
+DBN1,Alzheimer Disease
+SLC18A2,Alzheimer Disease
+HNRNPA2B1,Alzheimer Disease
+UGCG,Alzheimer Disease
+CYBB,Alzheimer Disease
+AQP1,Alzheimer Disease
+FASLG,Alzheimer Disease
+GRIA3,Alzheimer Disease
+GRIA1,Alzheimer Disease
+CHGB,Alzheimer Disease
+CHGA,Alzheimer Disease
+AMIGO2,Alzheimer Disease
+ATF2,Alzheimer Disease
+MTNR1A,Alzheimer Disease
+POLB,Alzheimer Disease
+NAAA,Alzheimer Disease
+ARPP19,Alzheimer Disease
+NME2,Alzheimer Disease
+FABP3,Alzheimer Disease
+MAP2K2,Alzheimer Disease
+ERG,Alzheimer Disease
+TLR9,Alzheimer Disease
+NACA,Alzheimer Disease
+APBA3,Alzheimer Disease
+TP53BP2,Alzheimer Disease
+PRDX3,Alzheimer Disease
+EEF2K,Alzheimer Disease
+ABCG4,Alzheimer Disease
+NDRG2,Alzheimer Disease
+CDK5R2,Alzheimer Disease
+LAMC1,Alzheimer Disease
+PTGES2,Alzheimer Disease
+PCSK1N,Alzheimer Disease
+HSPB8,Alzheimer Disease
+CSF1,Alzheimer Disease
+PRKACA,Alzheimer Disease
+MAPK3,Alzheimer Disease
+GRIN2A,Alzheimer Disease
+MMP9,"Multiple Sclerosis, Relapsing-Remitting"
+ADRBK1,"Multiple Sclerosis, Relapsing-Remitting"
+IL13,Amyotrophic Lateral Sclerosis
+ANKRD2,Amyotrophic Lateral Sclerosis
+TNFRSF1A,Amyotrophic Lateral Sclerosis
+LAMC1,Amyotrophic Lateral Sclerosis
+ENG,Amyotrophic Lateral Sclerosis
+SCG2,Amyotrophic Lateral Sclerosis
+LOC643387,Amyotrophic Lateral Sclerosis
+SNCA,Amyotrophic Lateral Sclerosis
+GRIA3,Amyotrophic Lateral Sclerosis
+ANKRD1,Amyotrophic Lateral Sclerosis
+ALS2CL,Amyotrophic Lateral Sclerosis
+TRPM2,Amyotrophic Lateral Sclerosis
+APOH,Parkinsonian Disorders
+CHAT,Parkinsonian Disorders
+NEFL,Parkinsonian Disorders
+PPP1R1B,Multiple System Atrophy
+PARK2,Multiple System Atrophy
+YWHAB,Multiple System Atrophy
+NEFL,Multiple System Atrophy
+IL10,"Multiple Sclerosis, Chronic Progressive"
+MMP9,"Multiple Sclerosis, Chronic Progressive"
+CTLA4,"Multiple Sclerosis, Chronic Progressive"
+MX1,"Multiple Sclerosis, Chronic Progressive"
+PLP1,"Multiple Sclerosis, Chronic Progressive"
+PRKACG,Spinocerebellar Ataxias
+STUB1,Spinocerebellar Ataxias
+SUMF1,Spinocerebellar Ataxias
+H2AFX,Spinocerebellar Ataxias
+ABCB1,Creutzfeldt-Jakob Syndrome
+ACHE,Creutzfeldt-Jakob Syndrome
+CHGB,Creutzfeldt-Jakob Syndrome
+CHGA,Creutzfeldt-Jakob Syndrome
+YWHAQ,Creutzfeldt-Jakob Syndrome
+SIRT2,Parkinson Disease
+CASP9,Parkinson Disease
+CD200,Parkinson Disease
+WWOX,Parkinson Disease
+CUL9,Parkinson Disease
+PRDX2,Parkinson Disease
+ATXN8OS,Parkinson Disease
+ACHE,Parkinson Disease
+NDUFA1,Parkinson Disease
+PRDX3,Parkinson Disease
+AMIGO2,Parkinson Disease
+CDKN2A,Parkinson Disease
+PAWR,Parkinson Disease
+GAD2,Parkinson Disease
+YWHAZ,Parkinson Disease
+HSP90AB2P,Parkinson Disease
+RNF19A,Parkinson Disease
+PDYN,Parkinson Disease
+MEF2D,Parkinson Disease
+LPO,Parkinson Disease
+E2F1,Parkinson Disease
+RB1,Parkinson Disease
+BCL2L1,Parkinson Disease
+CD200R1,Parkinson Disease
+PVALB,Parkinson Disease
+PRDX5,Parkinson Disease
+PSMC4,Parkinson Disease
+FAS,Parkinson Disease
+CCL3,Parkinson Disease
+NRG1,Parkinson Disease
+NPPB,Parkinson Disease
+NFKB1,Parkinson Disease
+ATF2,Parkinson Disease
+TYR,Parkinson Disease
+ASIC2,Parkinson Disease
+NPTX2,Parkinson Disease
+FADD,Parkinson Disease
+FUBP1,Parkinson Disease
+SCN8A,Parkinson Disease
+TSC2,Parkinson Disease
+GABRA3,Multiple Sclerosis
+FCGR2A,Multiple Sclerosis
+ERBB3,Multiple Sclerosis
+CCR1,Multiple Sclerosis
+TYR,Multiple Sclerosis
+PTPRA,Multiple Sclerosis
+APOC1,Multiple Sclerosis
+PLCG1,Multiple Sclerosis
+PSMB8,Multiple Sclerosis
+PSMD2,Multiple Sclerosis
+PRKRA,Multiple Sclerosis
+MMP1,Multiple Sclerosis
+NCF1B,Multiple Sclerosis
+IRF9,Multiple Sclerosis
+MROH2B,Multiple Sclerosis
+NCF1C,Multiple Sclerosis
+KMO,Multiple Sclerosis
+KIR3DL2,Multiple Sclerosis
+JAK2,Multiple Sclerosis
+IRF4,Multiple Sclerosis
+H6PD,Multiple Sclerosis
+GIPR,Multiple Sclerosis
+GBP1,Multiple Sclerosis
+ABCB1,Multiple Sclerosis
+AKT3,Multiple Sclerosis
+FH,Multiple Sclerosis
+EXO1,Multiple Sclerosis
+DUSP1,Multiple Sclerosis
+DRD3,Multiple Sclerosis
+CEP170,Multiple Sclerosis
+PIAS1,Multiple Sclerosis
+DBH,Multiple Sclerosis
+PLD5,Multiple Sclerosis
+WDR64,Multiple Sclerosis
+PNPT1,Multiple Sclerosis
+CHRM3,Multiple Sclerosis
+CHRM2,Multiple Sclerosis
+CHML,Multiple Sclerosis
+CFLAR,Multiple Sclerosis
+OLIG3,Multiple Sclerosis
+GREM2,Multiple Sclerosis
+KIR2DP1,Multiple Sclerosis
+KIR3DL3,Multiple Sclerosis
+ZP4,Multiple Sclerosis
+CASP7,Multiple Sclerosis
+CASP5,Multiple Sclerosis
+CASP3,Multiple Sclerosis
+CASP2,Multiple Sclerosis
+CASP10,Multiple Sclerosis
+FMN2,Multiple Sclerosis
+OPN3,Multiple Sclerosis
+C7,Multiple Sclerosis
+ECE2,Multiple Sclerosis
+ZNF45,Multiple Sclerosis
+STAT2,Multiple Sclerosis
+SELL,Multiple Sclerosis
+SDCCAG8,Multiple Sclerosis
+CCL14,Multiple Sclerosis
+CCL13,Multiple Sclerosis
+CCL1,Multiple Sclerosis
+RYR2,Multiple Sclerosis
+RGS7,Multiple Sclerosis
+RGS2,Multiple Sclerosis
+TMEM74B,Multiple Sclerosis
+CSMD1,Multiple Sclerosis
+ASAP1,Multiple Sclerosis
+ASAP2,Multiple Sclerosis
+EN1,Multiple Sclerosis
+PDZRN4,Multiple Sclerosis
+SH3GL2,Multiple Sclerosis
+SLC25A36,Multiple Sclerosis
+ZIC1,Multiple Sclerosis
+RFC5,Multiple Sclerosis
+RFC4,Multiple Sclerosis
+RFC2,Multiple Sclerosis
+RFC1,Multiple Sclerosis
+RAD54L,Multiple Sclerosis
+RAD52,Multiple Sclerosis
+RAD51D,Multiple Sclerosis
+RAD51B,Multiple Sclerosis
+RAD51C,Multiple Sclerosis
+RAD51,Multiple Sclerosis
+RAD23B,Multiple Sclerosis
+RAD23A,Multiple Sclerosis
+PRKDC,Multiple Sclerosis
+POLE,Multiple Sclerosis
+POLD1,Multiple Sclerosis
+POLB,Multiple Sclerosis
+PNKP,Multiple Sclerosis
+PLAU,Multiple Sclerosis
+PCNA,Multiple Sclerosis
+OR2H1,Multiple Sclerosis
+OGG1,Multiple Sclerosis
+NTHL1,Multiple Sclerosis
+OR2H2,Multiple Sclerosis
+NFKBIL1,Multiple Sclerosis
+NBN,Multiple Sclerosis
+MUTYH,Multiple Sclerosis
+MRE11A,Multiple Sclerosis
+MPG,Multiple Sclerosis
+MNAT1,Multiple Sclerosis
+MICD,Multiple Sclerosis
+MTRR,Multiple Sclerosis
+MBD4,Multiple Sclerosis
+LIG4,Multiple Sclerosis
+LIG3,Multiple Sclerosis
+MMS19,Multiple Sclerosis
+NHEJ1,Multiple Sclerosis
+NOD1,Multiple Sclerosis
+APEX1,Multiple Sclerosis
+IGHV4-28,Multiple Sclerosis
+IFNGR2,Multiple Sclerosis
+HSPB2,Multiple Sclerosis
+HLA-J,Multiple Sclerosis
+GTF2H4,Multiple Sclerosis
+GTF2H1,Multiple Sclerosis
+GPC6,Multiple Sclerosis
+XRCC6,Multiple Sclerosis
+GSTT1,Multiple Sclerosis
+GNB3,Multiple Sclerosis
+FEN1,Multiple Sclerosis
+ERCC8,Multiple Sclerosis
+ERCC6,Multiple Sclerosis
+ERCC5,Multiple Sclerosis
+ERCC4,Multiple Sclerosis
+ERCC3,Multiple Sclerosis
+ERCC2,Multiple Sclerosis
+ERCC1,Multiple Sclerosis
+MUS81,Multiple Sclerosis
+CEP112,Multiple Sclerosis
+PARP2,Multiple Sclerosis
+DDB2,Multiple Sclerosis
+CTNNA3,Multiple Sclerosis
+EME1,Multiple Sclerosis
+HCG4P8,Multiple Sclerosis
+GTF2H5,Multiple Sclerosis
+PHACTR2,Multiple Sclerosis
+SUMF1,Multiple Sclerosis
+DCTN1,Multiple Sclerosis
+HCG4,Multiple Sclerosis
+TSHR,Multiple Sclerosis
+NEIL2,Multiple Sclerosis
+NEIL1,Multiple Sclerosis
+APEX2,Multiple Sclerosis
+CDK7,Multiple Sclerosis
+DCLRE1C,Multiple Sclerosis
+RAD54B,Multiple Sclerosis
+SMUG1,Multiple Sclerosis
+HELZ,Multiple Sclerosis
+TLR6,Multiple Sclerosis
+CCNH,Multiple Sclerosis
+TLR10,Multiple Sclerosis
+XAB2,Multiple Sclerosis
+CACNG4,Multiple Sclerosis
+OR12D3,Multiple Sclerosis
+VWA7,Multiple Sclerosis
+XRCC5,Multiple Sclerosis
+XRCC4,Multiple Sclerosis
+XRCC3,Multiple Sclerosis
+XRCC2,Multiple Sclerosis
+XRCC1,Multiple Sclerosis
+XPC,Multiple Sclerosis
+XPA,Multiple Sclerosis
+WRN,Multiple Sclerosis
+TLR5,Multiple Sclerosis
+TDG,Multiple Sclerosis
+BRCA2,Multiple Sclerosis
+RPA3,Multiple Sclerosis
+RPA2,Multiple Sclerosis
+RPA1,Multiple Sclerosis
+UBD,Multiple Sclerosis
+IL26,Multiple Sclerosis
+AIF1,Multiple Sclerosis
+HCG27,Multiple Sclerosis
+EHMT2,Multiple Sclerosis
+PSORS1C3,Multiple Sclerosis
+ZBTB12,Multiple Sclerosis
+C2,Multiple Sclerosis
+DDX39B,Multiple Sclerosis
+MCCD1,Multiple Sclerosis
+HCG26,Multiple Sclerosis
+PSORS1C1,Multiple Sclerosis
+NELFE,Multiple Sclerosis
+DHX16,Multiple Sclerosis
+POU5F1,Multiple Sclerosis
+TCF19,Multiple Sclerosis
+RAD21L1,Multiple Sclerosis
+FLOT1,Multiple Sclerosis
+TRIM10,Multiple Sclerosis
+LEKR1,Multiple Sclerosis
+TMEM135,Multiple Sclerosis
+TRIM42,Multiple Sclerosis
+RELN,Multiple Sclerosis
+TRPA1,Multiple Sclerosis
+C1GALT1,Multiple Sclerosis
+BICD1,Multiple Sclerosis
+WDR7,Multiple Sclerosis
+NLRP11,Multiple Sclerosis
+OSTF1,Multiple Sclerosis
+PCSK5,Multiple Sclerosis
+TBC1D2,Multiple Sclerosis
+AXDND1,Multiple Sclerosis
+CD83,Multiple Sclerosis
+MET,Multiple Sclerosis
+NUBPL,Multiple Sclerosis
+HCCAT5,Multiple Sclerosis
+INSIG2,Multiple Sclerosis
+FOXO3,Multiple Sclerosis
+IGF2R,Multiple Sclerosis
+NCKAP5,Multiple Sclerosis
+SVIL,Multiple Sclerosis
+MXI1,Multiple Sclerosis
+KCNIP1,Multiple Sclerosis
+ELOF1,Multiple Sclerosis
+PPP1R11,Multiple Sclerosis
+HCG18,Multiple Sclerosis
+RDH10,Multiple Sclerosis
+STAU2,Multiple Sclerosis
+DCHS2,Multiple Sclerosis
+IER3,Multiple Sclerosis
+PMAIP1,Multiple Sclerosis
+DAB2,Multiple Sclerosis
+RASGEF1A,Multiple Sclerosis
+CUEDC1,Multiple Sclerosis
+DTHD1,Multiple Sclerosis
+ATP1A1-AS1,Multiple Sclerosis
+SPEF2,Multiple Sclerosis
+PTK2,Multiple Sclerosis
+TRIM2,Multiple Sclerosis
+HSPB1,Multiple Sclerosis
+YWHAG,Multiple Sclerosis
+POPDC3,Multiple Sclerosis
+AHI1,Multiple Sclerosis
+IL20RA,Multiple Sclerosis
+ZFP36L1,Multiple Sclerosis
+SP140,Multiple Sclerosis
+GPR65,Multiple Sclerosis
+SLC30A7,Multiple Sclerosis
+MALT1,Multiple Sclerosis
+ZNF767P,Multiple Sclerosis
+HHEX,Multiple Sclerosis
+DKKL1,Multiple Sclerosis
+NFKBIZ,Multiple Sclerosis
+CLECL1,Multiple Sclerosis
+MPV17L2,Multiple Sclerosis
+SLC15A2,Multiple Sclerosis
+BATF,Multiple Sclerosis
+ODF3B,Multiple Sclerosis
+BACH2,Multiple Sclerosis
+MANBA,Multiple Sclerosis
+RGS14,Multiple Sclerosis
+SAE1,Multiple Sclerosis
+VDAC1,Multiple Sclerosis
+SESN3,Multiple Sclerosis
+MYNN,Multiple Sclerosis
+SYK,Multiple Sclerosis
+PVR,Multiple Sclerosis
+NDFIP1,Multiple Sclerosis
+HBS1L,Multiple Sclerosis
+MLANA,Multiple Sclerosis
+ILDR1,Multiple Sclerosis
+EPS15L1,Multiple Sclerosis
+PRM1,Multiple Sclerosis
+GSTO2,Huntington Disease
+GSTO1,Huntington Disease
+DMPK,Huntington Disease
+HEXA,Huntington Disease
+GRIK1,Huntington Disease
+HIP1,Huntington Disease
+FMR1,Huntington Disease
+PEX7,Huntington Disease
+MTRR,Huntington Disease
+MTR,Huntington Disease
+MAP2K6,Huntington Disease
+MAP3K6,Huntington Disease
+ATG5,Huntington Disease
+ATG16L1,Huntington Disease
+ATG3,Huntington Disease
+BECN1,Huntington Disease
+GSTA4,Alzheimer Disease
+DLD,Alzheimer Disease
+CCL4,Alzheimer Disease
+APOF,Alzheimer Disease
+APBB3,Alzheimer Disease
+ABCG5,Alzheimer Disease
+ABCA12,Alzheimer Disease
+TCN2,Alzheimer Disease
+STIM1,Alzheimer Disease
+SCARB1,Alzheimer Disease
+PSMB8,Alzheimer Disease
+HTRA1,Alzheimer Disease
+PPP1R3A,Alzheimer Disease
+POU2F1,Alzheimer Disease
+PIK3R1,Alzheimer Disease
+M6PR,Alzheimer Disease
+LIPA,Alzheimer Disease
+IL1R2,Alzheimer Disease
+HSPA2,Alzheimer Disease
+HSPA1B,Alzheimer Disease
+AMY2A,Alzheimer Disease
+MS,Alzheimer Disease
+ACAD8,Alzheimer Disease
+APBB1IP,Alzheimer Disease
+DNAJC12,Alzheimer Disease
+COG1,Alzheimer Disease
+NPC2,Alzheimer Disease
+RASSF4,Alzheimer Disease
+SAR1A,Alzheimer Disease
+SEC24C,Alzheimer Disease
+SERPINF2,Alzheimer Disease
+SGPL1,Alzheimer Disease
+ZWINT,Alzheimer Disease
+L1CAM,Alzheimer Disease
+PLCE1,Alzheimer Disease
+Sep.03,Alzheimer Disease
+SUPV3L1,Alzheimer Disease
+UBE2D1,Alzheimer Disease
+PZP,Alzheimer Disease
+PYGB,Alzheimer Disease
+PTPN6,Alzheimer Disease
+PTPN1,Alzheimer Disease
+PTMS,Alzheimer Disease
+PTH,Alzheimer Disease
+PTGIS,Alzheimer Disease
+PTGIR,Alzheimer Disease
+PTGFR,Alzheimer Disease
+OLIG2,Alzheimer Disease
+PRKAG3,Alzheimer Disease
+PRKACB,Alzheimer Disease
+PRKAB1,Alzheimer Disease
+PRKAB2,Alzheimer Disease
+PRKAA1,Alzheimer Disease
+PRDM2,Alzheimer Disease
+PPP1R10,Alzheimer Disease
+B4GALT1,Alzheimer Disease
+PLA2G2D,Alzheimer Disease
+PITX3,Alzheimer Disease
+PHEX,Alzheimer Disease
+PHF1,Alzheimer Disease
+PEA15,Alzheimer Disease
+PDGFRB,Alzheimer Disease
+PDGFRA,Alzheimer Disease
+PCSK2,Alzheimer Disease
+PCSK1,Alzheimer Disease
+REG3A,Alzheimer Disease
+OTC,Alzheimer Disease
+ACACB,Alzheimer Disease
+A2MP1,Alzheimer Disease
+NRF1,Alzheimer Disease
+NR1H4,Alzheimer Disease
+NPY2R,Alzheimer Disease
+NPPB,Alzheimer Disease
+NFRKB,Alzheimer Disease
+NFKB1,Alzheimer Disease
+SERPINC1,Alzheimer Disease
+ABL2,Alzheimer Disease
+MYO10,Alzheimer Disease
+MYC,Alzheimer Disease
+MSR1,Alzheimer Disease
+MMP16,Alzheimer Disease
+MMP19,Alzheimer Disease
+MLYCD,Alzheimer Disease
+MICB,Alzheimer Disease
+CIITA,Alzheimer Disease
+SMAD3,Alzheimer Disease
+LTC4S,Alzheimer Disease
+LTB4R,Alzheimer Disease
+LRP5,Alzheimer Disease
+LIPC,Alzheimer Disease
+LHB,Alzheimer Disease
+RRP1,Alzheimer Disease
+TAF8,Alzheimer Disease
+TMEM217,Alzheimer Disease
+APOO,Alzheimer Disease
+PI4KB,Alzheimer Disease
+TRNY,Alzheimer Disease
+TRNP,Alzheimer Disease
+TRNW,Alzheimer Disease
+TRNM,Alzheimer Disease
+TRNN,Alzheimer Disease
+TRNF,Alzheimer Disease
+TRNH,Alzheimer Disease
+TRNA,Alzheimer Disease
+TRNC,Alzheimer Disease
+LEPR,Alzheimer Disease
+TMBIM6,Alzheimer Disease
+CCNY,Alzheimer Disease
+PIP4K2B,Alzheimer Disease
+PTH1R,Alzheimer Disease
+TRNV,Alzheimer Disease
+TRNS2,Alzheimer Disease
+TRNS1,Alzheimer Disease
+TRNR,Alzheimer Disease
+TRNQ,Alzheimer Disease
+TRNL1,Alzheimer Disease
+TRNK,Alzheimer Disease
+TRNG,Alzheimer Disease
+ND6,Alzheimer Disease
+ND3,Alzheimer Disease
+ATP6,Alzheimer Disease
+COG2,Alzheimer Disease
+CYTB,Alzheimer Disease
+HNF1A,Alzheimer Disease
+CLPTM1L,Alzheimer Disease
+LCT,Alzheimer Disease
+LCN1,Alzheimer Disease
+ZRSR2,Alzheimer Disease
+LCAT,Alzheimer Disease
+CFP,Alzheimer Disease
+ARF1,Alzheimer Disease
+KRT8,Alzheimer Disease
+KLF5,Alzheimer Disease
+KDR,Alzheimer Disease
+GDF15,Alzheimer Disease
+KCNJ11,Alzheimer Disease
+JAG1,Alzheimer Disease
+ITGA2B,Alzheimer Disease
+ITGA2,Alzheimer Disease
+IRS4,Alzheimer Disease
+IRS2,Alzheimer Disease
+ABCD1,Alzheimer Disease
+INSIG1,Alzheimer Disease
+SCAP,Alzheimer Disease
+IL3,Alzheimer Disease
+IL18R1,Alzheimer Disease
+IL11,Alzheimer Disease
+ABCC8,Alzheimer Disease
+IGFBP6,Alzheimer Disease
+IGFBP5,Alzheimer Disease
+IGFBP4,Alzheimer Disease
+IGFBP2,Alzheimer Disease
+IGFBP1,Alzheimer Disease
+IFNGR1,Alzheimer Disease
+HPGD,Alzheimer Disease
+HOXD13,Alzheimer Disease
+HNF4A,Alzheimer Disease
+HMGCS1,Alzheimer Disease
+HLA-DRA,Alzheimer Disease
+ANGPT4,Alzheimer Disease
+GRPR,Alzheimer Disease
+GRB2,Alzheimer Disease
+ALPL,Alzheimer Disease
+ALOX5AP,Alzheimer Disease
+GHRHR,Alzheimer Disease
+GHRH,Alzheimer Disease
+GCM1,Alzheimer Disease
+GCK,Alzheimer Disease
+GATA1,Alzheimer Disease
+GAD2,Alzheimer Disease
+FTCD,Alzheimer Disease
+FSHR,Alzheimer Disease
+AKT1,Alzheimer Disease
+FGFR3,Alzheimer Disease
+FGFR2,Alzheimer Disease
+FGFR1,Alzheimer Disease
+FGF23,Alzheimer Disease
+FGF2,Alzheimer Disease
+FGF13,Alzheimer Disease
+FGB,Alzheimer Disease
+FGA,Alzheimer Disease
+F7,Alzheimer Disease
+F3,Alzheimer Disease
+F10,Alzheimer Disease
+AIF1,Alzheimer Disease
+AGTR1,Alzheimer Disease
+ENPP1,Alzheimer Disease
+ELN,Alzheimer Disease
+EGR3,Alzheimer Disease
+EGR2,Alzheimer Disease
+EFNA3,Alzheimer Disease
+EDNRA,Alzheimer Disease
+PPARGC1B,Alzheimer Disease
+DXO,Alzheimer Disease
+C12orf57,Alzheimer Disease
+KIAA1462,Alzheimer Disease
+CCDC22,Alzheimer Disease
+DGAT1,Alzheimer Disease
+ADRA1A,Alzheimer Disease
+DAB2,Alzheimer Disease
+CYP2C18,Alzheimer Disease
+CYP26A1,Alzheimer Disease
+CYP11B2,Alzheimer Disease
+FAM63A,Alzheimer Disease
+MTPAP,Alzheimer Disease
+CTSS,Alzheimer Disease
+CTSK,Alzheimer Disease
+ADH1A,Alzheimer Disease
+GPAM,Alzheimer Disease
+CST8,Alzheimer Disease
+CSPG4,Alzheimer Disease
+CHMP2B,Alzheimer Disease
+CSK,Alzheimer Disease
+MALRD1,Alzheimer Disease
+RRNAD1,Alzheimer Disease
+ADIRF,Alzheimer Disease
+ADIPOR2,Alzheimer Disease
+ADIPOR1,Alzheimer Disease
+SH3PXD2A,Alzheimer Disease
+VKORC1,Alzheimer Disease
+CREM,Alzheimer Disease
+CREBBP,Alzheimer Disease
+FOCAD,Alzheimer Disease
+A2ML1,Alzheimer Disease
+CPT1B,Alzheimer Disease
+CPT1A,Alzheimer Disease
+KEAP1,Alzheimer Disease
+ALG10,Alzheimer Disease
+CPE,Alzheimer Disease
+COX10,Alzheimer Disease
+COMP,Alzheimer Disease
+COL6A1,Alzheimer Disease
+COL6A2,Alzheimer Disease
+COL1A1,Alzheimer Disease
+COL11A2,Alzheimer Disease
+CNTFR,Alzheimer Disease
+TSPAN9,Alzheimer Disease
+ADAM9,Alzheimer Disease
+CCDC167,Alzheimer Disease
+DAOA,Alzheimer Disease
+ANKMY1,Alzheimer Disease
+PHACTR2,Alzheimer Disease
+PHF12,Alzheimer Disease
+PDLIM1,Alzheimer Disease
+KIAA1161,Alzheimer Disease
+BRD8,Alzheimer Disease
+SOCS1,Alzheimer Disease
+EBF3,Alzheimer Disease
+UBD,Alzheimer Disease
+TFB2M,Alzheimer Disease
+CEBPD,Alzheimer Disease
+HINT2,Alzheimer Disease
+CEBPA,Alzheimer Disease
+P2RY12,Alzheimer Disease
+VTI1B,Alzheimer Disease
+VTI1A,Alzheimer Disease
+TNMD,Alzheimer Disease
+SIT1,Alzheimer Disease
+CDH11,Alzheimer Disease
+CD9,Alzheimer Disease
+TFB1M,Alzheimer Disease
+FRS3,Alzheimer Disease
+POSTN,Alzheimer Disease
+CD5L,Alzheimer Disease
+GRIN3B,Alzheimer Disease
+GRIN3A,Alzheimer Disease
+ACTN3,Alzheimer Disease
+TRIB3,Alzheimer Disease
+LINC00687,Alzheimer Disease
+PCNT,Alzheimer Disease
+AQP10,Alzheimer Disease
+CCR1,Alzheimer Disease
+CCNI,Alzheimer Disease
+PARD6A,Alzheimer Disease
+CCND3,Alzheimer Disease
+CHRFAM7A,Alzheimer Disease
+ACAN,Alzheimer Disease
+SNX5,Alzheimer Disease
+CAPN10,Alzheimer Disease
+CALCR,Alzheimer Disease
+ELAC2,Alzheimer Disease
+VWA7,Alzheimer Disease
+CACNA1A,Alzheimer Disease
+CA9,Alzheimer Disease
+ADIPOQ,Alzheimer Disease
+ATP8B4,Alzheimer Disease
+TRAK2,Alzheimer Disease
+MLXIPL,Alzheimer Disease
+VWF,Alzheimer Disease
+VGF,Alzheimer Disease
+VAMP2,Alzheimer Disease
+UCP3,Alzheimer Disease
+UBE2I,Alzheimer Disease
+UBA52P1,Alzheimer Disease
+TRAF6,Alzheimer Disease
+TRAF5,Alzheimer Disease
+TRAF4,Alzheimer Disease
+TRAF3,Alzheimer Disease
+TRAF1,Alzheimer Disease
+TPT1,Alzheimer Disease
+TNXB,Alzheimer Disease
+TNNI3,Alzheimer Disease
+TNFSF11,Alzheimer Disease
+TNFRSF11B,Alzheimer Disease
+TNFRSF11A,Alzheimer Disease
+TNFAIP3,Alzheimer Disease
+TNFAIP2,Alzheimer Disease
+THRB,Alzheimer Disease
+THBD,Alzheimer Disease
+TFF2,Alzheimer Disease
+MLX,Alzheimer Disease
+TCF7L2,Alzheimer Disease
+TBXAS1,Alzheimer Disease
+TBXA2R,Alzheimer Disease
+TAF1,Alzheimer Disease
+STX1A,Alzheimer Disease
+BTN3A2,Alzheimer Disease
+STAR,Alzheimer Disease
+SSX1,Alzheimer Disease
+SRF,Alzheimer Disease
+SRD5A2,Alzheimer Disease
+SPP1,Alzheimer Disease
+SPARC,Alzheimer Disease
+SOX3,Alzheimer Disease
+SLC6A12,Alzheimer Disease
+BRD2,Alzheimer Disease
+SLC2A4,Alzheimer Disease
+SLC27A2,Alzheimer Disease
+SLC17A1,Alzheimer Disease
+SHB,Alzheimer Disease
+BMP7,Alzheimer Disease
+SEMA4D,Alzheimer Disease
+SEMA3A,Alzheimer Disease
+SELE,Alzheimer Disease
+BMP3,Alzheimer Disease
+BMP1,Alzheimer Disease
+CCL8,Alzheimer Disease
+SCD,Alzheimer Disease
+SAA1,Alzheimer Disease
+SAA2,Alzheimer Disease
+S100A6,Alzheimer Disease
+RXRG,Alzheimer Disease
+RXRB,Alzheimer Disease
+RUNX2,Alzheimer Disease
+BGLAP,Alzheimer Disease
+BCR,Alzheimer Disease
+RNR1,Alzheimer Disease
+RNASEL,Alzheimer Disease
+MOK,Alzheimer Disease
+RARA,Alzheimer Disease
+RARB,Alzheimer Disease
+RARG,Alzheimer Disease
+RBP4,Alzheimer Disease
+PCED1B,Alzheimer Disease
+PAX2,Alzheimer Disease
+SASH1,Alzheimer Disease
+TTLL7,Alzheimer Disease
+BCL2L1,Alzheimer Disease
+PRKG1,Alzheimer Disease
+PPP3R1,Alzheimer Disease
+PLTP,Alzheimer Disease
+RFC1,Alzheimer Disease
+PAFAH1B1,Alzheimer Disease
+NFATC4,Alzheimer Disease
+NCAM2,Alzheimer Disease
+EXOC3L2,Alzheimer Disease
+CCDC134,Alzheimer Disease
+CALHM2,Alzheimer Disease
+CALHM3,Alzheimer Disease
+TRNL2,Alzheimer Disease
+IL4R,Alzheimer Disease
+MEFV,Alzheimer Disease
+DRD5,Alzheimer Disease
+DR1,Alzheimer Disease
+DBH,Alzheimer Disease
+ARL5B,Alzheimer Disease
+CNTN5,Alzheimer Disease
+BLOC1S3,Alzheimer Disease
+ENTPD7,Alzheimer Disease
+RGSL1,Alzheimer Disease
+CASP7,Alzheimer Disease
+PCDH15,Alzheimer Disease
+MARK4,Alzheimer Disease
+EML1,Alzheimer Disease
+WBSCR17,Alzheimer Disease
+PHF21A,Alzheimer Disease
+LRRC39,Alzheimer Disease
+AEN,Alzheimer Disease
+DBT,Alzheimer Disease
+RBFOX1,Alzheimer Disease
+RYR2,Alzheimer Disease
+TENM4,Alzheimer Disease
+TRMT13,Alzheimer Disease
+PTTG1,Alzheimer Disease
+ANK1,Alzheimer Disease
+IRX4,Alzheimer Disease
+NDP,Alzheimer Disease
+AMOT,Alzheimer Disease
+DIAPH3,Alzheimer Disease
+PLLP,Alzheimer Disease
+ST3GAL1,Alzheimer Disease
+GPR64,Alzheimer Disease
+NHSL1,Alzheimer Disease
+HIAT1,Alzheimer Disease
+IL17B,Alzheimer Disease
+MRPL11,Alzheimer Disease
+GSG1L,Alzheimer Disease
+COL22A1,Alzheimer Disease
+CADPS,Alzheimer Disease
+GLRA2,Alzheimer Disease
+ARHGAP18,Alzheimer Disease
+SPTLC1,Alzheimer Disease
+MPHOSPH6,Alzheimer Disease
+PRKCQ,Alzheimer Disease
+BRMS1L,Alzheimer Disease
+PIEZO2,Alzheimer Disease
+C1orf174,Alzheimer Disease
+CHORDC1,Alzheimer Disease
+P3H2,Alzheimer Disease
+APCDD1L,Alzheimer Disease
+C3orf56,Alzheimer Disease
+DCN,Alzheimer Disease
+RTN1,Alzheimer Disease
+FBLN2,Alzheimer Disease
+PRICKLE2,Alzheimer Disease
+SRSF12,Alzheimer Disease
+OSBPL10,Alzheimer Disease
+SLC35A3,Alzheimer Disease
+SLC29A2,Alzheimer Disease
+C3orf67,Alzheimer Disease
+VPS13B,Alzheimer Disease
+DGKH,Alzheimer Disease
+C1orf168,Alzheimer Disease
+COBL,Alzheimer Disease
+CCDC175,Alzheimer Disease
+TRPA1,Alzheimer Disease
+GLI2,Alzheimer Disease
+PPP1R2P9,Alzheimer Disease
+CMYA5,Alzheimer Disease
+C7orf65,Alzheimer Disease
+C8orf48,Alzheimer Disease
+HIF1AN,Alzheimer Disease
+SAMD5,Alzheimer Disease
+EDAR,Alzheimer Disease
+ABCC9,Alzheimer Disease
+YAP1,Alzheimer Disease
+SLC44A5,Alzheimer Disease
+CDC42EP3,Alzheimer Disease
+NCR2,Alzheimer Disease
+ADCY8,Alzheimer Disease
+OSTF1,Alzheimer Disease
+CUBN,Alzheimer Disease
+DNAH11,Alzheimer Disease
+PAK2,Alzheimer Disease
+PDS5B,Alzheimer Disease
+CLVS1,Alzheimer Disease
+MGST3,Alzheimer Disease
+GFRA2,Alzheimer Disease
+FARP1,Alzheimer Disease
+NME9,Alzheimer Disease
+ELAVL2,Alzheimer Disease
+UTS2B,Alzheimer Disease
+C7orf72,Alzheimer Disease
+NCAM1,Alzheimer Disease
+SFTA1P,Alzheimer Disease
+SLC2A9,Alzheimer Disease
+NMU,Alzheimer Disease
+KCNK12,Alzheimer Disease
+FLJ45079,Alzheimer Disease
+C3orf17,Alzheimer Disease
+ZNF320,Alzheimer Disease
+C10orf35,Alzheimer Disease
+CYLC2,Alzheimer Disease
+DIP2C,Alzheimer Disease
+RIMBP2,Alzheimer Disease
+DCHS2,Alzheimer Disease
+ADAMTS9,Alzheimer Disease
+MLN,Alzheimer Disease
+FOXL1,Alzheimer Disease
+ZNF532,Alzheimer Disease
+SLC28A1,Alzheimer Disease
+TBX3,Alzheimer Disease
+SLC4A1AP,Alzheimer Disease
+STK24,Alzheimer Disease
+SHISA2,Alzheimer Disease
+POLN,Alzheimer Disease
+FAM49A,Alzheimer Disease
+CNTNAP2,Alzheimer Disease
+PGGT1B,"Multiple Sclerosis, Relapsing-Remitting"
+OAS3,"Multiple Sclerosis, Relapsing-Remitting"
+KLC1,"Multiple Sclerosis, Relapsing-Remitting"
+IFNAR2,"Multiple Sclerosis, Relapsing-Remitting"
+HLA-DQA1,"Multiple Sclerosis, Relapsing-Remitting"
+HLA-DPB1,"Multiple Sclerosis, Relapsing-Remitting"
+HLA-C,"Multiple Sclerosis, Relapsing-Remitting"
+HLA-B,"Multiple Sclerosis, Relapsing-Remitting"
+HLA-A,"Multiple Sclerosis, Relapsing-Remitting"
+GPC5,"Multiple Sclerosis, Relapsing-Remitting"
+ALOX5,"Multiple Sclerosis, Relapsing-Remitting"
+BRINP1,"Multiple Sclerosis, Relapsing-Remitting"
+HAPLN1,"Multiple Sclerosis, Relapsing-Remitting"
+ADAR,"Multiple Sclerosis, Relapsing-Remitting"
+ADAM10,"Multiple Sclerosis, Relapsing-Remitting"
+CDC42,"Multiple Sclerosis, Relapsing-Remitting"
+CD58,"Multiple Sclerosis, Relapsing-Remitting"
+TGFB1,"Multiple Sclerosis, Relapsing-Remitting"
+SYN3,"Multiple Sclerosis, Relapsing-Remitting"
+STAT3,"Multiple Sclerosis, Relapsing-Remitting"
+SLC1A2,"Multiple Sclerosis, Relapsing-Remitting"
+ACKR1,Friedreich Ataxia
+POLG,Friedreich Ataxia
+VDR,Amyotrophic Lateral Sclerosis
+PGF,Amyotrophic Lateral Sclerosis
+PDGFB,Amyotrophic Lateral Sclerosis
+NPPA,Amyotrophic Lateral Sclerosis
+NOS3,Amyotrophic Lateral Sclerosis
+NELL1,Amyotrophic Lateral Sclerosis
+MMP3,Amyotrophic Lateral Sclerosis
+MMP12,Amyotrophic Lateral Sclerosis
+MMP1,Amyotrophic Lateral Sclerosis
+MIF,Amyotrophic Lateral Sclerosis
+MAN1A2,Amyotrophic Lateral Sclerosis
+LTA,Amyotrophic Lateral Sclerosis
+LPL,Amyotrophic Lateral Sclerosis
+LPA,Amyotrophic Lateral Sclerosis
+MACROD2,Amyotrophic Lateral Sclerosis
+LEP,Amyotrophic Lateral Sclerosis
+C7orf57,Amyotrophic Lateral Sclerosis
+TYMP,Amyotrophic Lateral Sclerosis
+LDLR,Amyotrophic Lateral Sclerosis
+ITGB3,Amyotrophic Lateral Sclerosis
+ITGA2,Amyotrophic Lateral Sclerosis
+APOC3,Amyotrophic Lateral Sclerosis
+INHBA,Amyotrophic Lateral Sclerosis
+APOB,Amyotrophic Lateral Sclerosis
+APOA4,Amyotrophic Lateral Sclerosis
+IL18BP,Amyotrophic Lateral Sclerosis
+ICAM1,Amyotrophic Lateral Sclerosis
+HUS1,Amyotrophic Lateral Sclerosis
+HPGD,Amyotrophic Lateral Sclerosis
+ANK1,Amyotrophic Lateral Sclerosis
+GNB3,Amyotrophic Lateral Sclerosis
+GALNT1,Amyotrophic Lateral Sclerosis
+FGB,Amyotrophic Lateral Sclerosis
+F7,Amyotrophic Lateral Sclerosis
+F5,Amyotrophic Lateral Sclerosis
+F2,Amyotrophic Lateral Sclerosis
+AGTR1,Amyotrophic Lateral Sclerosis
+AGT,Amyotrophic Lateral Sclerosis
+ZNF519,Amyotrophic Lateral Sclerosis
+EXOC4,Amyotrophic Lateral Sclerosis
+ADRB3,Amyotrophic Lateral Sclerosis
+ADRB2,Amyotrophic Lateral Sclerosis
+SUSD1,Amyotrophic Lateral Sclerosis
+PPM1K,Amyotrophic Lateral Sclerosis
+ADD1,Amyotrophic Lateral Sclerosis
+GSTO2,Amyotrophic Lateral Sclerosis
+SUN3,Amyotrophic Lateral Sclerosis
+ARHGAP18,Amyotrophic Lateral Sclerosis
+KIAA0226L,Amyotrophic Lateral Sclerosis
+DCP1A,Amyotrophic Lateral Sclerosis
+CETP,Amyotrophic Lateral Sclerosis
+ROBO4,Amyotrophic Lateral Sclerosis
+UPF2,Amyotrophic Lateral Sclerosis
+ANGPTL4,Amyotrophic Lateral Sclerosis
+ZFP64,Amyotrophic Lateral Sclerosis
+CAV1,Amyotrophic Lateral Sclerosis
+ACTR5,Amyotrophic Lateral Sclerosis
+NLGN1,Amyotrophic Lateral Sclerosis
+FBXO8,Amyotrophic Lateral Sclerosis
+WNT10B,Amyotrophic Lateral Sclerosis
+TXNRD1,Amyotrophic Lateral Sclerosis
+TGFB1,Amyotrophic Lateral Sclerosis
+STC1,Amyotrophic Lateral Sclerosis
+STC2,Amyotrophic Lateral Sclerosis
+RECK,Amyotrophic Lateral Sclerosis
+SPP1,Amyotrophic Lateral Sclerosis
+SELE,Amyotrophic Lateral Sclerosis
+B4GALT6,Amyotrophic Lateral Sclerosis
+CNTN4,Amyotrophic Lateral Sclerosis
+CSNK1G3,Amyotrophic Lateral Sclerosis
+DISC1,Amyotrophic Lateral Sclerosis
+EFEMP1,Amyotrophic Lateral Sclerosis
+NT5C1A,Amyotrophic Lateral Sclerosis
+RBMS1,Amyotrophic Lateral Sclerosis
+SCN7A,Amyotrophic Lateral Sclerosis
+SELL,Amyotrophic Lateral Sclerosis
+SEMA6A,Amyotrophic Lateral Sclerosis
+SLC39A11,Amyotrophic Lateral Sclerosis
+ZNF746,Amyotrophic Lateral Sclerosis
+CDC42,Amyotrophic Lateral Sclerosis
+FAM196A,Amyotrophic Lateral Sclerosis
+FHDC1,Amyotrophic Lateral Sclerosis
+PDZRN4,Amyotrophic Lateral Sclerosis
+BTBD11,Amyotrophic Lateral Sclerosis
+EOMES,Amyotrophic Lateral Sclerosis
+GRIN2B,Amyotrophic Lateral Sclerosis
+SATL1,Amyotrophic Lateral Sclerosis
+SRGAP2,Amyotrophic Lateral Sclerosis
+INTS4,Amyotrophic Lateral Sclerosis
+KCNMA1,Amyotrophic Lateral Sclerosis
+SLC1A7,Amyotrophic Lateral Sclerosis
+FAM19A5,Amyotrophic Lateral Sclerosis
+FMN2,Amyotrophic Lateral Sclerosis
+RNF144A,Amyotrophic Lateral Sclerosis
+OLFM4,Amyotrophic Lateral Sclerosis
+HYPM,Amyotrophic Lateral Sclerosis
+ELAVL2,Amyotrophic Lateral Sclerosis
+ADAMTS14,Amyotrophic Lateral Sclerosis
+POF1B,Amyotrophic Lateral Sclerosis
+TPI1P2,Amyotrophic Lateral Sclerosis
+GUCD1,Amyotrophic Lateral Sclerosis
+SLCO4A1,Amyotrophic Lateral Sclerosis
+LRRC4,Amyotrophic Lateral Sclerosis
+FAM9B,Amyotrophic Lateral Sclerosis
+CD1E,Amyotrophic Lateral Sclerosis
+NKRF,Amyotrophic Lateral Sclerosis
+SIPA1L2,Amyotrophic Lateral Sclerosis
+PKHD1,Amyotrophic Lateral Sclerosis
+IL1RAPL2,Amyotrophic Lateral Sclerosis
+RBMS2,Amyotrophic Lateral Sclerosis
+PER4,Amyotrophic Lateral Sclerosis
+GRIK2,Amyotrophic Lateral Sclerosis
+TAB3,Amyotrophic Lateral Sclerosis
+CDC5L,Amyotrophic Lateral Sclerosis
+C5orf38,Amyotrophic Lateral Sclerosis
+CDCA7,Amyotrophic Lateral Sclerosis
+ZNF385B,Amyotrophic Lateral Sclerosis
+MPZL1,Amyotrophic Lateral Sclerosis
+TMC3,Amyotrophic Lateral Sclerosis
+RPA4,Amyotrophic Lateral Sclerosis
+STAG2,Amyotrophic Lateral Sclerosis
+UPF3A,Amyotrophic Lateral Sclerosis
+CHAMP1,Amyotrophic Lateral Sclerosis
+TNFSF11,Amyotrophic Lateral Sclerosis
+ARSG,Amyotrophic Lateral Sclerosis
+PDE4B,Amyotrophic Lateral Sclerosis
+CNDP1,Amyotrophic Lateral Sclerosis
+TCEA1,Amyotrophic Lateral Sclerosis
+RNF14,Amyotrophic Lateral Sclerosis
+RBFOX1,Amyotrophic Lateral Sclerosis
+FOXF2,Amyotrophic Lateral Sclerosis
+DMD,Amyotrophic Lateral Sclerosis
+DLEU7,Amyotrophic Lateral Sclerosis
+GUCY2EP,Amyotrophic Lateral Sclerosis
+SHISA2,Amyotrophic Lateral Sclerosis
+FLJ20021,Amyotrophic Lateral Sclerosis
+TNFSF13B,Amyotrophic Lateral Sclerosis
+EPB41L3,Amyotrophic Lateral Sclerosis
+HAAO,Amyotrophic Lateral Sclerosis
+TOX3,Amyotrophic Lateral Sclerosis
+SHB,Amyotrophic Lateral Sclerosis
+ADAMTS16,Amyotrophic Lateral Sclerosis
+C5orf22,Amyotrophic Lateral Sclerosis
+PDE10A,Amyotrophic Lateral Sclerosis
+HS3ST3A1,Amyotrophic Lateral Sclerosis
+NPBWR1,Amyotrophic Lateral Sclerosis
+NCAM2,Amyotrophic Lateral Sclerosis
+CYP1B1-AS1,Amyotrophic Lateral Sclerosis
+SPTB,Amyotrophic Lateral Sclerosis
+DPH6,Amyotrophic Lateral Sclerosis
+MECOM,Amyotrophic Lateral Sclerosis
+KLF3,Amyotrophic Lateral Sclerosis
+SRGAP3,Amyotrophic Lateral Sclerosis
+KIAA0586,Amyotrophic Lateral Sclerosis
+ATP6AP1L,Amyotrophic Lateral Sclerosis
+RD3,Amyotrophic Lateral Sclerosis
+CDH10,Amyotrophic Lateral Sclerosis
+GNAL,Amyotrophic Lateral Sclerosis
+ELF5,Amyotrophic Lateral Sclerosis
+YWHAZ,Amyotrophic Lateral Sclerosis
+LRRTM1,Amyotrophic Lateral Sclerosis
+BCAS1,Amyotrophic Lateral Sclerosis
+RALB,Amyotrophic Lateral Sclerosis
+TSHZ3,Amyotrophic Lateral Sclerosis
+LAMA2,Amyotrophic Lateral Sclerosis
+SSPO,Amyotrophic Lateral Sclerosis
+RUFY1,Amyotrophic Lateral Sclerosis
+WDR93,Amyotrophic Lateral Sclerosis
+PEX11A,Amyotrophic Lateral Sclerosis
+DLGAP1,Amyotrophic Lateral Sclerosis
+MYLIP,Amyotrophic Lateral Sclerosis
+ZNF496,Amyotrophic Lateral Sclerosis
+CUBN,Amyotrophic Lateral Sclerosis
+KCNIP4,Amyotrophic Lateral Sclerosis
+C2CD4A,Amyotrophic Lateral Sclerosis
+HCCAT5,Amyotrophic Lateral Sclerosis
+OTOA,Amyotrophic Lateral Sclerosis
+MSX2,Amyotrophic Lateral Sclerosis
+DEFB112,Amyotrophic Lateral Sclerosis
+PNPT1,Amyotrophic Lateral Sclerosis
+MORN2,Amyotrophic Lateral Sclerosis
+COMMD10,Amyotrophic Lateral Sclerosis
+LINC01550,Amyotrophic Lateral Sclerosis
+C1orf115,Amyotrophic Lateral Sclerosis
+NOX4,Amyotrophic Lateral Sclerosis
+CTDP1,Amyotrophic Lateral Sclerosis
+TIAM1,Amyotrophic Lateral Sclerosis
+C4orf36,Amyotrophic Lateral Sclerosis
+OR52K3P,Amyotrophic Lateral Sclerosis
+MSX1,Multiple System Atrophy
+MCPH1,Multiple System Atrophy
+ETV6,Multiple System Atrophy
+PPP1R14C,Multiple System Atrophy
+IL6,Multiple System Atrophy
+TGFB1,Multiple System Atrophy
+KCNH7,"Parkinson Disease, Secondary"
+TNF,"Multiple Sclerosis, Chronic Progressive"
+SYN3,"Multiple Sclerosis, Chronic Progressive"
+DMPK,Spinocerebellar Ataxias
+SCA18,Spinocerebellar Ataxias
+TRNL1,Spinocerebellar Ataxias
+TRNK,Spinocerebellar Ataxias
+ND1,Spinocerebellar Ataxias
+ATP8,Spinocerebellar Ataxias
+COX2,Spinocerebellar Ataxias
+ATP6V1G2,SPINOCEREBELLAR ATAXIA 1
+MEFV,Creutzfeldt-Jakob Syndrome
+IL7,Creutzfeldt-Jakob Syndrome
+PDCL3,Creutzfeldt-Jakob Syndrome
+PKNOX2,Creutzfeldt-Jakob Syndrome
+TSPAN8,Creutzfeldt-Jakob Syndrome
+GC,Parkinson Disease
+FUT2,Parkinson Disease
+DRD5,Parkinson Disease
+CYP27A1,Parkinson Disease
+CYP1A1,Parkinson Disease
+CTSD,Parkinson Disease
+CSF1R,Parkinson Disease
+CRYZ,Parkinson Disease
+C3,Parkinson Disease
+CFB,Parkinson Disease
+ATXN1,Parkinson Disease
+ALDH2,Parkinson Disease
+ADH4,Parkinson Disease
+ADH1A,Parkinson Disease
+A2M,Parkinson Disease
+SYN1,Parkinson Disease
+SHH,Parkinson Disease
+PHOX2B,Parkinson Disease
+NEFM,Parkinson Disease
+MMP3,Parkinson Disease
+MMP1,Parkinson Disease
+IL2,Parkinson Disease
+HSPA1B,Parkinson Disease
+TNFRSF1A,Parkinson Disease
+AMY2A,Parkinson Disease
+HSPA1L,Parkinson Disease
+ADRA1A,Parkinson Disease
+ADRA2A,Parkinson Disease
+CD14,Parkinson Disease
+POMC,Parkinson Disease
+CFH,Parkinson Disease
+RAC2,Parkinson Disease
+BAX,Parkinson Disease
+BAD,Parkinson Disease
+PPP3CA,Parkinson Disease
+B2M,Parkinson Disease
+PLXNA2,Parkinson Disease
+PDXK,Parkinson Disease
+NOS3,Parkinson Disease
+NBN,Parkinson Disease
+MSX1,Parkinson Disease
+MRAS,Parkinson Disease
+ARNT,Parkinson Disease
+MC1R,Parkinson Disease
+TPRG1,Parkinson Disease
+ATXN8,Parkinson Disease
+TRNY,Parkinson Disease
+TRNP,Parkinson Disease
+TRNW,Parkinson Disease
+TRNM,Parkinson Disease
+TRNN,Parkinson Disease
+TRNF,Parkinson Disease
+TRNH,Parkinson Disease
+TRNA,Parkinson Disease
+TRNC,Parkinson Disease
+STAP1,Parkinson Disease
+TRNV,Parkinson Disease
+TRNS2,Parkinson Disease
+TRNS1,Parkinson Disease
+TRNR,Parkinson Disease
+TRNQ,Parkinson Disease
+TRNL1,Parkinson Disease
+TRNK,Parkinson Disease
+TRNG,Parkinson Disease
+ND6,Parkinson Disease
+ATP8,Parkinson Disease
+ND4L,Parkinson Disease
+CYTB,Parkinson Disease
+COX3,Parkinson Disease
+CHP1,Parkinson Disease
+ITGB2,Parkinson Disease
+STH,Parkinson Disease
+IL4,Parkinson Disease
+NOD2,Parkinson Disease
+HTR2C,Parkinson Disease
+HSPA5,Parkinson Disease
+HRH1,Parkinson Disease
+HIST1H1C,Parkinson Disease
+GNAI3,Parkinson Disease
+FCER2,Parkinson Disease
+FARP1,Parkinson Disease
+EPHB2,Parkinson Disease
+EPHB1,Parkinson Disease
+EPHA4,Parkinson Disease
+EN2,Parkinson Disease
+EN1,Parkinson Disease
+EFNA5,Parkinson Disease
+DLG2,Parkinson Disease
+DECR1,Parkinson Disease
+DCC,Parkinson Disease
+ADORA2A,Parkinson Disease
+CYP19A1,Parkinson Disease
+CR2,Parkinson Disease
+NTNG1,Parkinson Disease
+TRAPPC4,Parkinson Disease
+SRGAP3,Parkinson Disease
+AAK1,Parkinson Disease
+TFB2M,Parkinson Disease
+RNF41,Parkinson Disease
+TRPM7,Parkinson Disease
+HOMER1,Parkinson Disease
+CDC42,Parkinson Disease
+NEGR1,Parkinson Disease
+RRAS2,Parkinson Disease
+TFB1M,Parkinson Disease
+COLGALT2,Parkinson Disease
+PAK4,Parkinson Disease
+PAK7,Parkinson Disease
+CBS,Parkinson Disease
+CAPN2,Parkinson Disease
+HDAC6,Parkinson Disease
+NEUROG2,Parkinson Disease
+ULK2,Parkinson Disease
+RNF114,Parkinson Disease
+TARDBP,Parkinson Disease
+SLIT3,Parkinson Disease
+RNR1,Parkinson Disease
+BMP4,Parkinson Disease
+CRHR1-IT1,Parkinson Disease
+ISM1,Parkinson Disease
+CNNM2,Parkinson Disease
+CYP17A1,Parkinson Disease
+ITGA8,Parkinson Disease
+MMRN1,Parkinson Disease
+PM20D1,Parkinson Disease
+SFXN2,Parkinson Disease
+SLC45A3,Parkinson Disease
+STBD1,Parkinson Disease
+PLEKHM1,Parkinson Disease
+TAS1R2,Parkinson Disease
+OTX2,Parkinson Disease
+AOC1,Parkinson Disease
+NFE2L2,Parkinson Disease
+MTHFD1,Parkinson Disease
+MIR133A1,Parkinson Disease
+MIR133A2,Parkinson Disease
+IL1RN,Parkinson Disease
+TRNL2,Parkinson Disease
+GRIN1,Parkinson Disease
+HLA-DQA1,Parkinson Disease
+CST3,Parkinson Disease
+KEAP1,Parkinson Disease
+ACMSD,Parkinson Disease
+SYT11,Parkinson Disease
+HIP1R,Parkinson Disease
+STK39,Parkinson Disease
+FTMT,Parkinson Disease
+UBQLN1,Parkinson Disease
+RNR2,Parkinson Disease
+C17orf51,Parkinson Disease
+CDH8,Parkinson Disease
+AXIN1,Parkinson Disease
+PPEF1,Parkinson Disease
+CSMD1,Parkinson Disease
+COL22A1,Parkinson Disease
+ADORA3,Parkinson Disease
+DCDC2C,Parkinson Disease
+ITGAL,Parkinson Disease
+SOX11,Parkinson Disease
+C9,Parkinson Disease
+ABCA5,Parkinson Disease
+ETV6,Parkinson Disease
+SCN2A,Parkinson Disease
+TCF12,Parkinson Disease
+ZNF615,Parkinson Disease
+CHI3L2,Parkinson Disease
+CUL2,Parkinson Disease
+DUSP27,Parkinson Disease
+SEMA6D,Parkinson Disease
+SQRDL,Parkinson Disease
+ZNF280D,Parkinson Disease
+CREM,Parkinson Disease
+KIAA1279,Parkinson Disease
+CRHBP,Parkinson Disease
+C3orf20,Parkinson Disease
+RPH3AL,Parkinson Disease
+COL2A1,Parkinson Disease
+SOX3,Parkinson Disease
+FAM49A,Parkinson Disease
+VPS41,Parkinson Disease
+SUN3,Parkinson Disease
+SGOL1,Parkinson Disease
+SCNN1A,Parkinson Disease
+PITX2,Parkinson Disease
+C10orf32,Parkinson Disease
+CCNY,Parkinson Disease
+ZMAT4,Parkinson Disease
+RBFOX3,Parkinson Disease
+LAMP1,Parkinson Disease
+LTBP1,Parkinson Disease
+SORCS1,Parkinson Disease
+PRDM13,Parkinson Disease
+VPS8,Parkinson Disease
+CGRRF1,Parkinson Disease
+LEKR1,Parkinson Disease
+POU6F2,Parkinson Disease
+TMEM108,Parkinson Disease
+CDK17,Parkinson Disease
+FGF12,Parkinson Disease
+TMEM132B,Parkinson Disease
+PDZRN4,Parkinson Disease
+PKDCC,Parkinson Disease
+C8orf86,Parkinson Disease
+PCDH18,Parkinson Disease
+DAW1,Parkinson Disease
+ERMP1,Parkinson Disease
+PRDM2,Parkinson Disease
+CSTL1,Parkinson Disease
+ZWINT,Parkinson Disease
+BANK1,Parkinson Disease
+CD93,Parkinson Disease
+FBN1,Parkinson Disease
+ADAMTS16,Parkinson Disease
+HSP90AA4P,Parkinson Disease
+DGCR5,Parkinson Disease
+CYB5RL,Parkinson Disease
+RIC1,Parkinson Disease
+GABBR2,Parkinson Disease
+EXT1,Parkinson Disease
+TRIQK,Parkinson Disease
+PLCB4,Parkinson Disease
+RUFY3,Parkinson Disease
+AOAH,Parkinson Disease
+CTIF,Parkinson Disease
+DPY19L2P3,Parkinson Disease
+NDUFS4,Parkinson Disease
+CTNNA3,Parkinson Disease
+RREB1,Parkinson Disease
+HYI,Parkinson Disease
+CDCA7L,Parkinson Disease
+TPK1,Parkinson Disease
+UNC13C,Parkinson Disease
+TMEM55A,Parkinson Disease
+ADAMTSL1,Parkinson Disease
+DNAJC1,Parkinson Disease
+PAK1,Parkinson Disease
+PARP4,Parkinson Disease
+ZDHHC8P1,Parkinson Disease
+HIVEP2,Parkinson Disease
+OTOG,Parkinson Disease
+FBXO3,Parkinson Disease
+USP36,Parkinson Disease
+AP1M1,Parkinson Disease
+AIMP1,Parkinson Disease
+CENPC,Parkinson Disease
+TNPO2,Parkinson Disease
+SPATA8,Parkinson Disease
+TCEAL2,Parkinson Disease
+TYW1B,Parkinson Disease
+FOSL2,Parkinson Disease
+IGSF5,Parkinson Disease
+LMOD1,Parkinson Disease
+MGAT5,Parkinson Disease
+NYAP2,Parkinson Disease
+TMEM128,Parkinson Disease
+FLJ41941,Parkinson Disease
+B3GALT2,Parkinson Disease
+COL4A1,Parkinson Disease
+SLC17A6,Parkinson Disease
+ALPPL2,Parkinson Disease
+CRACR2A,Parkinson Disease
+MT1F,Parkinson Disease
+KBTBD11,Parkinson Disease
+ITSN2,Parkinson Disease
+TMPRSS6,Parkinson Disease
+MBL2,Parkinson Disease
+HNRNPU,Parkinson Disease
+EXD2,Parkinson Disease
+EPS8L3,Parkinson Disease
+SGCZ,Parkinson Disease
+PTPRR,Parkinson Disease
+SNX10,Parkinson Disease
+CHORDC1,Parkinson Disease
+KIAA1715,Parkinson Disease
+IL1RL2,Parkinson Disease
+MAPRE2,Parkinson Disease
+FRMPD4,Parkinson Disease
+CDC14C,Parkinson Disease
+VWA5A,Parkinson Disease
+IL2RB,Parkinson Disease
+FAM69A,Parkinson Disease
+IRF8,Parkinson Disease
+LDLRAD4,Parkinson Disease
+ZNF385B,Parkinson Disease
+GPR156,Parkinson Disease
+TFPI,Parkinson Disease
+ZDHHC8,Parkinson Disease
+MACROD2,Parkinson Disease
+PMEPA1,Parkinson Disease
+RHOU,Parkinson Disease
+TBC1D22A,Parkinson Disease
+TLR4,Parkinson Disease
+PRRG4,Parkinson Disease
+DSG3,Parkinson Disease
+ATF6,Parkinson Disease
+PAX7,Parkinson Disease
+GFPT2,Parkinson Disease
+MGC57346,Parkinson Disease
+RAB25,Parkinson Disease
+RAI1,Parkinson Disease
+UNC13B,Parkinson Disease
+BTNL2,Parkinson Disease
+PRSS53,Parkinson Disease
+ZNF646,Parkinson Disease
+SH3GL2,Parkinson Disease
+CNKSR3,Parkinson Disease
+FDFT1,Parkinson Disease
+LRRK2,Dementia in Parkinson's disease
+TNFSF13B,Multiple Sclerosis
+APRT,Wolff-Parkinson-White Syndrome
+C9orf72,"Amyotrophic Lateral Sclerosis, Sporadic"
+PSEN2,Alzheimer's disease with early onset
+LRRK2,"PARKINSON DISEASE, LATE-ONSET"
+AR,Amyotrophic Lateral Sclerosis
+BCL2,Amyotrophic Lateral Sclerosis
+CDK5,Amyotrophic Lateral Sclerosis
+IGF1,Amyotrophic Lateral Sclerosis
+GRN,Parkinsonian Disorders
+KCNC3,Spinocerebellar Ataxias
+PDYN,Spinocerebellar Ataxias
+TK2,Spinocerebellar Ataxias
+BEAN1,Spinocerebellar Ataxias
+GH1,Creutzfeldt-Jakob Syndrome
+BDNF-AS,Alzheimer Disease
+TMEM106B,Frontotemporal Dementia
+TNF,"Multiple Sclerosis, Relapsing-Remitting"
+ATXN1,SPINOCEREBELLAR ATAXIA 2
+BDNF,Amyotrophic Lateral Sclerosis
+GTF2H1,Amyotrophic Lateral Sclerosis
+NFE2L2,Amyotrophic Lateral Sclerosis
+PRF1,Amyotrophic Lateral Sclerosis
+KHDRBS1,Amyotrophic Lateral Sclerosis
+NUP62,Amyotrophic Lateral Sclerosis
+DCTN4,Amyotrophic Lateral Sclerosis
+SGCG,Amyotrophic lateral sclerosis 1
+IGFALS,Parkinsonian Disorders
+PTEN,Parkinsonian Disorders
+TPO,Multiple System Atrophy
+TSHZ1,Spinocerebellar Ataxias
+APOE,GRN-related frontotemporal dementia
+CHMP2B,GRN-related frontotemporal dementia
+CSF2,"Creutzfeldt-Jakob Disease, Sporadic"
+LAMC2,"Creutzfeldt-Jakob Disease, Sporadic"
+HSPA4,Multiple Sclerosis
+SLC3A2,Multiple Sclerosis
+TUBB4A,Multiple Sclerosis
+AP5B1,Multiple Sclerosis
+MIR155,Multiple Sclerosis
+PDYN,SPINOCEREBELLAR ATAXIA 6
+FASN,Alzheimer Disease
+MCIDAS,Alzheimer Disease
+ACE,Alzheimer's disease with late onset
+PSEN1,Alzheimer's disease with late onset
+UBQLN2,Frontotemporal Dementia
+APP,Alzheimer's disease with early onset
+ADARB1,Amyotrophic Lateral Sclerosis
+NUP98,Amyotrophic Lateral Sclerosis
+TAF12,Amyotrophic Lateral Sclerosis
+XBP1,Amyotrophic Lateral Sclerosis
+TAF15,Amyotrophic Lateral Sclerosis
+TARDBP,Parkinsonian Disorders
+PTEN,Parkinson Disease
+VPS35,Parkinson Disease
+CD47,Multiple Sclerosis
+GEM,Multiple Sclerosis
+HPRT1,Multiple Sclerosis
+SERPINA1,Multiple Sclerosis
+SEC14L3,Multiple Sclerosis
+MIR326,Multiple Sclerosis
+REST,Huntington Disease
+ZNF141,Huntington Disease
+RPSA,Alzheimer Disease
+PAX5,Alzheimer Disease
+PPP2R4,Alzheimer Disease
+SUCLA2,Alzheimer Disease
+PDZD2,Alzheimer Disease
+SMUG1,Alzheimer Disease
+ANG,"Amyotrophic Lateral Sclerosis, Sporadic"
+APOE,"Amyotrophic Lateral Sclerosis, Sporadic"
+IGFALS,"Amyotrophic Lateral Sclerosis, Sporadic"
+VCP,"Amyotrophic Lateral Sclerosis, Sporadic"
+FGGY,"Amyotrophic Lateral Sclerosis, Sporadic"
+SORL1,Alzheimer's disease with late onset
+PARK2,Juvenile Parkinson's disease
+GAA,Friedreich Ataxia 1
+TSHZ1,SPINOCEREBELLAR ATAXIA 2
+GABPA,Amyotrophic Lateral Sclerosis
+XBP1P1,Amyotrophic Lateral Sclerosis
+PPARGC1A,Amyotrophic Lateral Sclerosis
+PDYN,spinocerebellar ataxia-7
+ATP13A2,Autosomal Recessive Parkinsonism
+PFN1,Amyotrophic lateral sclerosis 1
+TBP,Parkinsonian Disorders
+CIT,Parkinsonian Disorders
+DHDDS,Parkinsonian Disorders
+FYN,Multiple System Atrophy
+TPPP,Multiple System Atrophy
+SYNM,Multiple System Atrophy
+FXN,Spinocerebellar Ataxias
+TGM6,Spinocerebellar Ataxias
+LY6E,SPINOCEREBELLAR ATAXIA 1
+ATXN2,SPINOCEREBELLAR ATAXIA 1
+TARDBP,Inclusion Body Myopathy With Early-Onset Paget Disease And Frontotemporal Dementia
+C4BPA,Creutzfeldt-Jakob Syndrome
+PRDX2,Creutzfeldt-Jakob Syndrome
+ABCB6,Creutzfeldt-Jakob Syndrome
+CARD14,Creutzfeldt-Jakob Syndrome
+CHM,Parkinson Disease
+EIF4G1,Parkinson Disease
+FA2H,Neurodegeneration with brain iron accumulation (NBIA)
+PLB1,Neurodegeneration with brain iron accumulation (NBIA)
+SNCA,"Parkinson Disease, Familial, Type 1"
+LRRK2,"Parkinson Disease, Familial, Type 1"
+MUL1,"PARKINSON DISEASE 2, AUTOSOMAL RECESSIVE JUVENILE"
+ZNF645,"PARKINSON DISEASE 2, AUTOSOMAL RECESSIVE JUVENILE"
+CD34,Multiple Sclerosis
+S1PR1,Multiple Sclerosis
+FASN,Multiple Sclerosis
+GFAP,Multiple Sclerosis
+HLA-DOA,Multiple Sclerosis
+HRES1,Multiple Sclerosis
+NCAM1,Multiple Sclerosis
+RAB4A,Multiple Sclerosis
+VEGFA,Multiple Sclerosis
+NR0B2,Multiple Sclerosis
+SOCS1,Multiple Sclerosis
+MBTPS1,Multiple Sclerosis
+MMAB,Multiple Sclerosis
+ACE,Huntington Disease
+ATXN3,Huntington Disease
+RET,Huntington Disease
+WARS,Wolff-Parkinson-White Syndrome
+CD59,Alzheimer Disease
+SET,Alzheimer Disease
+BECN1,Alzheimer Disease
+MVP,Alzheimer Disease
+YWHAQ,Alzheimer Disease
+ITPR2,"Amyotrophic Lateral Sclerosis, Sporadic"
+OPTN,"Amyotrophic Lateral Sclerosis, Sporadic"
+PICALM,Alzheimer's disease with late onset
+DNAJC6,Juvenile Parkinson's disease
+ATP13A2,Juvenile Parkinson's disease
+PRNP,Frontotemporal Dementia
+APOE,Alzheimer's disease with early onset
+SLC1A6,SPINOCEREBELLAR ATAXIA 5
+ADA,Amyotrophic Lateral Sclerosis
+CASP1,Amyotrophic Lateral Sclerosis
+CUX1,Amyotrophic Lateral Sclerosis
+DECR1,Amyotrophic Lateral Sclerosis
+HCLS1,Amyotrophic Lateral Sclerosis
+HNRNPA1,Amyotrophic Lateral Sclerosis
+IL2RB,Amyotrophic Lateral Sclerosis
+INS,Amyotrophic Lateral Sclerosis
+LY6E,Amyotrophic Lateral Sclerosis
+NAIP,Amyotrophic Lateral Sclerosis
+NTF3,Amyotrophic Lateral Sclerosis
+P2RX7,Amyotrophic Lateral Sclerosis
+SGCG,Amyotrophic Lateral Sclerosis
+SOD2,Amyotrophic Lateral Sclerosis
+NELFE,Amyotrophic Lateral Sclerosis
+KHSRP,Amyotrophic Lateral Sclerosis
+RIMS2,Amyotrophic Lateral Sclerosis
+PSIP1,Amyotrophic Lateral Sclerosis
+SIRT1,Amyotrophic Lateral Sclerosis
+SIGLEC7,Amyotrophic Lateral Sclerosis
+SUGP1,Amyotrophic Lateral Sclerosis
+INS-IGF2,Amyotrophic Lateral Sclerosis
+BCL2,Amyotrophic lateral sclerosis 1
+OPTN,Amyotrophic lateral sclerosis 1
+EIF4G1,Parkinsonian Disorders
+MARK2,Parkinsonian Disorders
+TAF1,Parkinsonian Disorders
+C10orf2,Parkinsonian Disorders
+SOD1,AMYOTROPHIC LATERAL SCLEROSIS-PARKINSONISM/DEMENTIA COMPLEX 1
+CASP3,Spinocerebellar Ataxias
+F13A1,Spinocerebellar Ataxias
+GAA,Spinocerebellar Ataxias
+AR,SPINOCEREBELLAR ATAXIA 1
+CAT,SPINOCEREBELLAR ATAXIA 1
+CRAT,SPINOCEREBELLAR ATAXIA 1
+PDYN,SPINOCEREBELLAR ATAXIA 1
+ANP32A,SPINOCEREBELLAR ATAXIA 1
+GLYAT,SPINOCEREBELLAR ATAXIA 1
+UTS2R,GRN-related frontotemporal dementia
+C9orf72,Parkinson Disease
+HLA-DPB1,Opticospinal Multiple Sclerosis
+PLA2G1B,Neurodegeneration with brain iron accumulation (NBIA)
+YWHAZ,Neurodegeneration with brain iron accumulation (NBIA)
+EPHX3,"Creutzfeldt-Jakob Disease, Sporadic"
+EPHX4,"Creutzfeldt-Jakob Disease, Sporadic"
+HLA-DRB1,Primary progressive multiple sclerosis
+FRA6E,"PARKINSON DISEASE 2, AUTOSOMAL RECESSIVE JUVENILE"
+UBE2K,"PARKINSON DISEASE 2, AUTOSOMAL RECESSIVE JUVENILE"
+UBE2S,"PARKINSON DISEASE 2, AUTOSOMAL RECESSIVE JUVENILE"
+UBR5,"PARKINSON DISEASE 2, AUTOSOMAL RECESSIVE JUVENILE"
+TSHZ1,Spinocerebellar Ataxia 17
+ABCA1,Multiple Sclerosis
+ARSA,Multiple Sclerosis
+CD1B,Multiple Sclerosis
+CDR2,Multiple Sclerosis
+CHI3L1,Multiple Sclerosis
+FCGR1A,Multiple Sclerosis
+GC,Multiple Sclerosis
+HLA-DQA2,Multiple Sclerosis
+INS,Multiple Sclerosis
+ND4,Multiple Sclerosis
+PLP1,Multiple Sclerosis
+SP3,Multiple Sclerosis
+TALDO1,Multiple Sclerosis
+THBS1,Multiple Sclerosis
+IL22,Multiple Sclerosis
+IL17D,Multiple Sclerosis
+MYDGF,Multiple Sclerosis
+MMP25,Multiple Sclerosis
+RTN4R,Multiple Sclerosis
+CD276,Multiple Sclerosis
+IL27,Multiple Sclerosis
+LOC390714,Multiple Sclerosis
+CCR2,Multiple Sclerosis
+C20orf181,Multiple Sclerosis
+LOC100509457,Multiple Sclerosis
+LOC101060399,Multiple Sclerosis
+ADRA1D,SPINOCEREBELLAR ATAXIA 6
+APEX1,Huntington Disease
+DRD2,Huntington Disease
+IGF1,Huntington Disease
+IL6,Huntington Disease
+INS,Huntington Disease
+TSHZ1,Huntington Disease
+INS-IGF2,Huntington Disease
+BMP2,Wolff-Parkinson-White Syndrome
+ACTG1,Alzheimer Disease
+ACTG2,Alzheimer Disease
+ARR3,Alzheimer Disease
+C4A,Alzheimer Disease
+CXADR,Alzheimer Disease
+EEF1A2,Alzheimer Disease
+GTF2H1,Alzheimer Disease
+LCN2,Alzheimer Disease
+NOVA2,Alzheimer Disease
+PLA2G1B,Alzheimer Disease
+POLD1,Alzheimer Disease
+PPY,Alzheimer Disease
+PRKAR1A,Alzheimer Disease
+SGCG,Alzheimer Disease
+SLC1A2,Alzheimer Disease
+SPG7,Alzheimer Disease
+SYP,Alzheimer Disease
+FHL5,Alzheimer Disease
+CLOCK,Alzheimer Disease
+NR1I3,Alzheimer Disease
+TRIM13,Alzheimer Disease
+C1D,Alzheimer Disease
+KHDRBS1,Alzheimer Disease
+ACOT7,Alzheimer Disease
+NUP62,Alzheimer Disease
+DCTN4,Alzheimer Disease
+SLC2A14,Alzheimer Disease
+ACTBL2,Alzheimer Disease
+ACT,Alzheimer Disease
+POTEKP,Alzheimer Disease
+POTEM,Alzheimer Disease
+CXADRP1,Alzheimer Disease
+C4B_2,Alzheimer Disease
+IFNB1,Secondary progressive multiple sclerosis
+DPP6,"Amyotrophic Lateral Sclerosis, Sporadic"
+GRIA2,"Amyotrophic Lateral Sclerosis, Sporadic"
+GRM2,"Amyotrophic Lateral Sclerosis, Sporadic"
+HFE,"Amyotrophic Lateral Sclerosis, Sporadic"
+SMN1,"Amyotrophic Lateral Sclerosis, Sporadic"
+SMN2,"Amyotrophic Lateral Sclerosis, Sporadic"
+KIFAP3,"Amyotrophic Lateral Sclerosis, Sporadic"
+APP,Alzheimer's disease with late onset
+CLU,Alzheimer's disease with late onset
+CST3,Alzheimer's disease with late onset
+IDE,Alzheimer's disease with late onset
+GCH1,Juvenile Parkinson's disease
+CHMP1B,Infantile onset spinocerebellar ataxia
+GEMIN2,Mowat-Wilson syndrome
+SCAF11,Mowat-Wilson syndrome
+SLC9A3R2,Mowat-Wilson syndrome
+CSF2,Frontotemporal Dementia
+DNAH8,Frontotemporal Dementia
+LAMC2,Frontotemporal Dementia
+PFN1,Frontotemporal Dementia
+SNCA,Frontotemporal Dementia
+STH,Frontotemporal Dementia
+PDYN,SPINOCEREBELLAR ATAXIA 2
+UTS2R,Friedreich Ataxia
+SLC14A2,Friedreich Ataxia
+ASIP,Amyotrophic Lateral Sclerosis
+ASPA,Amyotrophic Lateral Sclerosis
+CNR2,Amyotrophic Lateral Sclerosis
+CYBB,Amyotrophic Lateral Sclerosis
+DES,Amyotrophic Lateral Sclerosis
+GAP43,Amyotrophic Lateral Sclerosis
+GARS,Amyotrophic Lateral Sclerosis
+NRG1,Amyotrophic Lateral Sclerosis
+MST1,Amyotrophic Lateral Sclerosis
+COX2,Amyotrophic Lateral Sclerosis
+NOS2,Amyotrophic Lateral Sclerosis
+P2RX4,Amyotrophic Lateral Sclerosis
+PPP2R4,Amyotrophic Lateral Sclerosis
+RENBP,Amyotrophic Lateral Sclerosis
+S100A6,Amyotrophic Lateral Sclerosis
+THY1,Amyotrophic Lateral Sclerosis
+ARTN,Amyotrophic Lateral Sclerosis
+ATG5,Amyotrophic Lateral Sclerosis
+AKT3,Amyotrophic Lateral Sclerosis
+TSHZ1,Amyotrophic Lateral Sclerosis
+P3H3,Amyotrophic Lateral Sclerosis
+PHGDH,Amyotrophic Lateral Sclerosis
+A1CF,Amyotrophic Lateral Sclerosis
+ARHGEF28,Amyotrophic Lateral Sclerosis
+EPHX3,Amyotrophic Lateral Sclerosis
+SPG11,Amyotrophic Lateral Sclerosis
+ROPN1L,Amyotrophic Lateral Sclerosis
+EPHX4,Amyotrophic Lateral Sclerosis
+ASPM,Amyotrophic Lateral Sclerosis
+KAT2A,spinocerebellar ataxia-7
+KAT2B,spinocerebellar ataxia-7
+PARK7,Autosomal Recessive Parkinsonism
+HSPA4,Amyotrophic lateral sclerosis 1
+PRF1,Amyotrophic lateral sclerosis 1
+ALS2,Amyotrophic lateral sclerosis 1
+SNCA,Autosomal Dominant Parkinsonism
+DNAH8,Parkinsonian Disorders
+EEF1A2,Parkinsonian Disorders
+FYN,Parkinsonian Disorders
+MPZ,Parkinsonian Disorders
+PRNP,Parkinsonian Disorders
+SYNJ1,Parkinsonian Disorders
+MPHOSPH6,Parkinsonian Disorders
+SYNM,Parkinsonian Disorders
+SPG11,Parkinsonian Disorders
+SLC11A2,"Frontotemporal Dementia, Chromosome 3-Linked"
+APOE,Multiple System Atrophy
+FMR1,Multiple System Atrophy
+COQ2,Multiple System Atrophy
+IGFALS,AMYOTROPHIC LATERAL SCLEROSIS-PARKINSONISM/DEMENTIA COMPLEX 1
+KCND3,Spinocerebellar Ataxias
+PCYT1A,Spinocerebellar Ataxias
+TGM5,Spinocerebellar Ataxias
+CANT1,Spinocerebellar Ataxias
+GARS,Distal spinal muscular atrophy
+TRPV4,Distal spinal muscular atrophy
+VCP,GRN-related frontotemporal dementia
+SQSTM1,GRN-related frontotemporal dementia
+LRRK2,GRN-related frontotemporal dementia
+GFAP,Creutzfeldt-Jakob Syndrome
+ATP13A2,Neurodegeneration with brain iron accumulation (NBIA)
+DNAH8,Parkinson disease 9
+CSF1R,Primary progressive multiple sclerosis
+TNF,Primary progressive multiple sclerosis
+RBM45,Primary progressive multiple sclerosis
+ATP13A2,"PARKINSON DISEASE 2, AUTOSOMAL RECESSIVE JUVENILE"
+PINK1,"PARKINSON DISEASE 2, AUTOSOMAL RECESSIVE JUVENILE"
+ACP1,Multiple Sclerosis
+AGER,Multiple Sclerosis
+ALCAM,Multiple Sclerosis
+AMH,Multiple Sclerosis
+CD1C,Multiple Sclerosis
+CD1D,Multiple Sclerosis
+CD19,Multiple Sclerosis
+MS4A1,Multiple Sclerosis
+CISH,Multiple Sclerosis
+CCR4,Multiple Sclerosis
+NQO1,Multiple Sclerosis
+DPP4,Multiple Sclerosis
+EPO,Multiple Sclerosis
+ERV3-1,Multiple Sclerosis
+FCGRT,Multiple Sclerosis
+GJB1,Multiple Sclerosis
+NR4A1,Multiple Sclerosis
+HSPA1A,Multiple Sclerosis
+HSPA1B,Multiple Sclerosis
+ICA1,Multiple Sclerosis
+IGBP1,Multiple Sclerosis
+IGF1,Multiple Sclerosis
+IL15,Multiple Sclerosis
+ITGAM,Multiple Sclerosis
+ITGB2,Multiple Sclerosis
+LBR,Multiple Sclerosis
+LY6E,Multiple Sclerosis
+MGAT1,Multiple Sclerosis
+MMP14,Multiple Sclerosis
+MST1,Multiple Sclerosis
+COX2,Multiple Sclerosis
+MTR,Multiple Sclerosis
+OMG,Multiple Sclerosis
+PLA2G4A,Multiple Sclerosis
+MAPK8,Multiple Sclerosis
+REG1A,Multiple Sclerosis
+S100A8,Multiple Sclerosis
+S100A9,Multiple Sclerosis
+S100B,Multiple Sclerosis
+SDC1,Multiple Sclerosis
+TNFRSF1B,Multiple Sclerosis
+ARHGEF5,Multiple Sclerosis
+TIMELESS,Multiple Sclerosis
+SEC14L2,Multiple Sclerosis
+CCRN4L,Multiple Sclerosis
+HPGDS,Multiple Sclerosis
+DLL1,Multiple Sclerosis
+BLNK,Multiple Sclerosis
+KRT20,Multiple Sclerosis
+MEPE,Multiple Sclerosis
+GJC2,Multiple Sclerosis
+AICDA,Multiple Sclerosis
+CNOT6,Multiple Sclerosis
+MMEL1,Multiple Sclerosis
+MOGAT1,Multiple Sclerosis
+C9orf72,Multiple Sclerosis
+NANOS1,Multiple Sclerosis
+LINC01193,Multiple Sclerosis
+INS-IGF2,Multiple Sclerosis
+ERVK-2,Multiple Sclerosis
+ERVK-12,Multiple Sclerosis
+ERVK-22,Multiple Sclerosis
+ERVK-18,Multiple Sclerosis
+ERVK-11,Multiple Sclerosis
+LINC00914,Multiple Sclerosis
+CASP3,SPINOCEREBELLAR ATAXIA 6
+LY6E,SPINOCEREBELLAR ATAXIA 6
+ATXN3,SPINOCEREBELLAR ATAXIA 6
+ATXN1,SPINOCEREBELLAR ATAXIA 6
+ATXN2,SPINOCEREBELLAR ATAXIA 6
+ADD1,Huntington Disease
+AGER,Huntington Disease
+AR,Huntington Disease
+BCL2,Huntington Disease
+CASP3,Huntington Disease
+CASP6,Huntington Disease
+CDKN1B,Huntington Disease
+EPO,Huntington Disease
+FUS,Huntington Disease
+GLO1,Huntington Disease
+HFE,Huntington Disease
+HSPA4,Huntington Disease
+IL1B,Huntington Disease
+IL13,Huntington Disease
+KRT7,Huntington Disease
+NFE2L2,Huntington Disease
+SERPINE1,Huntington Disease
+PON1,Huntington Disease
+PTH,Huntington Disease
+MOK,Huntington Disease
+TAL1,Huntington Disease
+TNF,Huntington Disease
+KMO,Huntington Disease
+KL,Huntington Disease
+SIRT2,Huntington Disease
+SIRT1,Huntington Disease
+SCLY,Huntington Disease
+PPP1R1B,Huntington Disease
+RBFOX3,Huntington Disease
+BDNF-AS,Huntington Disease
+LINC00914,Huntington Disease
+JAG1,Wolff-Parkinson-White Syndrome
+BAG1,Alzheimer Disease
+BLVRA,Alzheimer Disease
+C2,Alzheimer Disease
+DDR1,Alzheimer Disease
+CASP1,Alzheimer Disease
+CD36,Alzheimer Disease
+CHRM1,Alzheimer Disease
+COL3A1,Alzheimer Disease
+COX8A,Alzheimer Disease
+CTNND2,Alzheimer Disease
+CTSB,Alzheimer Disease
+DNM1,Alzheimer Disease
+ELK3,Alzheimer Disease
+MARK2,Alzheimer Disease
+F2R,Alzheimer Disease
+FN1,Alzheimer Disease
+UTS2R,Alzheimer Disease
+HSPA9,Alzheimer Disease
+HTR1F,Alzheimer Disease
+IL9,Alzheimer Disease
+IL9R,Alzheimer Disease
+INSR,Alzheimer Disease
+MBL2,Alzheimer Disease
+RNR2,Alzheimer Disease
+PEBP1,Alzheimer Disease
+PECAM1,Alzheimer Disease
+PKLR,Alzheimer Disease
+MAPK8,Alzheimer Disease
+REG1A,Alzheimer Disease
+SPAST,Alzheimer Disease
+STAT3,Alzheimer Disease
+VCP,Alzheimer Disease
+VDAC1,Alzheimer Disease
+CXCR4,Alzheimer Disease
+SLC14A2,Alzheimer Disease
+NR1I2,Alzheimer Disease
+F2RL3,Alzheimer Disease
+ABCB6,Alzheimer Disease
+DNM1L,Alzheimer Disease
+TSHZ1,Alzheimer Disease
+OLFM1,Alzheimer Disease
+KAT5,Alzheimer Disease
+TPPP,Alzheimer Disease
+NLRP1,Alzheimer Disease
+NCOA6,Alzheimer Disease
+GTPBP4,Alzheimer Disease
+QPCT,Alzheimer Disease
+HPGDS,Alzheimer Disease
+DLL1,Alzheimer Disease
+MBL3P,Alzheimer Disease
+RMDN1,Alzheimer Disease
+KRT20,Alzheimer Disease
+RMDN3,Alzheimer Disease
+SYBU,Alzheimer Disease
+SEMA6A,Alzheimer Disease
+NGB,Alzheimer Disease
+WNK1,Alzheimer Disease
+SLC52A2,Alzheimer Disease
+EBPL,Alzheimer Disease
+SLCO6A1,Alzheimer Disease
+PWAR1,Alzheimer Disease
+PDIK1L,Alzheimer Disease
+PLB1,Alzheimer Disease
+RMDN2,Alzheimer Disease
+FSIP1,Alzheimer Disease
+NPCA1,Alzheimer Disease
+TAS2R62P,Alzheimer Disease
+NANOS2,Alzheimer Disease
+PWAR4,Alzheimer Disease
+GSTK1,Alzheimer Disease
+LOC102724560,Alzheimer Disease
+TNF,Secondary progressive multiple sclerosis
+CAT,"Amyotrophic Lateral Sclerosis, Sporadic"
+CHRNA4,"Amyotrophic Lateral Sclerosis, Sporadic"
+STMN1,"Amyotrophic Lateral Sclerosis, Sporadic"
+PFN1,"Amyotrophic Lateral Sclerosis, Sporadic"
+PON2,"Amyotrophic Lateral Sclerosis, Sporadic"
+PRF1,"Amyotrophic Lateral Sclerosis, Sporadic"
+SLC1A2,"Amyotrophic Lateral Sclerosis, Sporadic"
+SNRPN,"Amyotrophic Lateral Sclerosis, Sporadic"
+SQSTM1,"Amyotrophic Lateral Sclerosis, Sporadic"
+UNC13A,"Amyotrophic Lateral Sclerosis, Sporadic"
+SETX,"Amyotrophic Lateral Sclerosis 2, Juvenile"
+BIN1,Alzheimer's disease with late onset
+CDK1,Alzheimer's disease with late onset
+NR3C2,Alzheimer's disease with late onset
+PLAU,Alzheimer's disease with late onset
+POLD1,Alzheimer's disease with late onset
+PVRL2,Alzheimer's disease with late onset
+THOP1,Alzheimer's disease with late onset
+TNF,Alzheimer's disease with late onset
+ABCA7,Alzheimer's disease with late onset
+TOMM40,Alzheimer's disease with late onset
+CALHM1,Alzheimer's disease with late onset
+LRRTM3,Alzheimer's disease with late onset
+TH,Juvenile Parkinson's disease
+SPG11,Juvenile Parkinson's disease
+EIF4G2,Frontotemporal Dementia
+GTF2H1,Frontotemporal Dementia
+PSMD2,Frontotemporal Dementia
+ATXN2,Frontotemporal Dementia
+SQSTM1,Frontotemporal Dementia
+CFDP1,Frontotemporal Dementia
+KHDRBS1,Frontotemporal Dementia
+YWHAQ,Frontotemporal Dementia
+NUP62,Frontotemporal Dementia
+GEMIN4,Frontotemporal Dementia
+DCTN4,Frontotemporal Dementia
+MIR659,Frontotemporal Dementia
+SORL1,Alzheimer's disease with early onset
+NCSTN,Alzheimer's disease with early onset
+FUS,"Amyotrophic lateral sclerosis, type 6"
+IL2RA,"Multiple Sclerosis, Relapsing-Remitting"
+ISG20,"Multiple Sclerosis, Relapsing-Remitting"
+MBP,"Multiple Sclerosis, Relapsing-Remitting"
+RBM45,"Multiple Sclerosis, Relapsing-Remitting"
+FANCC,Friedreich Ataxia 1
+FLNB,Friedreich Ataxia 1
+SCT,Friedreich Ataxia 1
+DXO,SPINOCEREBELLAR ATAXIA 2
+RAI1,SPINOCEREBELLAR ATAXIA 2
+TARDBP,SPINOCEREBELLAR ATAXIA 2
+RNASE12,SPINOCEREBELLAR ATAXIA 2
+VPS35,"PARKINSON DISEASE, LATE-ONSET"
+PINK1,"PARKINSON DISEASE, LATE-ONSET"
+C4BPA,Variant Creutzfeldt-Jakob disease
+COX8A,Variant Creutzfeldt-Jakob disease
+PRDX2,Variant Creutzfeldt-Jakob disease
+ABCB6,Variant Creutzfeldt-Jakob disease
+STMN2,Variant Creutzfeldt-Jakob disease
+CARD14,Variant Creutzfeldt-Jakob disease
+C21orf2,Friedreich Ataxia
+DLD,Friedreich Ataxia
+INS,Friedreich Ataxia
+CTCF,Friedreich Ataxia
+APTX,Friedreich Ataxia
+CTCFL,Friedreich Ataxia
+INS-IGF2,Friedreich Ataxia
+ADAR,Amyotrophic Lateral Sclerosis
+AIF1,Amyotrophic Lateral Sclerosis
+ALS3,Amyotrophic Lateral Sclerosis
+XIAP,Amyotrophic Lateral Sclerosis
+APRT,Amyotrophic Lateral Sclerosis
+BCL2L1,Amyotrophic Lateral Sclerosis
+CAT,Amyotrophic Lateral Sclerosis
+CD14,Amyotrophic Lateral Sclerosis
+CREBBP,Amyotrophic Lateral Sclerosis
+CS,Amyotrophic Lateral Sclerosis
+MAPK14,Amyotrophic Lateral Sclerosis
+CTF1,Amyotrophic Lateral Sclerosis
+CYP27A1,Amyotrophic Lateral Sclerosis
+DNM2,Amyotrophic Lateral Sclerosis
+DNMT1,Amyotrophic Lateral Sclerosis
+EPHA4,Amyotrophic Lateral Sclerosis
+EWSR1,Amyotrophic Lateral Sclerosis
+FGF2,Amyotrophic Lateral Sclerosis
+GAPDH,Amyotrophic Lateral Sclerosis
+UTS2R,Amyotrophic Lateral Sclerosis
+GRM5,Amyotrophic Lateral Sclerosis
+HMOX1,Amyotrophic Lateral Sclerosis
+HRES1,Amyotrophic Lateral Sclerosis
+HSPA4,Amyotrophic Lateral Sclerosis
+HSPB1,Amyotrophic Lateral Sclerosis
+IFNG,Amyotrophic Lateral Sclerosis
+KDR,Amyotrophic Lateral Sclerosis
+TNPO1,Amyotrophic Lateral Sclerosis
+LCN2,Amyotrophic Lateral Sclerosis
+LGALS1,Amyotrophic Lateral Sclerosis
+LIG4,Amyotrophic Lateral Sclerosis
+MAP3K5,Amyotrophic Lateral Sclerosis
+KITLG,Amyotrophic Lateral Sclerosis
+MSMB,Amyotrophic Lateral Sclerosis
+NDUFA2,Amyotrophic Lateral Sclerosis
+P2RX1,Amyotrophic Lateral Sclerosis
+P2RX3,Amyotrophic Lateral Sclerosis
+P2RX5,Amyotrophic Lateral Sclerosis
+P2RY1,Amyotrophic Lateral Sclerosis
+P2RY2,Amyotrophic Lateral Sclerosis
+PDC,Amyotrophic Lateral Sclerosis
+RAN,Amyotrophic Lateral Sclerosis
+RBP4,Amyotrophic Lateral Sclerosis
+RNASE1,Amyotrophic Lateral Sclerosis
+SHH,Amyotrophic Lateral Sclerosis
+SLC1A1,Amyotrophic Lateral Sclerosis
+SOS1,Amyotrophic Lateral Sclerosis
+SOS2,Amyotrophic Lateral Sclerosis
+SPAST,Amyotrophic Lateral Sclerosis
+STAT5A,Amyotrophic Lateral Sclerosis
+TAT,Amyotrophic Lateral Sclerosis
+TFAM,Amyotrophic Lateral Sclerosis
+TGM2,Amyotrophic Lateral Sclerosis
+TRN-GTT2-1,Amyotrophic Lateral Sclerosis
+TTR,Amyotrophic Lateral Sclerosis
+TXN,Amyotrophic Lateral Sclerosis
+SLC14A2,Amyotrophic Lateral Sclerosis
+BLZF1,Amyotrophic Lateral Sclerosis
+CDK5R1,Amyotrophic Lateral Sclerosis
+P2RX6,Amyotrophic Lateral Sclerosis
+VAPA,Amyotrophic Lateral Sclerosis
+HDAC9,Amyotrophic Lateral Sclerosis
+KEAP1,Amyotrophic Lateral Sclerosis
+TPPP,Amyotrophic Lateral Sclerosis
+ATF6,Amyotrophic Lateral Sclerosis
+P2RX2,Amyotrophic Lateral Sclerosis
+PDZD2,Amyotrophic Lateral Sclerosis
+PNKD,Amyotrophic Lateral Sclerosis
+BSCL2,Amyotrophic Lateral Sclerosis
+HPGDS,Amyotrophic Lateral Sclerosis
+TREM2,Amyotrophic Lateral Sclerosis
+TMEM106B,Amyotrophic Lateral Sclerosis
+TMED9,Amyotrophic Lateral Sclerosis
+TRPM7,Amyotrophic Lateral Sclerosis
+CCDC88A,Amyotrophic Lateral Sclerosis
+ZNF512B,Amyotrophic Lateral Sclerosis
+DERL1,Amyotrophic Lateral Sclerosis
+ATAT1,Amyotrophic Lateral Sclerosis
+TMPRSS13,Amyotrophic Lateral Sclerosis
+DCTN5,Amyotrophic Lateral Sclerosis
+LMLN,Amyotrophic Lateral Sclerosis
+LRRK2,Amyotrophic Lateral Sclerosis
+SLCO6A1,Amyotrophic Lateral Sclerosis
+GSTK1,Amyotrophic Lateral Sclerosis
+MIR206,Amyotrophic Lateral Sclerosis
+MIR338,Amyotrophic Lateral Sclerosis
+LY6E,spinocerebellar ataxia-7
+ATXN3,spinocerebellar ataxia-7
+ATXN2,spinocerebellar ataxia-7
+PTEN,Autosomal Recessive Parkinsonism
+LRRK2,Autosomal Recessive Parkinsonism
+APP,Amyotrophic lateral sclerosis 1
+CASP3,Amyotrophic lateral sclerosis 1
+GRIK1,Amyotrophic lateral sclerosis 1
+LIF,Amyotrophic lateral sclerosis 1
+MSMB,Amyotrophic lateral sclerosis 1
+MST1,Amyotrophic lateral sclerosis 1
+TAF12,Amyotrophic lateral sclerosis 1
+TXN,Amyotrophic lateral sclerosis 1
+TXNRD1,Amyotrophic lateral sclerosis 1
+TAF15,Amyotrophic lateral sclerosis 1
+VAPB,Amyotrophic lateral sclerosis 1
+CCS,Amyotrophic lateral sclerosis 1
+AKT3,Amyotrophic lateral sclerosis 1
+UBQLN2,Amyotrophic lateral sclerosis 1
+TMPRSS13,Amyotrophic lateral sclerosis 1
+LMLN,Amyotrophic lateral sclerosis 1
+BRCA2,familial alzheimer disease
+CASP6,familial alzheimer disease
+CSF2,familial alzheimer disease
+LAMC2,familial alzheimer disease
+PRNP,familial alzheimer disease
+GH1,Iatrogenic Creutzfeldt-Jakob disease
+PRNP,Iatrogenic Creutzfeldt-Jakob disease
+DCTN1,Autosomal Dominant Parkinsonism
+LY6E,Autosomal Dominant Parkinsonism
+ATXN2,Autosomal Dominant Parkinsonism
+APOE,Parkinsonian Disorders
+TOR1A,Parkinsonian Disorders
+GFAP,Parkinsonian Disorders
+GSTP1,Parkinsonian Disorders
+UBE2K,Parkinsonian Disorders
+LRP2,Parkinsonian Disorders
+MAOB,Parkinsonian Disorders
+CYTB,Parkinsonian Disorders
+RIEG2,Parkinsonian Disorders
+ATXN8OS,Parkinsonian Disorders
+TNF,Parkinsonian Disorders
+UCHL1,Parkinsonian Disorders
+NELFE,Parkinsonian Disorders
+DNAJC6,Parkinsonian Disorders
+MCF2L,Parkinsonian Disorders
+UBE2S,Parkinsonian Disorders
+UBR5,Parkinsonian Disorders
+SLC30A10,Parkinsonian Disorders
+NIF3L1,Parkinsonian Disorders
+PANK2,Parkinsonian Disorders
+DMRT1,"Frontotemporal Dementia, Chromosome 3-Linked"
+LY6E,Multiple System Atrophy
+ATXN3,Multiple System Atrophy
+PRNP,Multiple System Atrophy
+ATXN1,Multiple System Atrophy
+SHC2,Multiple System Atrophy
+PINK1,Multiple System Atrophy
+C9orf72,Multiple System Atrophy
+CSF1,Alzheimer Disease 10
+HTT,Juvenile onset Huntington's disease
+GLO1,Spinocerebellar Ataxias
+HTT,Spinocerebellar Ataxias
+HLA-A,Spinocerebellar Ataxias
+ELOVL4,Spinocerebellar Ataxias
+NOP56,Spinocerebellar Ataxias
+APTX,Spinocerebellar Ataxias
+KLHL1,Spinocerebellar Ataxias
+IGHMBP2,Distal spinal muscular atrophy
+SMN1,Distal spinal muscular atrophy
+SMN2,Distal spinal muscular atrophy
+CACNA1A,SPINOCEREBELLAR ATAXIA 1
+AFF2,SPINOCEREBELLAR ATAXIA 1
+FRAXE,SPINOCEREBELLAR ATAXIA 1
+PQBP1,SPINOCEREBELLAR ATAXIA 1
+GTF2H1,GRN-related frontotemporal dementia
+PSEN1,GRN-related frontotemporal dementia
+SOD1,GRN-related frontotemporal dementia
+NELFE,GRN-related frontotemporal dementia
+RIMS2,GRN-related frontotemporal dementia
+KHDRBS1,GRN-related frontotemporal dementia
+NUP62,GRN-related frontotemporal dementia
+DCTN4,GRN-related frontotemporal dementia
+TREM2,GRN-related frontotemporal dementia
+PAX5,Creutzfeldt-Jakob Syndrome
+YWHAB,Creutzfeldt-Jakob Syndrome
+ANG,Parkinson Disease
+CDK5,Parkinson Disease
+CRMP1,Parkinson Disease
+CSF2,Parkinson Disease
+MARK2,Parkinson Disease
+FXN,Parkinson Disease
+UTS2R,Parkinson Disease
+GPR37,Parkinson Disease
+LAMC2,Parkinson Disease
+UTRN,Parkinson Disease
+DENR,Parkinson Disease
+DNM1L,Parkinson Disease
+CIT,Parkinson Disease
+TBC1D9,Parkinson Disease
+SYNM,Parkinson Disease
+DAPK2,Parkinson Disease
+HPGDS,Parkinson Disease
+DHDDS,Parkinson Disease
+AFP,"Spinocerebellar ataxia, autosomal recessive 1"
+FXN,"Spinocerebellar ataxia, autosomal recessive 1"
+HLA-DRB1,Opticospinal Multiple Sclerosis
+FTL,Neurodegeneration with brain iron accumulation (NBIA)
+RNU1-4,Alzheimer Disease 12
+RNU2-1,Alzheimer Disease 12
+RNU1-1,Alzheimer Disease 12
+APOE,Dementia in Parkinson's disease
+MAPT,Dementia in Parkinson's disease
+APOE,"Creutzfeldt-Jakob Disease, Sporadic"
+CTSD,"Creutzfeldt-Jakob Disease, Sporadic"
+ENO2,"Creutzfeldt-Jakob Disease, Sporadic"
+MAPT,"Creutzfeldt-Jakob Disease, Sporadic"
+PRND,"Creutzfeldt-Jakob Disease, Sporadic"
+ASIC1,Primary progressive multiple sclerosis
+CASP8,Primary progressive multiple sclerosis
+GRN,Primary progressive multiple sclerosis
+MTR,Primary progressive multiple sclerosis
+OMG,Primary progressive multiple sclerosis
+PLP1,Primary progressive multiple sclerosis
+DMD,"PARKINSON DISEASE 2, AUTOSOMAL RECESSIVE JUVENILE"
+GCH1,"PARKINSON DISEASE 2, AUTOSOMAL RECESSIVE JUVENILE"
+GPR37,"PARKINSON DISEASE 2, AUTOSOMAL RECESSIVE JUVENILE"
+Sep.05,"PARKINSON DISEASE 2, AUTOSOMAL RECESSIVE JUVENILE"
+SOD2,"PARKINSON DISEASE 2, AUTOSOMAL RECESSIVE JUVENILE"
+TBP,"PARKINSON DISEASE 2, AUTOSOMAL RECESSIVE JUVENILE"
+RNF19A,"PARKINSON DISEASE 2, AUTOSOMAL RECESSIVE JUVENILE"
+ACHE,Alzheimer disease type 2
+CHAT,Alzheimer disease type 2
+RPSA,Alzheimer disease type 2
+LRP1,Alzheimer disease type 2
+PTPRA,Alzheimer disease type 2
+SLC3A2,Alzheimer disease type 2
+THOP1,Alzheimer disease type 2
+MVP,Alzheimer disease type 2
+RBPJ,Spinocerebellar Ataxia 17
+CIT,Spinocerebellar Ataxia 17
+BACE1,Spinocerebellar Ataxia 17
+DHDDS,Spinocerebellar Ataxia 17
+ASIC1,Multiple Sclerosis
+ALB,Multiple Sclerosis
+APOD,Multiple Sclerosis
+ATF3,Multiple Sclerosis
+AZF1,Multiple Sclerosis
+B2M,Multiple Sclerosis
+BCL2L2,Multiple Sclerosis
+BLK,Multiple Sclerosis
+BMP1,Multiple Sclerosis
+BMP2,Multiple Sclerosis
+BMP4,Multiple Sclerosis
+BMP5,Multiple Sclerosis
+BMP7,Multiple Sclerosis
+DST,Multiple Sclerosis
+TSPO,Multiple Sclerosis
+C3,Multiple Sclerosis
+C3AR1,Multiple Sclerosis
+CAST,Multiple Sclerosis
+CDKN1C,Multiple Sclerosis
+CDKN2A,Multiple Sclerosis
+CDKN2D,Multiple Sclerosis
+CDX2,Multiple Sclerosis
+CLDN3,Multiple Sclerosis
+CR2,Multiple Sclerosis
+CREB1,Multiple Sclerosis
+CRHR1,Multiple Sclerosis
+CRK,Multiple Sclerosis
+CRYGC,Multiple Sclerosis
+CRYZ,Multiple Sclerosis
+MAPK14,Multiple Sclerosis
+CSF1R,Multiple Sclerosis
+CSN3,Multiple Sclerosis
+CST3,Multiple Sclerosis
+CTSZ,Multiple Sclerosis
+CUX1,Multiple Sclerosis
+DCN,Multiple Sclerosis
+DECR1,Multiple Sclerosis
+DHCR7,Multiple Sclerosis
+DPYSL2,Multiple Sclerosis
+SLC26A3,Multiple Sclerosis
+DRD2,Multiple Sclerosis
+DSPP,Multiple Sclerosis
+EEF1A2,Multiple Sclerosis
+EVI2A,Multiple Sclerosis
+F9,Multiple Sclerosis
+FABP7,Multiple Sclerosis
+FLNB,Multiple Sclerosis
+FMR1,Multiple Sclerosis
+FRAXA,Multiple Sclerosis
+ACKR1,Multiple Sclerosis
+GABPA,Multiple Sclerosis
+GAP43,Multiple Sclerosis
+GAS6,Multiple Sclerosis
+GGT1,Multiple Sclerosis
+GLI1,Multiple Sclerosis
+GP1BA,Multiple Sclerosis
+GPR3,Multiple Sclerosis
+GPER1,Multiple Sclerosis
+GRN,Multiple Sclerosis
+GRM1,Multiple Sclerosis
+GRM4,Multiple Sclerosis
+GRM5,Multiple Sclerosis
+GRM8,Multiple Sclerosis
+CXCL1,Multiple Sclerosis
+GZMK,Multiple Sclerosis
+H2AFX,Multiple Sclerosis
+HCCS,Multiple Sclerosis
+CFH,Multiple Sclerosis
+NRG1,Multiple Sclerosis
+HIF1A,Multiple Sclerosis
+HOXB4,Multiple Sclerosis
+HSD17B4,Multiple Sclerosis
+IFI16,Multiple Sclerosis
+IL9,Multiple Sclerosis
+TNFRSF9,Multiple Sclerosis
+ITGAL,Multiple Sclerosis
+ITGAX,Multiple Sclerosis
+KCNJ10,Multiple Sclerosis
+KLRC2,Multiple Sclerosis
+RPSA,Multiple Sclerosis
+LCN2,Multiple Sclerosis
+LMNA,Multiple Sclerosis
+LPA,Multiple Sclerosis
+CYP4F3,Multiple Sclerosis
+MAG,Multiple Sclerosis
+MAP2,Multiple Sclerosis
+MEF2BNB-MEF2B,Multiple Sclerosis
+MAP3K5,Multiple Sclerosis
+KMT2A,Multiple Sclerosis
+NR3C2,Multiple Sclerosis
+MMP7,Multiple Sclerosis
+MMP8,Multiple Sclerosis
+CD200,Multiple Sclerosis
+MYCN,Multiple Sclerosis
+MYT1,Multiple Sclerosis
+NDUFA2,Multiple Sclerosis
+NEUROD1,Multiple Sclerosis
+NFE2L2,Multiple Sclerosis
+NOTCH3,Multiple Sclerosis
+NTRK1,Multiple Sclerosis
+NR4A2,Multiple Sclerosis
+OSM,Multiple Sclerosis
+CLDN11,Multiple Sclerosis
+SERPINB2,Multiple Sclerosis
+PAX5,Multiple Sclerosis
+SLC25A3,Multiple Sclerosis
+SERPINI1,Multiple Sclerosis
+PKLR,Multiple Sclerosis
+PLA2G1B,Multiple Sclerosis
+PLA2G2A,Multiple Sclerosis
+PLG,Multiple Sclerosis
+PPP2R4,Multiple Sclerosis
+PRCP,Multiple Sclerosis
+PRKAR1A,Multiple Sclerosis
+PKN2,Multiple Sclerosis
+EIF2AK2,Multiple Sclerosis
+LGMN,Multiple Sclerosis
+MASP1,Multiple Sclerosis
+PSMD4,Multiple Sclerosis
+PSMD7,Multiple Sclerosis
+PTPRM,Multiple Sclerosis
+PTPRN,Multiple Sclerosis
+PTPRZ1,Multiple Sclerosis
+RAP1A,Multiple Sclerosis
+RFX1,Multiple Sclerosis
+S100A1,Multiple Sclerosis
+ATXN8OS,Multiple Sclerosis
+CCL19,Multiple Sclerosis
+CCL20,Multiple Sclerosis
+CCL21,Multiple Sclerosis
+SPAST,Multiple Sclerosis
+STAT6,Multiple Sclerosis
+STK4,Multiple Sclerosis
+SYT1,Multiple Sclerosis
+NR2F1,Multiple Sclerosis
+NR2F2,Multiple Sclerosis
+THOP1,Multiple Sclerosis
+TIMP3,Multiple Sclerosis
+TP73,Multiple Sclerosis
+TUBA4A,Multiple Sclerosis
+TYRP1,Multiple Sclerosis
+YWHAZ,Multiple Sclerosis
+SCG2,Multiple Sclerosis
+AIMP2,Multiple Sclerosis
+CDK2AP1,Multiple Sclerosis
+DYSF,Multiple Sclerosis
+AXIN2,Multiple Sclerosis
+PLA2G6,Multiple Sclerosis
+PPFIBP1,Multiple Sclerosis
+COPS3,Multiple Sclerosis
+USO1,Multiple Sclerosis
+TP63,Multiple Sclerosis
+KCNK5,Multiple Sclerosis
+TNFSF13,Multiple Sclerosis
+TNFRSF14,Multiple Sclerosis
+HDAC3,Multiple Sclerosis
+NR1I2,Multiple Sclerosis
+BSN,Multiple Sclerosis
+SOCS3,Multiple Sclerosis
+ARHGEF2,Multiple Sclerosis
+MSC,Multiple Sclerosis
+SNORD27,Multiple Sclerosis
+KL,Multiple Sclerosis
+GRAP2,Multiple Sclerosis
+NCR1,Multiple Sclerosis
+ATG5,Multiple Sclerosis
+ADAMTS4,Multiple Sclerosis
+ADAMTS3,Multiple Sclerosis
+ADAMTS1,Multiple Sclerosis
+CYTIP,Multiple Sclerosis
+PTDSS1,Multiple Sclerosis
+SUPT7L,Multiple Sclerosis
+MFN2,Multiple Sclerosis
+IL18BP,Multiple Sclerosis
+PTPRU,Multiple Sclerosis
+EBI3,Multiple Sclerosis
+RABEPK,Multiple Sclerosis
+LANCL1,Multiple Sclerosis
+ABCA7,Multiple Sclerosis
+SEMA3A,Multiple Sclerosis
+TUBB4B,Multiple Sclerosis
+NDRG1,Multiple Sclerosis
+PEMT,Multiple Sclerosis
+FST,Multiple Sclerosis
+NXF1,Multiple Sclerosis
+CRTAP,Multiple Sclerosis
+KAT5,Multiple Sclerosis
+ANP32B,Multiple Sclerosis
+CXCL13,Multiple Sclerosis
+AHSA1,Multiple Sclerosis
+MASP2,Multiple Sclerosis
+PPARGC1A,Multiple Sclerosis
+MMP24,Multiple Sclerosis
+EHD1,Multiple Sclerosis
+EBNA1BP2,Multiple Sclerosis
+METAP2,Multiple Sclerosis
+IMMT,Multiple Sclerosis
+USP18,Multiple Sclerosis
+SIRT1,Multiple Sclerosis
+BACE1,Multiple Sclerosis
+METTL21B,Multiple Sclerosis
+RNF19A,Multiple Sclerosis
+POLDIP2,Multiple Sclerosis
+IGHV4-39,Multiple Sclerosis
+DEXI,Multiple Sclerosis
+UHRF1,Multiple Sclerosis
+TBX21,Multiple Sclerosis
+CXXC1,Multiple Sclerosis
+DUOX2,Multiple Sclerosis
+DYT10,Multiple Sclerosis
+GMNN,Multiple Sclerosis
+CKLF,Multiple Sclerosis
+MZB1,Multiple Sclerosis
+SLC25A37,Multiple Sclerosis
+TNFRSF12A,Multiple Sclerosis
+ERAP1,Multiple Sclerosis
+DUOX1,Multiple Sclerosis
+TREM2,Multiple Sclerosis
+DLL4,Multiple Sclerosis
+TRPM4,Multiple Sclerosis
+PGPEP1,Multiple Sclerosis
+SLC52A1,Multiple Sclerosis
+DARS2,Multiple Sclerosis
+PCDHA4,Multiple Sclerosis
+C10orf2,Multiple Sclerosis
+ZC3HAV1,Multiple Sclerosis
+RLFP1,Multiple Sclerosis
+RALGAPA2,Multiple Sclerosis
+MAVS,Multiple Sclerosis
+SEMA4A,Multiple Sclerosis
+GORASP1,Multiple Sclerosis
+PINK1,Multiple Sclerosis
+WNK1,Multiple Sclerosis
+CARD14,Multiple Sclerosis
+DHX58,Multiple Sclerosis
+MMP28,Multiple Sclerosis
+RIC3,Multiple Sclerosis
+DHX40,Multiple Sclerosis
+ANKRD55,Multiple Sclerosis
+PDCD1LG2,Multiple Sclerosis
+SGPP1,Multiple Sclerosis
+ARHGAP24,Multiple Sclerosis
+FAM167A,Multiple Sclerosis
+TRAPPC9,Multiple Sclerosis
+ITCH,Multiple Sclerosis
+C20orf57,Multiple Sclerosis
+IL17RC,Multiple Sclerosis
+TRIM5,Multiple Sclerosis
+FATE1,Multiple Sclerosis
+IL33,Multiple Sclerosis
+PRRT2,Multiple Sclerosis
+NLRP3,Multiple Sclerosis
+TNFRSF13C,Multiple Sclerosis
+OLFM3,Multiple Sclerosis
+DUSP15,Multiple Sclerosis
+CD200R1,Multiple Sclerosis
+PLB1,Multiple Sclerosis
+ANKFN1,Multiple Sclerosis
+CRYGEP,Multiple Sclerosis
+IFNL3,Multiple Sclerosis
+C1orf228,Multiple Sclerosis
+SERPINA13P,Multiple Sclerosis
+OR3A4P,Multiple Sclerosis
+MIR223,Multiple Sclerosis
+MIR27B,Multiple Sclerosis
+MIR34A,Multiple Sclerosis
+MIR340,Multiple Sclerosis
+LINC00273,Multiple Sclerosis
+AFA1,Multiple Sclerosis
+MEF2B,Multiple Sclerosis
+OCLN,Multiple Sclerosis
+KLRC4-KLRK1,Multiple Sclerosis
+BCL2L2-PABPN1,Multiple Sclerosis
+CALB1,SPINOCEREBELLAR ATAXIA 6
+HSF1,SPINOCEREBELLAR ATAXIA 6
+PVALB,SPINOCEREBELLAR ATAXIA 6
+ACVRL1,Huntington Disease
+AHSG,Huntington Disease
+ALOX5,Huntington Disease
+STS,Huntington Disease
+ALDH7A1,Huntington Disease
+CCND1,Huntington Disease
+CACNA1A,Huntington Disease
+CALB1,Huntington Disease
+CASP8,Huntington Disease
+TNFSF8,Huntington Disease
+CD40,Huntington Disease
+CDKN2A,Huntington Disease
+CRH,Huntington Disease
+CRP,Huntington Disease
+CTAA1,Huntington Disease
+DLG4,Huntington Disease
+DMD,Huntington Disease
+DPP6,Huntington Disease
+DRD3,Huntington Disease
+EEF1A2,Huntington Disease
+FGF2,Huntington Disease
+FGF13,Huntington Disease
+FGFR2,Huntington Disease
+FOXO1,Huntington Disease
+FOXO3,Huntington Disease
+FXN,Huntington Disease
+XRCC6,Huntington Disease
+GABPA,Huntington Disease
+GH1,Huntington Disease
+UTS2R,Huntington Disease
+GRIN1,Huntington Disease
+GRINA,Huntington Disease
+HCRT,Huntington Disease
+HGF,Huntington Disease
+UBE2K,Huntington Disease
+HMOX1,Huntington Disease
+TNC,Huntington Disease
+IDUA,Huntington Disease
+IFNA2,Huntington Disease
+IL1A,Huntington Disease
+IL4R,Huntington Disease
+LNPEP,Huntington Disease
+LTB,Huntington Disease
+MBD1,Huntington Disease
+MGP,Huntington Disease
+MMP9,Huntington Disease
+MSN,Huntington Disease
+MUTYH,Huntington Disease
+NPY2R,Huntington Disease
+NPY5R,Huntington Disease
+PCM1,Huntington Disease
+PGC,Huntington Disease
+SERPINB6,Huntington Disease
+PKLR,Huntington Disease
+PPARG,Huntington Disease
+PPT1,Huntington Disease
+EIF2AK2,Huntington Disease
+PTBP1,Huntington Disease
+PTPN13,Huntington Disease
+PTX3,Huntington Disease
+RBMY1A1,Huntington Disease
+RENBP,Huntington Disease
+RGS2,Huntington Disease
+RIEG2,Huntington Disease
+RPS27A,Huntington Disease
+ATXN7,Huntington Disease
+SLC1A2,Huntington Disease
+SLC2A3,Huntington Disease
+SLC18A2,Huntington Disease
+SUMO3,Huntington Disease
+SUMO2,Huntington Disease
+SOS1,Huntington Disease
+TGFB1,Huntington Disease
+NKX2-1,Huntington Disease
+TRAF6,Huntington Disease
+UBC,Huntington Disease
+UBE3A,Huntington Disease
+SUMO1,Huntington Disease
+VCP,Huntington Disease
+XPC,Huntington Disease
+ST8SIA4,Huntington Disease
+NELFE,Huntington Disease
+SLC14A2,Huntington Disease
+IRS2,Huntington Disease
+HACD1,Huntington Disease
+RIMS2,Huntington Disease
+MFN2,Huntington Disease
+CAP1,Huntington Disease
+CIB1,Huntington Disease
+UBD,Huntington Disease
+SORBS1,Huntington Disease
+WDTC1,Huntington Disease
+BRD4,Huntington Disease
+SRRM2,Huntington Disease
+RASD2,Huntington Disease
+FOXP1,Huntington Disease
+RBMS3,Huntington Disease
+HTRA2,Huntington Disease
+SLCO1B3,Huntington Disease
+UBE2T,Huntington Disease
+UBQLN1,Huntington Disease
+PACSIN1,Huntington Disease
+SLC40A1,Huntington Disease
+RTEL1,Huntington Disease
+KRT20,Huntington Disease
+IFT57,Huntington Disease
+PNO1,Huntington Disease
+MEPE,Huntington Disease
+ACBD3,Huntington Disease
+MAK16,Huntington Disease
+ZDHHC12,Huntington Disease
+SLC2A14,Huntington Disease
+ZDHHC15,Huntington Disease
+GDNF-AS1,Huntington Disease
+LOC102724560,Huntington Disease
+PRKAA1,Wolff-Parkinson-White Syndrome
+PRKAA2,Wolff-Parkinson-White Syndrome
+PRKAB1,Wolff-Parkinson-White Syndrome
+ACO1,Alzheimer Disease
+ADRA1D,Alzheimer Disease
+SLC25A4,Alzheimer Disease
+ANXA1,Alzheimer Disease
+APRT,Alzheimer Disease
+KLK3,Alzheimer Disease
+BID,Alzheimer Disease
+BSG,Alzheimer Disease
+SERPING1,Alzheimer Disease
+CA2,Alzheimer Disease
+SLC25A20,Alzheimer Disease
+CALB1,Alzheimer Disease
+CAPG,Alzheimer Disease
+CASP8,Alzheimer Disease
+CD34,Alzheimer Disease
+CD38,Alzheimer Disease
+CD44,Alzheimer Disease
+CD68,Alzheimer Disease
+CDC42,Alzheimer Disease
+CDK4,Alzheimer Disease
+CPN1,Alzheimer Disease
+CPOX,Alzheimer Disease
+CRK,Alzheimer Disease
+MAPK14,Alzheimer Disease
+CST2,Alzheimer Disease
+CST5,Alzheimer Disease
+CST6,Alzheimer Disease
+CTSL,Alzheimer Disease
+CUX1,Alzheimer Disease
+CX3CR1,Alzheimer Disease
+DECR1,Alzheimer Disease
+DIO1,Alzheimer Disease
+DIO2,Alzheimer Disease
+DNAH8,Alzheimer Disease
+DOCK2,Alzheimer Disease
+DSP,Alzheimer Disease
+DSPP,Alzheimer Disease
+EGFR,Alzheimer Disease
+EGR1,Alzheimer Disease
+EHHADH,Alzheimer Disease
+EIF4G2,Alzheimer Disease
+ELANE,Alzheimer Disease
+ETFA,Alzheimer Disease
+ETFB,Alzheimer Disease
+ETFDH,Alzheimer Disease
+ETS2,Alzheimer Disease
+EZH2,Alzheimer Disease
+FAT1,Alzheimer Disease
+FCN2,Alzheimer Disease
+FES,Alzheimer Disease
+FKBP4,Alzheimer Disease
+FKBP5,Alzheimer Disease
+FLT4,Alzheimer Disease
+FOS,Alzheimer Disease
+FOSB,Alzheimer Disease
+FXN,Alzheimer Disease
+GAA,Alzheimer Disease
+GABPA,Alzheimer Disease
+GBA,Alzheimer Disease
+GCHFR,Alzheimer Disease
+GDNF,Alzheimer Disease
+GLO1,Alzheimer Disease
+GRK5,Alzheimer Disease
+GRM2,Alzheimer Disease
+GRM5,Alzheimer Disease
+GSR,Alzheimer Disease
+HCCS,Alzheimer Disease
+HTT,Alzheimer Disease
+HMOX2,Alzheimer Disease
+HNRNPA1,Alzheimer Disease
+HPS1,Alzheimer Disease
+HSPA4,Alzheimer Disease
+HSPA8,Alzheimer Disease
+IDUA,Alzheimer Disease
+IFI27,Alzheimer Disease
+IFNB1,Alzheimer Disease
+IGFALS,Alzheimer Disease
+IL6ST,Alzheimer Disease
+IL13,Alzheimer Disease
+ITGAX,Alzheimer Disease
+JAK2,Alzheimer Disease
+JUN,Alzheimer Disease
+JUNB,Alzheimer Disease
+JUND,Alzheimer Disease
+KNG1,Alzheimer Disease
+LBP,Alzheimer Disease
+LRP4,Alzheimer Disease
+LY6E,Alzheimer Disease
+LYZ,Alzheimer Disease
+MBP,Alzheimer Disease
+CD46,Alzheimer Disease
+MDK,Alzheimer Disease
+ATXN3,Alzheimer Disease
+MLLT3,Alzheimer Disease
+MNAT1,Alzheimer Disease
+ABCC1,Alzheimer Disease
+MX1,Alzheimer Disease
+NAP1L1,Alzheimer Disease
+NEFH,Alzheimer Disease
+NFIA,Alzheimer Disease
+NFIB,Alzheimer Disease
+NFIC,Alzheimer Disease
+NFIX,Alzheimer Disease
+NM,Alzheimer Disease
+NPPA,Alzheimer Disease
+NPPC,Alzheimer Disease
+NRD1,Alzheimer Disease
+NTS,Alzheimer Disease
+OGDH,Alzheimer Disease
+PCNA,Alzheimer Disease
+PCYT1A,Alzheimer Disease
+PGC,Alzheimer Disease
+SERPINE2,Alzheimer Disease
+PIK3C3,Alzheimer Disease
+PIK3CB,Alzheimer Disease
+PIK3CD,Alzheimer Disease
+PIK3CG,Alzheimer Disease
+PLCL1,Alzheimer Disease
+PLD2,Alzheimer Disease
+PML,Alzheimer Disease
+PRRX1,Alzheimer Disease
+PPT1,Alzheimer Disease
+PRF1,Alzheimer Disease
+PRL,Alzheimer Disease
+MASP1,Alzheimer Disease
+PSMD2,Alzheimer Disease
+PSMD9,Alzheimer Disease
+PTGDR,Alzheimer Disease
+RB1,Alzheimer Disease
+RBL2,Alzheimer Disease
+RBMY1A1,Alzheimer Disease
+RELA,Alzheimer Disease
+ROCK1,Alzheimer Disease
+RPS27,Alzheimer Disease
+ATXN2,Alzheimer Disease
+ATXN8OS,Alzheimer Disease
+SCP2,Alzheimer Disease
+SH3GL2,Alzheimer Disease
+SHBG,Alzheimer Disease
+SLC2A3,Alzheimer Disease
+SLC5A5,Alzheimer Disease
+SNAP25,Alzheimer Disease
+SYN1,Alzheimer Disease
+SYN2,Alzheimer Disease
+SYT1,Alzheimer Disease
+TAC1,Alzheimer Disease
+TDO2,Alzheimer Disease
+TFDP1,Alzheimer Disease
+TFF1,Alzheimer Disease
+TGM1,Alzheimer Disease
+TH,Alzheimer Disease
+THBS4,Alzheimer Disease
+TLR2,Alzheimer Disease
+TSPAN7,Alzheimer Disease
+HSP90B2P,Alzheimer Disease
+TTK,Alzheimer Disease
+XK,Alzheimer Disease
+XPNPEP1,Alzheimer Disease
+REEP5,Alzheimer Disease
+CP20,Alzheimer Disease
+AIMP2,Alzheimer Disease
+TFPI2,Alzheimer Disease
+AAAS,Alzheimer Disease
+PABPN1,Alzheimer Disease
+FKBP6,Alzheimer Disease
+IKBKAP,Alzheimer Disease
+MADD,Alzheimer Disease
+PABPC4,Alzheimer Disease
+TNFRSF18,Alzheimer Disease
+HCAR3,Alzheimer Disease
+PER2,Alzheimer Disease
+SYNJ1,Alzheimer Disease
+HAP1,Alzheimer Disease
+NAT8,Alzheimer Disease
+CBFA2T2,Alzheimer Disease
+TIAF1,Alzheimer Disease
+NOLC1,Alzheimer Disease
+TAOK2,Alzheimer Disease
+PPIG,Alzheimer Disease
+COX5A,Alzheimer Disease
+GRAP2,Alzheimer Disease
+IL27RA,Alzheimer Disease
+SH3BP5,Alzheimer Disease
+NAPSA,Alzheimer Disease
+MED12,Alzheimer Disease
+SRA1,Alzheimer Disease
+RANBP9,Alzheimer Disease
+COL4A3BP,Alzheimer Disease
+PPIF,Alzheimer Disease
+CTDSP2,Alzheimer Disease
+LRPPRC,Alzheimer Disease
+DDX39A,Alzheimer Disease
+GPHN,Alzheimer Disease
+SYCP2,Alzheimer Disease
+PEMT,Alzheimer Disease
+SPAG11B,Alzheimer Disease
+CFDP1,Alzheimer Disease
+CREB3,Alzheimer Disease
+SSSCA1,Alzheimer Disease
+AHSA1,Alzheimer Disease
+LBX1,Alzheimer Disease
+DCTN6,Alzheimer Disease
+NRG3,Alzheimer Disease
+PLK2,Alzheimer Disease
+NCKAP1,Alzheimer Disease
+HPSE,Alzheimer Disease
+C1QL1,Alzheimer Disease
+METAP2,Alzheimer Disease
+SDS,Alzheimer Disease
+DIDO1,Alzheimer Disease
+FAF1,Alzheimer Disease
+SLC7A9,Alzheimer Disease
+RAB3GAP1,Alzheimer Disease
+GGA3,Alzheimer Disease
+SIRT3,Alzheimer Disease
+SRRM2,Alzheimer Disease
+EID1,Alzheimer Disease
+BRI3,Alzheimer Disease
+FBXL2,Alzheimer Disease
+RNF19A,Alzheimer Disease
+LRP10,Alzheimer Disease
+POLDIP2,Alzheimer Disease
+PTPN22,Alzheimer Disease
+SEZ6L2,Alzheimer Disease
+OR7E66P,Alzheimer Disease
+RBMS3,Alzheimer Disease
+SGSM3,Alzheimer Disease
+SCG3,Alzheimer Disease
+SNX12,Alzheimer Disease
+GEMIN4,Alzheimer Disease
+TMED7,Alzheimer Disease
+SBDS,Alzheimer Disease
+PRRX2,Alzheimer Disease
+LCMT1,Alzheimer Disease
+NAT8B,Alzheimer Disease
+HSD17B7,Alzheimer Disease
+C9orf156,Alzheimer Disease
+WWOX,Alzheimer Disease
+TUBA8,Alzheimer Disease
+IPO9,Alzheimer Disease
+VPS35,Alzheimer Disease
+PCDHA6,Alzheimer Disease
+C10orf2,Alzheimer Disease
+PNO1,Alzheimer Disease
+MEPE,Alzheimer Disease
+NLN,Alzheimer Disease
+KIDINS220,Alzheimer Disease
+WDR19,Alzheimer Disease
+PTBP2,Alzheimer Disease
+MOAP1,Alzheimer Disease
+AZI2,Alzheimer Disease
+GORASP1,Alzheimer Disease
+PINK1,Alzheimer Disease
+FTO,Alzheimer Disease
+FA2H,Alzheimer Disease
+MMEL1,Alzheimer Disease
+OR5H5P,Alzheimer Disease
+DYNC2H1,Alzheimer Disease
+TTC21B,Alzheimer Disease
+SCD5,Alzheimer Disease
+NAA25,Alzheimer Disease
+UPK3B,Alzheimer Disease
+HM13,Alzheimer Disease
+ITM2C,Alzheimer Disease
+ARHGAP24,Alzheimer Disease
+MAK16,Alzheimer Disease
+TTBK1,Alzheimer Disease
+NAV3,Alzheimer Disease
+CDCA5,Alzheimer Disease
+TMEM54,Alzheimer Disease
+ESCO1,Alzheimer Disease
+OMA1,Alzheimer Disease
+RBM45,Alzheimer Disease
+OCIAD2,Alzheimer Disease
+CACUL1,Alzheimer Disease
+PHF13,Alzheimer Disease
+IL23R,Alzheimer Disease
+MPEG1,Alzheimer Disease
+TAB3,Alzheimer Disease
+TAS2R64P,Alzheimer Disease
+DNAAF3,Alzheimer Disease
+TICAM2,Alzheimer Disease
+MIR107,Alzheimer Disease
+MIR144,Alzheimer Disease
+MIR206,Alzheimer Disease
+MIR424,Alzheimer Disease
+NCF1,Alzheimer Disease
+SPAG11A,Alzheimer Disease
+MIR590,Alzheimer Disease
+MIR616,Alzheimer Disease
+AD14,Alzheimer Disease
+TMED7-TICAM2,Alzheimer Disease
+AAA1,Alzheimer Disease
+GDNF-AS1,Alzheimer Disease
+IFNG,Secondary progressive multiple sclerosis
+IL2RA,Secondary progressive multiple sclerosis
+ISG20,Secondary progressive multiple sclerosis
+TNFRSF1A,Secondary progressive multiple sclerosis
+VEGFA,Secondary progressive multiple sclerosis
+FOXP3,Secondary progressive multiple sclerosis
+APEX1,"Amyotrophic Lateral Sclerosis, Sporadic"
+BCL2,"Amyotrophic Lateral Sclerosis, Sporadic"
+CD14,"Amyotrophic Lateral Sclerosis, Sporadic"
+CNTF,"Amyotrophic Lateral Sclerosis, Sporadic"
+CRAT,"Amyotrophic Lateral Sclerosis, Sporadic"
+CYP27A1,"Amyotrophic Lateral Sclerosis, Sporadic"
+DYNC1H1,"Amyotrophic Lateral Sclerosis, Sporadic"
+EPHA3,"Amyotrophic Lateral Sclerosis, Sporadic"
+EPO,"Amyotrophic Lateral Sclerosis, Sporadic"
+GRN,"Amyotrophic Lateral Sclerosis, Sporadic"
+GSR,"Amyotrophic Lateral Sclerosis, Sporadic"
+HGF,"Amyotrophic Lateral Sclerosis, Sporadic"
+IL1B,"Amyotrophic Lateral Sclerosis, Sporadic"
+IL2RA,"Amyotrophic Lateral Sclerosis, Sporadic"
+IL6,"Amyotrophic Lateral Sclerosis, Sporadic"
+IL17A,"Amyotrophic Lateral Sclerosis, Sporadic"
+ISG20,"Amyotrophic Lateral Sclerosis, Sporadic"
+MAPT,"Amyotrophic Lateral Sclerosis, Sporadic"
+MT1A,"Amyotrophic Lateral Sclerosis, Sporadic"
+MT1E,"Amyotrophic Lateral Sclerosis, Sporadic"
+NDUFA2,"Amyotrophic Lateral Sclerosis, Sporadic"
+NTF3,"Amyotrophic Lateral Sclerosis, Sporadic"
+PON3,"Amyotrophic Lateral Sclerosis, Sporadic"
+PRPH,"Amyotrophic Lateral Sclerosis, Sporadic"
+PTBP1,"Amyotrophic Lateral Sclerosis, Sporadic"
+RBMY1A1,"Amyotrophic Lateral Sclerosis, Sporadic"
+RRM2,"Amyotrophic Lateral Sclerosis, Sporadic"
+ATXN1,"Amyotrophic Lateral Sclerosis, Sporadic"
+TNF,"Amyotrophic Lateral Sclerosis, Sporadic"
+TP53,"Amyotrophic Lateral Sclerosis, Sporadic"
+TXNRD1,"Amyotrophic Lateral Sclerosis, Sporadic"
+HSD17B6,"Amyotrophic Lateral Sclerosis, Sporadic"
+HSPB3,"Amyotrophic Lateral Sclerosis, Sporadic"
+ARTN,"Amyotrophic Lateral Sclerosis, Sporadic"
+SLC33A1,"Amyotrophic Lateral Sclerosis, Sporadic"
+GLYAT,"Amyotrophic Lateral Sclerosis, Sporadic"
+P3H3,"Amyotrophic Lateral Sclerosis, Sporadic"
+SRRM2,"Amyotrophic Lateral Sclerosis, Sporadic"
+RBMS3,"Amyotrophic Lateral Sclerosis, Sporadic"
+PNO1,"Amyotrophic Lateral Sclerosis, Sporadic"
+SUGP1,"Amyotrophic Lateral Sclerosis, Sporadic"
+EPHX3,"Amyotrophic Lateral Sclerosis, Sporadic"
+MAK16,"Amyotrophic Lateral Sclerosis, Sporadic"
+CNTN4,"Amyotrophic Lateral Sclerosis, Sporadic"
+EPHX4,"Amyotrophic Lateral Sclerosis, Sporadic"
+CCR2,"Amyotrophic Lateral Sclerosis, Sporadic"
+FUS,"Amyotrophic Lateral Sclerosis 2, Juvenile"
+PTBP1,"Amyotrophic Lateral Sclerosis 2, Juvenile"
+RBMY1A1,"Amyotrophic Lateral Sclerosis 2, Juvenile"
+SRRM2,"Amyotrophic Lateral Sclerosis 2, Juvenile"
+RBMS3,"Amyotrophic Lateral Sclerosis 2, Juvenile"
+PNO1,"Amyotrophic Lateral Sclerosis 2, Juvenile"
+MAK16,"Amyotrophic Lateral Sclerosis 2, Juvenile"
+C9orf72,Amyotrophic lateral sclerosis with dementia
+SERPINA3,Alzheimer's disease with late onset
+ABCA4,Alzheimer's disease with late onset
+ALOX5,Alzheimer's disease with late onset
+APBB2,Alzheimer's disease with late onset
+APOC1,Alzheimer's disease with late onset
+APOD,Alzheimer's disease with late onset
+DNM2,Alzheimer's disease with late onset
+DNMT1,Alzheimer's disease with late onset
+DRD2,Alzheimer's disease with late onset
+DYRK1A,Alzheimer's disease with late onset
+EGR1,Alzheimer's disease with late onset
+GAPDH,Alzheimer's disease with late onset
+HHEX,Alzheimer's disease with late onset
+IL10,Alzheimer's disease with late onset
+KIF11,Alzheimer's disease with late onset
+LEPR,Alzheimer's disease with late onset
+LPA,Alzheimer's disease with late onset
+NOS3,Alzheimer's disease with late onset
+POLR2D,Alzheimer's disease with late onset
+PRF1,Alzheimer's disease with late onset
+PSEN2,Alzheimer's disease with late onset
+RBP4,Alzheimer's disease with late onset
+RPS3A,Alzheimer's disease with late onset
+NCSTN,Alzheimer's disease with late onset
+SMUG1,Alzheimer's disease with late onset
+BACE1,Alzheimer's disease with late onset
+MTHFD1L,Alzheimer's disease with late onset
+HPGDS,Alzheimer's disease with late onset
+NTM,Alzheimer's disease with late onset
+MS4A4A,Alzheimer's disease with late onset
+TREM2,Alzheimer's disease with late onset
+KIAA1462,Alzheimer's disease with late onset
+MS4A6A,Alzheimer's disease with late onset
+GRAMD3,Alzheimer's disease with late onset
+OR2M3,Alzheimer's disease with late onset
+OR10X1,Alzheimer's disease with late onset
+OR6K3,Alzheimer's disease with late onset
+STMN1,"Spinal Muscular Atrophy, Childhood, Proximal, Autosomal Dominant"
+SMN1,"Spinal Muscular Atrophy, Childhood, Proximal, Autosomal Dominant"
+SMN2,"Spinal Muscular Atrophy, Childhood, Proximal, Autosomal Dominant"
+SNRPN,"Spinal Muscular Atrophy, Childhood, Proximal, Autosomal Dominant"
+INS,Juvenile Parkinson's disease
+SYNJ1,Juvenile Parkinson's disease
+MUL1,Juvenile Parkinson's disease
+ZNF645,Juvenile Parkinson's disease
+POLG,Spinocerebellar Ataxia with Epilepsy
+ATXN8OS,Infantile onset spinocerebellar ataxia
+ASIC1,Progressive multiple sclerosis
+APOE,Progressive multiple sclerosis
+CD86,Progressive multiple sclerosis
+CD40LG,Progressive multiple sclerosis
+CTLA4,Progressive multiple sclerosis
+MGAT5,Progressive multiple sclerosis
+ICOS,Progressive multiple sclerosis
+IL21R,Progressive multiple sclerosis
+IL21,Progressive multiple sclerosis
+CD200R1,Progressive multiple sclerosis
+MEF2C,Mowat-Wilson syndrome
+SOX10,Mowat-Wilson syndrome
+UBE3A,Mowat-Wilson syndrome
+PHOX2B,Mowat-Wilson syndrome
+LBX1,Mowat-Wilson syndrome
+ACHE,Frontotemporal Dementia
+APEX1,Frontotemporal Dementia
+APOC1,Frontotemporal Dementia
+CDK6,Frontotemporal Dementia
+DAPK1,Frontotemporal Dementia
+DNMT1,Frontotemporal Dementia
+GAP43,Frontotemporal Dementia
+UTS2R,Frontotemporal Dementia
+GSK3B,Frontotemporal Dementia
+HNRNPA1,Frontotemporal Dementia
+HNRNPH1,Frontotemporal Dementia
+HNRNPH2,Frontotemporal Dementia
+MAOA,Frontotemporal Dementia
+NEFM,Frontotemporal Dementia
+NEFH,Frontotemporal Dementia
+NOS2,Frontotemporal Dementia
+OXT,Frontotemporal Dementia
+PAX5,Frontotemporal Dementia
+PRF1,Frontotemporal Dementia
+PRKAR1B,Frontotemporal Dementia
+PSG1,Frontotemporal Dementia
+PSG2,Frontotemporal Dementia
+PSG7,Frontotemporal Dementia
+RAP1GAP,Frontotemporal Dementia
+SORT1,Frontotemporal Dementia
+SNAP25,Frontotemporal Dementia
+SYN1,Frontotemporal Dementia
+SUMO1,Frontotemporal Dementia
+NUP214,Frontotemporal Dementia
+AAAS,Frontotemporal Dementia
+CDC7,Frontotemporal Dementia
+SRSF9,Frontotemporal Dementia
+HAP1,Frontotemporal Dementia
+MAP3K14,Frontotemporal Dementia
+INA,Frontotemporal Dementia
+MAP4K4,Frontotemporal Dementia
+KIAA0196,Frontotemporal Dementia
+RBM8A,Frontotemporal Dementia
+GNE,Frontotemporal Dementia
+OPTN,Frontotemporal Dementia
+SPTLC1,Frontotemporal Dementia
+PDLIM5,Frontotemporal Dementia
+MASP2,Frontotemporal Dementia
+RNPS1,Frontotemporal Dementia
+DKK1,Frontotemporal Dementia
+UNC13A,Frontotemporal Dementia
+SMUG1,Frontotemporal Dementia
+SPAG8,Frontotemporal Dementia
+SGSM3,Frontotemporal Dementia
+UBN1,Frontotemporal Dementia
+RMDN1,Frontotemporal Dementia
+RMDN3,Frontotemporal Dementia
+SYBU,Frontotemporal Dementia
+MTG1,Frontotemporal Dementia
+RMDN2,Frontotemporal Dementia
+NANOS2,Frontotemporal Dementia
+CHCHD10,Frontotemporal Dementia
+PSG8,Frontotemporal Dementia
+AAA1,Frontotemporal Dementia
+BRCA2,Alzheimer's disease with early onset
+FANCD2,Alzheimer's disease with early onset
+IDUA,Alzheimer's disease with early onset
+PAX5,Alzheimer's disease with early onset
+RPS27,Alzheimer's disease with early onset
+SNCA,Alzheimer's disease with early onset
+THOP1,Alzheimer's disease with early onset
+TTK,Alzheimer's disease with early onset
+MPEG1,Alzheimer's disease with early onset
+LINC00273,Alzheimer's disease with early onset
+FAS,"Multiple Sclerosis, Relapsing-Remitting"
+FASLG,"Multiple Sclerosis, Relapsing-Remitting"
+ATM,"Multiple Sclerosis, Relapsing-Remitting"
+CASP1,"Multiple Sclerosis, Relapsing-Remitting"
+CD14,"Multiple Sclerosis, Relapsing-Remitting"
+CXCR3,"Multiple Sclerosis, Relapsing-Remitting"
+HLA-E,"Multiple Sclerosis, Relapsing-Remitting"
+IFNA1,"Multiple Sclerosis, Relapsing-Remitting"
+IFNA13,"Multiple Sclerosis, Relapsing-Remitting"
+IGBP1,"Multiple Sclerosis, Relapsing-Remitting"
+IL4,"Multiple Sclerosis, Relapsing-Remitting"
+IL15,"Multiple Sclerosis, Relapsing-Remitting"
+MEFV,"Multiple Sclerosis, Relapsing-Remitting"
+MS,"Multiple Sclerosis, Relapsing-Remitting"
+MYC,"Multiple Sclerosis, Relapsing-Remitting"
+NDUFA2,"Multiple Sclerosis, Relapsing-Remitting"
+PLP1,"Multiple Sclerosis, Relapsing-Remitting"
+POU5F1,"Multiple Sclerosis, Relapsing-Remitting"
+PTHLH,"Multiple Sclerosis, Relapsing-Remitting"
+CCL2,"Multiple Sclerosis, Relapsing-Remitting"
+CCL5,"Multiple Sclerosis, Relapsing-Remitting"
+SOX2,"Multiple Sclerosis, Relapsing-Remitting"
+SPP1,"Multiple Sclerosis, Relapsing-Remitting"
+TAP2,"Multiple Sclerosis, Relapsing-Remitting"
+VEGFA,"Multiple Sclerosis, Relapsing-Remitting"
+MBTPS1,"Multiple Sclerosis, Relapsing-Remitting"
+KLF4,"Multiple Sclerosis, Relapsing-Remitting"
+FST,"Multiple Sclerosis, Relapsing-Remitting"
+SIRT1,"Multiple Sclerosis, Relapsing-Remitting"
+PRDX5,"Multiple Sclerosis, Relapsing-Remitting"
+DUOX2,"Multiple Sclerosis, Relapsing-Remitting"
+FOXP3,"Multiple Sclerosis, Relapsing-Remitting"
+DUOX1,"Multiple Sclerosis, Relapsing-Remitting"
+RRN3,"Multiple Sclerosis, Relapsing-Remitting"
+PDXP,"Multiple Sclerosis, Relapsing-Remitting"
+SEC14L3,"Multiple Sclerosis, Relapsing-Remitting"
+AR,Friedreich Ataxia 1
+BRCA2,Friedreich Ataxia 1
+CSF2,Friedreich Ataxia 1
+ERBB2,Friedreich Ataxia 1
+GSTP1,Friedreich Ataxia 1
+GYPA,Friedreich Ataxia 1
+HPRT1,Friedreich Ataxia 1
+IL1B,Friedreich Ataxia 1
+IL4,Friedreich Ataxia 1
+NPM1,Friedreich Ataxia 1
+PAX5,Friedreich Ataxia 1
+TNF,Friedreich Ataxia 1
+TXN,Friedreich Ataxia 1
+VIPR1,Friedreich Ataxia 1
+TNFSF10,Friedreich Ataxia 1
+PALB2,Friedreich Ataxia 1
+NFKB1,Benign multiple sclerosis
+TP53,Benign multiple sclerosis
+ERVW-4,Benign multiple sclerosis
+TBP,Huntington Disease-Like 1
+CACNG2,Spinocerebellar Ataxia 10
+CACNA1A,SPINOCEREBELLAR ATAXIA 2
+IGFALS,SPINOCEREBELLAR ATAXIA 2
+LHCGR,SPINOCEREBELLAR ATAXIA 2
+PARK2,SPINOCEREBELLAR ATAXIA 2
+PRF1,SPINOCEREBELLAR ATAXIA 2
+SLC6A3,SPINOCEREBELLAR ATAXIA 2
+SLC18A2,SPINOCEREBELLAR ATAXIA 2
+SNCA,SPINOCEREBELLAR ATAXIA 2
+SOD1,SPINOCEREBELLAR ATAXIA 2
+CIT,SPINOCEREBELLAR ATAXIA 2
+REM1,SPINOCEREBELLAR ATAXIA 2
+DHDDS,SPINOCEREBELLAR ATAXIA 2
+AKT1,Alzheimer Disease 5
+ARR3,Alzheimer Disease 5
+CASR,Alzheimer Disease 5
+CXADR,Alzheimer Disease 5
+PRKAR1A,Alzheimer Disease 5
+PSEN2,Alzheimer Disease 5
+SPG7,Alzheimer Disease 5
+NR1I3,Alzheimer Disease 5
+TRIM13,Alzheimer Disease 5
+CXADRP1,Alzheimer Disease 5
+ATXN10,SPINOCEREBELLAR ATAXIA 36
+USP24,"PARKINSON DISEASE, LATE-ONSET"
+USP40,"PARKINSON DISEASE, LATE-ONSET"
+MIR133B,"PARKINSON DISEASE, LATE-ONSET"
+ERLIN2,Primary lateral sclerosis juvenile
+IGFALS,Frontotemporal Dementia With Motor Neuron Disease
+SOD1,Frontotemporal Dementia With Motor Neuron Disease
+SIGMAR1,Frontotemporal Dementia With Motor Neuron Disease
+UBQLN2,Frontotemporal Dementia With Motor Neuron Disease
+CHCHD10,Frontotemporal Dementia With Motor Neuron Disease
+HLA-E,Variant Creutzfeldt-Jakob disease
+TBP,Variant Creutzfeldt-Jakob disease
+AHSP,Variant Creutzfeldt-Jakob disease
+EPHX3,Variant Creutzfeldt-Jakob disease
+EPHX4,Variant Creutzfeldt-Jakob disease
+SPATC1,Variant Creutzfeldt-Jakob disease
+SPRN,Variant Creutzfeldt-Jakob disease
+CASP12,Variant Creutzfeldt-Jakob disease
+BBS1,SPINOCEREBELLAR ATAXIA 5
+IDDM4,SPINOCEREBELLAR ATAXIA 5
+PITX2,SPINOCEREBELLAR ATAXIA 5
+NR2F2,SPINOCEREBELLAR ATAXIA 5
+ANGPTL1,SPINOCEREBELLAR ATAXIA 5
+ACTR1A,SPINOCEREBELLAR ATAXIA 5
+ARFRP1,SPINOCEREBELLAR ATAXIA 5
+DCAF7,SPINOCEREBELLAR ATAXIA 5
+APOBEC2,SPINOCEREBELLAR ATAXIA 5
+SDHAF2,SPINOCEREBELLAR ATAXIA 5
+AGTR1,Friedreich Ataxia
+CAPG,Friedreich Ataxia
+CAT,Friedreich Ataxia
+EPO,Friedreich Ataxia
+FARSA,Friedreich Ataxia
+FMR1,Friedreich Ataxia
+FRAXA,Friedreich Ataxia
+GPX1,Friedreich Ataxia
+HFE,Friedreich Ataxia
+IFNG,Friedreich Ataxia
+KCNC3,Friedreich Ataxia
+CD46,Friedreich Ataxia
+MSH2,Friedreich Ataxia
+POU5F1,Friedreich Ataxia
+PPP2R2B,Friedreich Ataxia
+SRF,Friedreich Ataxia
+TFPI,Friedreich Ataxia
+TFRC,Friedreich Ataxia
+TTPA,Friedreich Ataxia
+GPAA1,Friedreich Ataxia
+FOXH1,Friedreich Ataxia
+TJP2,Friedreich Ataxia
+PPARGC1A,Friedreich Ataxia
+ISCU,Friedreich Ataxia
+ATXN10,Friedreich Ataxia
+GLRX5,Friedreich Ataxia
+ACE2,Friedreich Ataxia
+MIR155,Friedreich Ataxia
+VTRNA2-1,Friedreich Ataxia
+CACNA1A,Spinocerebellar ataxia 26
+A1BG,Amyotrophic Lateral Sclerosis
+SERPINA3,Amyotrophic Lateral Sclerosis
+ADARB2,Amyotrophic Lateral Sclerosis
+ADCYAP1,Amyotrophic Lateral Sclerosis
+ADRA1D,Amyotrophic Lateral Sclerosis
+AK4,Amyotrophic Lateral Sclerosis
+AKT1,Amyotrophic Lateral Sclerosis
+ALOX5,Amyotrophic Lateral Sclerosis
+FAS,Amyotrophic Lateral Sclerosis
+BAG1,Amyotrophic Lateral Sclerosis
+CALB1,Amyotrophic Lateral Sclerosis
+CAST,Amyotrophic Lateral Sclerosis
+CASP8,Amyotrophic Lateral Sclerosis
+CASP10,Amyotrophic Lateral Sclerosis
+CASR,Amyotrophic Lateral Sclerosis
+CDKN2A,Amyotrophic Lateral Sclerosis
+CDKN2D,Amyotrophic Lateral Sclerosis
+CEBPB,Amyotrophic Lateral Sclerosis
+CNTFR,Amyotrophic Lateral Sclerosis
+COX8A,Amyotrophic Lateral Sclerosis
+CRAT,Amyotrophic Lateral Sclerosis
+CRMP1,Amyotrophic Lateral Sclerosis
+CSF3,Amyotrophic Lateral Sclerosis
+DDIT3,Amyotrophic Lateral Sclerosis
+DLD,Amyotrophic Lateral Sclerosis
+DYNC1H1,Amyotrophic Lateral Sclerosis
+DNMT3A,Amyotrophic Lateral Sclerosis
+DPYD,Amyotrophic Lateral Sclerosis
+EDN1,Amyotrophic Lateral Sclerosis
+EGF,Amyotrophic Lateral Sclerosis
+CELSR3,Amyotrophic Lateral Sclerosis
+EGFR,Amyotrophic Lateral Sclerosis
+EIF2S1,Amyotrophic Lateral Sclerosis
+EIF2S3,Amyotrophic Lateral Sclerosis
+EIF4G2,Amyotrophic Lateral Sclerosis
+ELAVL1,Amyotrophic Lateral Sclerosis
+EPHA1,Amyotrophic Lateral Sclerosis
+EPHA3,Amyotrophic Lateral Sclerosis
+ERBB4,Amyotrophic Lateral Sclerosis
+ETS2,Amyotrophic Lateral Sclerosis
+F9,Amyotrophic Lateral Sclerosis
+PTK2B,Amyotrophic Lateral Sclerosis
+FMO1,Amyotrophic Lateral Sclerosis
+FMO3,Amyotrophic Lateral Sclerosis
+FMR1,Amyotrophic Lateral Sclerosis
+MTOR,Amyotrophic Lateral Sclerosis
+FRAXA,Amyotrophic Lateral Sclerosis
+GFRA1,Amyotrophic Lateral Sclerosis
+GLI3,Amyotrophic Lateral Sclerosis
+GPX3,Amyotrophic Lateral Sclerosis
+GRIK1,Amyotrophic Lateral Sclerosis
+HLA-B,Amyotrophic Lateral Sclerosis
+MNX1,Amyotrophic Lateral Sclerosis
+HMOX2,Amyotrophic Lateral Sclerosis
+HNRNPA2B1,Amyotrophic Lateral Sclerosis
+HNRNPH1,Amyotrophic Lateral Sclerosis
+HNRNPH2,Amyotrophic Lateral Sclerosis
+PRMT1,Amyotrophic Lateral Sclerosis
+HES1,Amyotrophic Lateral Sclerosis
+HSF1,Amyotrophic Lateral Sclerosis
+DNAJB2,Amyotrophic Lateral Sclerosis
+HSPB2,Amyotrophic Lateral Sclerosis
+IL1B,Amyotrophic Lateral Sclerosis
+IL10,Amyotrophic Lateral Sclerosis
+IL17A,Amyotrophic Lateral Sclerosis
+KCNK2,Amyotrophic Lateral Sclerosis
+LGALS3,Amyotrophic Lateral Sclerosis
+LGALS4,Amyotrophic Lateral Sclerosis
+LIF,Amyotrophic Lateral Sclerosis
+FADS3,Amyotrophic Lateral Sclerosis
+LMNB1,Amyotrophic Lateral Sclerosis
+LTBR,Amyotrophic Lateral Sclerosis
+MAP1B,Amyotrophic Lateral Sclerosis
+MDH1,Amyotrophic Lateral Sclerosis
+ATXN3,Amyotrophic Lateral Sclerosis
+MMP14,Amyotrophic Lateral Sclerosis
+MPZ,Amyotrophic Lateral Sclerosis
+MS,Amyotrophic Lateral Sclerosis
+NEFM,Amyotrophic Lateral Sclerosis
+NEUROG1,Amyotrophic Lateral Sclerosis
+NFIL3,Amyotrophic Lateral Sclerosis
+NFKB1,Amyotrophic Lateral Sclerosis
+NOTCH3,Amyotrophic Lateral Sclerosis
+NTF4,Amyotrophic Lateral Sclerosis
+OPA1,Amyotrophic Lateral Sclerosis
+PAEP,Amyotrophic Lateral Sclerosis
+PAWR,Amyotrophic Lateral Sclerosis
+PCSK2,Amyotrophic Lateral Sclerosis
+SERPINF1,Amyotrophic Lateral Sclerosis
+PFN2,Amyotrophic Lateral Sclerosis
+PKLR,Amyotrophic Lateral Sclerosis
+POMC,Amyotrophic Lateral Sclerosis
+PPIA,Amyotrophic Lateral Sclerosis
+MAPK8,Amyotrophic Lateral Sclerosis
+MAPK9,Amyotrophic Lateral Sclerosis
+EIF2AK2,Amyotrophic Lateral Sclerosis
+PSMD2,Amyotrophic Lateral Sclerosis
+PTGER2,Amyotrophic Lateral Sclerosis
+PVALB,Amyotrophic Lateral Sclerosis
+RAG2,Amyotrophic Lateral Sclerosis
+RALGDS,Amyotrophic Lateral Sclerosis
+REG1A,Amyotrophic Lateral Sclerosis
+RELA,Amyotrophic Lateral Sclerosis
+RET,Amyotrophic Lateral Sclerosis
+RRAD,Amyotrophic Lateral Sclerosis
+RREB1,Amyotrophic Lateral Sclerosis
+RRM2,Amyotrophic Lateral Sclerosis
+CLIP1,Amyotrophic Lateral Sclerosis
+SORT1,Amyotrophic Lateral Sclerosis
+S100A8,Amyotrophic Lateral Sclerosis
+S100A9,Amyotrophic Lateral Sclerosis
+SCD,Amyotrophic Lateral Sclerosis
+SRSF2,Amyotrophic Lateral Sclerosis
+SGK1,Amyotrophic Lateral Sclerosis
+SLC3A2,Amyotrophic Lateral Sclerosis
+SLC6A3,Amyotrophic Lateral Sclerosis
+SNAP25,Amyotrophic Lateral Sclerosis
+SULT1E1,Amyotrophic Lateral Sclerosis
+SYP,Amyotrophic Lateral Sclerosis
+SYT1,Amyotrophic Lateral Sclerosis
+TAC1,Amyotrophic Lateral Sclerosis
+TACR1,Amyotrophic Lateral Sclerosis
+TEAD1,Amyotrophic Lateral Sclerosis
+TGFB2,Amyotrophic Lateral Sclerosis
+TIA1,Amyotrophic Lateral Sclerosis
+TIMP2,Amyotrophic Lateral Sclerosis
+CLDN5,Amyotrophic Lateral Sclerosis
+TNS1,Amyotrophic Lateral Sclerosis
+HSP90B2P,Amyotrophic Lateral Sclerosis
+TTK,Amyotrophic Lateral Sclerosis
+TUBA4A,Amyotrophic Lateral Sclerosis
+UBE2V1,Amyotrophic Lateral Sclerosis
+SUMO1,Amyotrophic Lateral Sclerosis
+UCP2,Amyotrophic Lateral Sclerosis
+UCP3,Amyotrophic Lateral Sclerosis
+UTRN,Amyotrophic Lateral Sclerosis
+VDAC1,Amyotrophic Lateral Sclerosis
+VIP,Amyotrophic Lateral Sclerosis
+VSNL1,Amyotrophic Lateral Sclerosis
+CLIP2,Amyotrophic Lateral Sclerosis
+XRCC1,Amyotrophic Lateral Sclerosis
+TFPI2,Amyotrophic Lateral Sclerosis
+BRD3,Amyotrophic Lateral Sclerosis
+NUP214,Amyotrophic Lateral Sclerosis
+SLC25A16,Amyotrophic Lateral Sclerosis
+C21orf33,Amyotrophic Lateral Sclerosis
+EPX,Amyotrophic Lateral Sclerosis
+CDC7,Amyotrophic Lateral Sclerosis
+DHX16,Amyotrophic Lateral Sclerosis
+GEMIN2,Amyotrophic Lateral Sclerosis
+MAP4K3,Amyotrophic Lateral Sclerosis
+DENR,Amyotrophic Lateral Sclerosis
+TNFSF14,Amyotrophic Lateral Sclerosis
+PROM1,Amyotrophic Lateral Sclerosis
+EIF2S2,Amyotrophic Lateral Sclerosis
+BCL10,Amyotrophic Lateral Sclerosis
+HSPB3,Amyotrophic Lateral Sclerosis
+SLC33A1,Amyotrophic Lateral Sclerosis
+MSC,Amyotrophic Lateral Sclerosis
+CD163,Amyotrophic Lateral Sclerosis
+PPIG,Amyotrophic Lateral Sclerosis
+CHST2,Amyotrophic Lateral Sclerosis
+PTGES,Amyotrophic Lateral Sclerosis
+GDA,Amyotrophic Lateral Sclerosis
+HDAC4,Amyotrophic Lateral Sclerosis
+DDX46,Amyotrophic Lateral Sclerosis
+FIG4,Amyotrophic Lateral Sclerosis
+MFN2,Amyotrophic Lateral Sclerosis
+RBM8A,Amyotrophic Lateral Sclerosis
+MED12,Amyotrophic Lateral Sclerosis
+HDAC6,Amyotrophic Lateral Sclerosis
+SH2B3,Amyotrophic Lateral Sclerosis
+DNM1L,Amyotrophic Lateral Sclerosis
+ALYREF,Amyotrophic Lateral Sclerosis
+OLIG2,Amyotrophic Lateral Sclerosis
+GLYAT,Amyotrophic Lateral Sclerosis
+SEMA3A,Amyotrophic Lateral Sclerosis
+SPAG11B,Amyotrophic Lateral Sclerosis
+CFDP1,Amyotrophic Lateral Sclerosis
+CLEC10A,Amyotrophic Lateral Sclerosis
+SLU7,Amyotrophic Lateral Sclerosis
+LBX1,Amyotrophic Lateral Sclerosis
+MASP2,Amyotrophic Lateral Sclerosis
+PNPLA6,Amyotrophic Lateral Sclerosis
+YWHAQ,Amyotrophic Lateral Sclerosis
+TUSC2,Amyotrophic Lateral Sclerosis
+FNDC3A,Amyotrophic Lateral Sclerosis
+SIRT2,Amyotrophic Lateral Sclerosis
+WDTC1,Amyotrophic Lateral Sclerosis
+KIF1B,Amyotrophic Lateral Sclerosis
+ZNF629,Amyotrophic Lateral Sclerosis
+SIRT5,Amyotrophic Lateral Sclerosis
+GRIP1,Amyotrophic Lateral Sclerosis
+CABIN1,Amyotrophic Lateral Sclerosis
+SMUG1,Amyotrophic Lateral Sclerosis
+DAPK2,Amyotrophic Lateral Sclerosis
+TIPARP,Amyotrophic Lateral Sclerosis
+SPAG8,Amyotrophic Lateral Sclerosis
+HSPB8,Amyotrophic Lateral Sclerosis
+CPAMD8,Amyotrophic Lateral Sclerosis
+TNFRSF21,Amyotrophic Lateral Sclerosis
+EIF3K,Amyotrophic Lateral Sclerosis
+HTRA2,Amyotrophic Lateral Sclerosis
+UBN1,Amyotrophic Lateral Sclerosis
+UBQLN1,Amyotrophic Lateral Sclerosis
+GEMIN4,Amyotrophic Lateral Sclerosis
+FIS1,Amyotrophic Lateral Sclerosis
+ATL1,Amyotrophic Lateral Sclerosis
+SLC25A37,Amyotrophic Lateral Sclerosis
+IL23A,Amyotrophic Lateral Sclerosis
+ARID4B,Amyotrophic Lateral Sclerosis
+XRN1,Amyotrophic Lateral Sclerosis
+OXR1,Amyotrophic Lateral Sclerosis
+RHOT1,Amyotrophic Lateral Sclerosis
+DDX19A,Amyotrophic Lateral Sclerosis
+STRADB,Amyotrophic Lateral Sclerosis
+SAGE1,Amyotrophic Lateral Sclerosis
+RNPC3,Amyotrophic Lateral Sclerosis
+MFN1,Amyotrophic Lateral Sclerosis
+TDP1,Amyotrophic Lateral Sclerosis
+SUSD2,Amyotrophic Lateral Sclerosis
+ZNF253,Amyotrophic Lateral Sclerosis
+PRMT8,Amyotrophic Lateral Sclerosis
+SLC17A6,Amyotrophic Lateral Sclerosis
+JPH3,Amyotrophic Lateral Sclerosis
+SRR,Amyotrophic Lateral Sclerosis
+RFWD2,Amyotrophic Lateral Sclerosis
+GORASP1,Amyotrophic Lateral Sclerosis
+WNK1,Amyotrophic Lateral Sclerosis
+TRAK2,Amyotrophic Lateral Sclerosis
+IFT74,Amyotrophic Lateral Sclerosis
+ZNF436,Amyotrophic Lateral Sclerosis
+POLDIP3,Amyotrophic Lateral Sclerosis
+C9orf3,Amyotrophic Lateral Sclerosis
+EGLN3,Amyotrophic Lateral Sclerosis
+SLC52A3,Amyotrophic Lateral Sclerosis
+CARD16,Amyotrophic Lateral Sclerosis
+OR6N1,Amyotrophic Lateral Sclerosis
+RBFOX3,Amyotrophic Lateral Sclerosis
+ZNF569,Amyotrophic Lateral Sclerosis
+ZNF763,Amyotrophic Lateral Sclerosis
+NANOS2,Amyotrophic Lateral Sclerosis
+OR14K1,Amyotrophic Lateral Sclerosis
+TMEM189,Amyotrophic Lateral Sclerosis
+TMEM189-UBE2V1,Amyotrophic Lateral Sclerosis
+CHCHD10,Amyotrophic Lateral Sclerosis
+BDNF-AS,Amyotrophic Lateral Sclerosis
+MIR524,Amyotrophic Lateral Sclerosis
+ZNF704,Amyotrophic Lateral Sclerosis
+SPAG11A,Amyotrophic Lateral Sclerosis
+MIR582,Amyotrophic Lateral Sclerosis
+CCR2,Amyotrophic Lateral Sclerosis
+OCLN,Amyotrophic Lateral Sclerosis
+LOC100506746,Amyotrophic Lateral Sclerosis
+LOC100507855,Amyotrophic Lateral Sclerosis
+LOC102724023,Amyotrophic Lateral Sclerosis
+APLP2,spinocerebellar ataxia-7
+BMP1,spinocerebellar ataxia-7
+CASP3,spinocerebellar ataxia-7
+CASP7,spinocerebellar ataxia-7
+TPP1,spinocerebellar ataxia-7
+CRX,spinocerebellar ataxia-7
+IFNB1,spinocerebellar ataxia-7
+ENPP2,spinocerebellar ataxia-7
+PML,spinocerebellar ataxia-7
+PRNP,spinocerebellar ataxia-7
+SLC1A3,spinocerebellar ataxia-7
+SUMO2,spinocerebellar ataxia-7
+TAF2,spinocerebellar ataxia-7
+TTPA,spinocerebellar ataxia-7
+SUMO1,spinocerebellar ataxia-7
+TRRAP,spinocerebellar ataxia-7
+BLZF1,spinocerebellar ataxia-7
+HDAC3,spinocerebellar ataxia-7
+PTPRU,spinocerebellar ataxia-7
+SMG1,spinocerebellar ataxia-7
+ACD,spinocerebellar ataxia-7
+PCP2,spinocerebellar ataxia-7
+STMN1,Adult spinal muscular atrophy
+SMN1,Adult spinal muscular atrophy
+SMN2,Adult spinal muscular atrophy
+SNRPN,Adult spinal muscular atrophy
+MIR122,Alzheimer Disease 6
+PSEN2,ALZHEIMER DISEASE 18
+MARK2,Autosomal Recessive Parkinsonism
+UBE2K,Autosomal Recessive Parkinsonism
+KARS,Autosomal Recessive Parkinsonism
+UBE2S,Autosomal Recessive Parkinsonism
+UBR5,Autosomal Recessive Parkinsonism
+AKT1,Amyotrophic lateral sclerosis 1
+ALPI,Amyotrophic lateral sclerosis 1
+CASP4,Amyotrophic lateral sclerosis 1
+CAT,Amyotrophic lateral sclerosis 1
+CD47,Amyotrophic lateral sclerosis 1
+CORD1,Amyotrophic lateral sclerosis 1
+CRYAB,Amyotrophic lateral sclerosis 1
+CYBB,Amyotrophic lateral sclerosis 1
+FKBP1A,Amyotrophic lateral sclerosis 1
+FKBP1B,Amyotrophic lateral sclerosis 1
+FKBP2,Amyotrophic lateral sclerosis 1
+FKBP3,Amyotrophic lateral sclerosis 1
+FKBP4,Amyotrophic lateral sclerosis 1
+FKBP5,Amyotrophic lateral sclerosis 1
+GABPA,Amyotrophic lateral sclerosis 1
+GDNF,Amyotrophic lateral sclerosis 1
+GLI3,Amyotrophic lateral sclerosis 1
+GPX1,Amyotrophic lateral sclerosis 1
+HDAC1,Amyotrophic lateral sclerosis 1
+HSF1,Amyotrophic lateral sclerosis 1
+HSPB1,Amyotrophic lateral sclerosis 1
+IAPP,Amyotrophic lateral sclerosis 1
+STMN1,Amyotrophic lateral sclerosis 1
+MAPT,Amyotrophic lateral sclerosis 1
+ATXN3,Amyotrophic lateral sclerosis 1
+MT1A,Amyotrophic lateral sclerosis 1
+MT1B,Amyotrophic lateral sclerosis 1
+MT1E,Amyotrophic lateral sclerosis 1
+MT1F,Amyotrophic lateral sclerosis 1
+MT1G,Amyotrophic lateral sclerosis 1
+MT1H,Amyotrophic lateral sclerosis 1
+MT1JP,Amyotrophic lateral sclerosis 1
+MT1M,Amyotrophic lateral sclerosis 1
+MT1L,Amyotrophic lateral sclerosis 1
+MT1X,Amyotrophic lateral sclerosis 1
+MTNR1A,Amyotrophic lateral sclerosis 1
+NFE2L2,Amyotrophic lateral sclerosis 1
+NTF3,Amyotrophic lateral sclerosis 1
+P4HB,Amyotrophic lateral sclerosis 1
+PTS,Amyotrophic lateral sclerosis 1
+RREB1,Amyotrophic lateral sclerosis 1
+SORT1,Amyotrophic lateral sclerosis 1
+SLC1A2,Amyotrophic lateral sclerosis 1
+SLC6A3,Amyotrophic lateral sclerosis 1
+SOD3,Amyotrophic lateral sclerosis 1
+PRDX2,Amyotrophic lateral sclerosis 1
+TIMP3,Amyotrophic lateral sclerosis 1
+TUBA4A,Amyotrophic lateral sclerosis 1
+UBE2V1,Amyotrophic lateral sclerosis 1
+XBP1,Amyotrophic lateral sclerosis 1
+FKBP6,Amyotrophic lateral sclerosis 1
+HSD17B6,Amyotrophic lateral sclerosis 1
+ARTN,Amyotrophic lateral sclerosis 1
+MSC,Amyotrophic lateral sclerosis 1
+PRDX6,Amyotrophic lateral sclerosis 1
+FKBP9,Amyotrophic lateral sclerosis 1
+ZNF629,Amyotrophic lateral sclerosis 1
+FKBP8,Amyotrophic lateral sclerosis 1
+CHMP2B,Amyotrophic lateral sclerosis 1
+FKBP11,Amyotrophic lateral sclerosis 1
+SLC25A37,Amyotrophic lateral sclerosis 1
+PRRX2,Amyotrophic lateral sclerosis 1
+FKBP7,Amyotrophic lateral sclerosis 1
+FKBP14,Amyotrophic lateral sclerosis 1
+ALG1,Amyotrophic lateral sclerosis 1
+ZNF253,Amyotrophic lateral sclerosis 1
+FAM20C,Amyotrophic lateral sclerosis 1
+FKBP10,Amyotrophic lateral sclerosis 1
+ARHGEF28,Amyotrophic lateral sclerosis 1
+EPHX3,Amyotrophic lateral sclerosis 1
+ZNF436,Amyotrophic lateral sclerosis 1
+MAGT1,Amyotrophic lateral sclerosis 1
+ZNF569,Amyotrophic lateral sclerosis 1
+EPHX4,Amyotrophic lateral sclerosis 1
+ZNF763,Amyotrophic lateral sclerosis 1
+TMEM189,Amyotrophic lateral sclerosis 1
+TMEM189-UBE2V1,Amyotrophic lateral sclerosis 1
+MT1IP,Amyotrophic lateral sclerosis 1
+CASP12,Amyotrophic lateral sclerosis 1
+ADAM10,familial alzheimer disease
+CYP2B6,familial alzheimer disease
+DHFR,familial alzheimer disease
+FANCD2,familial alzheimer disease
+FOS,familial alzheimer disease
+IL1A,familial alzheimer disease
+IL1B,familial alzheimer disease
+NOTCH1,familial alzheimer disease
+PIK3CA,familial alzheimer disease
+PIK3CB,familial alzheimer disease
+PIK3CD,familial alzheimer disease
+PIK3CG,familial alzheimer disease
+SGCG,familial alzheimer disease
+SNCA,familial alzheimer disease
+SNCG,familial alzheimer disease
+SORL1,familial alzheimer disease
+TFF1,familial alzheimer disease
+EIF2B2,familial alzheimer disease
+TMED10,familial alzheimer disease
+SPPL2B,familial alzheimer disease
+TAS2R64P,familial alzheimer disease
+DNLZ,familial alzheimer disease
+CSF2,Multiple sclerosis in children
+LAMC2,Multiple sclerosis in children
+APOE,Iatrogenic Creutzfeldt-Jakob disease
+AVP,Autosomal Dominant Parkinsonism
+LRRK1,Autosomal Dominant Parkinsonism
+ABL1,Parkinsonian Disorders
+ACHE,Parkinsonian Disorders
+ALS5,Parkinsonian Disorders
+ANPEP,Parkinsonian Disorders
+SLC25A4,Parkinsonian Disorders
+APEX1,Parkinsonian Disorders
+ATP7B,Parkinsonian Disorders
+BDNF,Parkinsonian Disorders
+FMNL1,Parkinsonian Disorders
+RUNX1T1,Parkinsonian Disorders
+CDR1,Parkinsonian Disorders
+AKR1C4,Parkinsonian Disorders
+CHM,Parkinsonian Disorders
+CLU,Parkinsonian Disorders
+CSF1R,Parkinsonian Disorders
+CYP27A1,Parkinsonian Disorders
+DLG3,Parkinsonian Disorders
+DPEP1,Parkinsonian Disorders
+FTL,Parkinsonian Disorders
+HMOX1,Parkinsonian Disorders
+FOXA2,Parkinsonian Disorders
+HTR2C,Parkinsonian Disorders
+SMAD3,Parkinsonian Disorders
+MAOA,Parkinsonian Disorders
+MPP3,Parkinsonian Disorders
+PDC,Parkinsonian Disorders
+PENK,Parkinsonian Disorders
+PNOC,Parkinsonian Disorders
+PRKCG,Parkinsonian Disorders
+PSG1,Parkinsonian Disorders
+PSG2,Parkinsonian Disorders
+PSG7,Parkinsonian Disorders
+PTBP1,Parkinsonian Disorders
+RBMY1A1,Parkinsonian Disorders
+RGS2,Parkinsonian Disorders
+SPP1,Parkinsonian Disorders
+SPR,Parkinsonian Disorders
+TAC1,Parkinsonian Disorders
+THY1,Parkinsonian Disorders
+TP53,Parkinsonian Disorders
+TPO,Parkinsonian Disorders
+TRPM2,Parkinsonian Disorders
+IKBKAP,Parkinsonian Disorders
+HAP1,Parkinsonian Disorders
+MAP3K14,Parkinsonian Disorders
+MAP4K4,Parkinsonian Disorders
+CTR9,Parkinsonian Disorders
+RIMS2,Parkinsonian Disorders
+CHAF1A,Parkinsonian Disorders
+FBXW10,Parkinsonian Disorders
+WDR45,Parkinsonian Disorders
+SACM1L,Parkinsonian Disorders
+SRRM2,Parkinsonian Disorders
+RAB3GAP2,Parkinsonian Disorders
+PNKD,Parkinsonian Disorders
+RBMS3,Parkinsonian Disorders
+PIK3R4,Parkinsonian Disorders
+TREM2,Parkinsonian Disorders
+TRPM7,Parkinsonian Disorders
+PNO1,Parkinsonian Disorders
+MEPE,Parkinsonian Disorders
+PNPLA2,Parkinsonian Disorders
+JPH3,Parkinsonian Disorders
+MAK16,Parkinsonian Disorders
+ACRC,Parkinsonian Disorders
+ACMSD,Parkinsonian Disorders
+PACRG,Parkinsonian Disorders
+CDRT1,Parkinsonian Disorders
+PSG8,Parkinsonian Disorders
+BDNF-AS,Parkinsonian Disorders
+TARDBP,"Frontotemporal Dementia, Chromosome 3-Linked"
+FAS,Multiple System Atrophy
+CDK5,Multiple System Atrophy
+CNP,Multiple System Atrophy
+EPO,Multiple System Atrophy
+FASN,Multiple System Atrophy
+GDNF,Multiple System Atrophy
+GFAP,Multiple System Atrophy
+GTF2H1,Multiple System Atrophy
+IGF1,Multiple System Atrophy
+MAP2,Multiple System Atrophy
+MBP,Multiple System Atrophy
+MPO,Multiple System Atrophy
+NFKBIA,Multiple System Atrophy
+NPPC,Multiple System Atrophy
+PCNA,Multiple System Atrophy
+PLP1,Multiple System Atrophy
+POLG,Multiple System Atrophy
+PTHLH,Multiple System Atrophy
+VPS52,Multiple System Atrophy
+SLC1A1,Multiple System Atrophy
+SLC6A3,Multiple System Atrophy
+SPP1,Multiple System Atrophy
+TBP,Multiple System Atrophy
+TLR4,Multiple System Atrophy
+GPAA1,Multiple System Atrophy
+BSN,Multiple System Atrophy
+SNCAIP,Multiple System Atrophy
+KHDRBS1,Multiple System Atrophy
+METAP2,Multiple System Atrophy
+SIRT2,Multiple System Atrophy
+NUP62,Multiple System Atrophy
+FBXO7,Multiple System Atrophy
+PRDX5,Multiple System Atrophy
+SGSM3,Multiple System Atrophy
+EHD3,Multiple System Atrophy
+RMDN1,Multiple System Atrophy
+DCTN4,Multiple System Atrophy
+RMDN3,Multiple System Atrophy
+SYBU,Multiple System Atrophy
+PDXP,Multiple System Atrophy
+RMDN2,Multiple System Atrophy
+MIR96,Multiple System Atrophy
+ABCG2,"Anemia, sideroblastic spinocerebellar ataxia"
+HLA-A,"Parkinson Disease, Secondary"
+CD8A,"Multiple Sclerosis, Chronic Progressive"
+MBP,"Multiple Sclerosis, Chronic Progressive"
+APOE,AMYOTROPHIC LATERAL SCLEROSIS-PARKINSONISM/DEMENTIA COMPLEX 1
+YWHAQ,AMYOTROPHIC LATERAL SCLEROSIS-PARKINSONISM/DEMENTIA COMPLEX 1
+ABCB7,Spinocerebellar Ataxias
+ADRA1D,Spinocerebellar Ataxias
+ALAS2,Spinocerebellar Ataxias
+CAPN1,Spinocerebellar Ataxias
+CAT,Spinocerebellar Ataxias
+CRAT,Spinocerebellar Ataxias
+CREBBP,Spinocerebellar Ataxias
+EIF4E,Spinocerebellar Ataxias
+ETV6,Spinocerebellar Ataxias
+GABPA,Spinocerebellar Ataxias
+GJB1,Spinocerebellar Ataxias
+HLA-DPB1,Spinocerebellar Ataxias
+HLA-DRB4,Spinocerebellar Ataxias
+HSPA5,Spinocerebellar Ataxias
+HSPA8,Spinocerebellar Ataxias
+IGF1,Spinocerebellar Ataxias
+INS,Spinocerebellar Ataxias
+ITPR3,Spinocerebellar Ataxias
+KCNA1,Spinocerebellar Ataxias
+LMNB1,Spinocerebellar Ataxias
+NFE2L2,Spinocerebellar Ataxias
+PLA2G1B,Spinocerebellar Ataxias
+PLA2G2A,Spinocerebellar Ataxias
+PRNP,Spinocerebellar Ataxias
+PSMC6,Spinocerebellar Ataxias
+OPN1LW,Spinocerebellar Ataxias
+SPG7,Spinocerebellar Ataxias
+ST8,Spinocerebellar Ataxias
+TYRP1,Spinocerebellar Ataxias
+PLA2G6,Spinocerebellar Ataxias
+CDKL1,Spinocerebellar Ataxias
+LITAF,Spinocerebellar Ataxias
+TBPL1,Spinocerebellar Ataxias
+GLYAT,Spinocerebellar Ataxias
+CNPY3,Spinocerebellar Ataxias
+PARK7,Spinocerebellar Ataxias
+SETX,Spinocerebellar Ataxias
+SYNE1,Spinocerebellar Ataxias
+TARDBP,Spinocerebellar Ataxias
+CDK20,Spinocerebellar Ataxias
+SACS,Spinocerebellar Ataxias
+FGF21,Spinocerebellar Ataxias
+COQ2,Spinocerebellar Ataxias
+IMPACT,Spinocerebellar Ataxias
+PAG1,Spinocerebellar Ataxias
+PCBP4,Spinocerebellar Ataxias
+ELOVL5,Spinocerebellar Ataxias
+NUP43,Spinocerebellar Ataxias
+INS-IGF2,Spinocerebellar Ataxias
+SCA34,Spinocerebellar Ataxias
+DYNC1H1,Distal spinal muscular atrophy
+AIFM1,Distal spinal muscular atrophy
+FBXO38,Distal spinal muscular atrophy
+DHX16,Spinal muscular atrophy with respiratory distress 1
+DDX46,Spinal muscular atrophy with respiratory distress 1
+DDX19A,Spinal muscular atrophy with respiratory distress 1
+LAS1L,Spinal muscular atrophy with respiratory distress 1
+NELFE,Huntington Disease-Like 2
+RIMS2,Huntington Disease-Like 2
+VPS13A,Huntington Disease-Like 2
+SCAR2,SPINOCEREBELLAR ATAXIA 1
+CREBBP,SPINOCEREBELLAR ATAXIA 1
+EIF4E,SPINOCEREBELLAR ATAXIA 1
+EPHA3,SPINOCEREBELLAR ATAXIA 1
+ESRRB,SPINOCEREBELLAR ATAXIA 1
+FMR1,SPINOCEREBELLAR ATAXIA 1
+FXN,SPINOCEREBELLAR ATAXIA 1
+FRAXA,SPINOCEREBELLAR ATAXIA 1
+IVL,SPINOCEREBELLAR ATAXIA 1
+PML,SPINOCEREBELLAR ATAXIA 1
+PPP2R4,SPINOCEREBELLAR ATAXIA 1
+PRKCG,SPINOCEREBELLAR ATAXIA 1
+OPN1LW,SPINOCEREBELLAR ATAXIA 1
+RPA1,SPINOCEREBELLAR ATAXIA 1
+S100B,SPINOCEREBELLAR ATAXIA 1
+ATXN7,SPINOCEREBELLAR ATAXIA 1
+SGCG,SPINOCEREBELLAR ATAXIA 1
+SNRNP70,SPINOCEREBELLAR ATAXIA 1
+VEGFA,SPINOCEREBELLAR ATAXIA 1
+HDAC3,SPINOCEREBELLAR ATAXIA 1
+KAT5,SPINOCEREBELLAR ATAXIA 1
+POLR1A,SPINOCEREBELLAR ATAXIA 1
+PAG1,SPINOCEREBELLAR ATAXIA 1
+PCBP4,SPINOCEREBELLAR ATAXIA 1
+EPHX3,SPINOCEREBELLAR ATAXIA 1
+RBM17,SPINOCEREBELLAR ATAXIA 1
+RBFOX3,SPINOCEREBELLAR ATAXIA 1
+EPHX4,SPINOCEREBELLAR ATAXIA 1
+ATXN1L,SPINOCEREBELLAR ATAXIA 1
+APOE,Inclusion Body Myopathy With Early-Onset Paget Disease And Frontotemporal Dementia
+LAMP1,Inclusion Body Myopathy With Early-Onset Paget Disease And Frontotemporal Dementia
+LAMP2,Inclusion Body Myopathy With Early-Onset Paget Disease And Frontotemporal Dementia
+NF1,Inclusion Body Myopathy With Early-Onset Paget Disease And Frontotemporal Dementia
+WDTC1,Inclusion Body Myopathy With Early-Onset Paget Disease And Frontotemporal Dementia
+C9orf72,Huntington Disease-Like Syndrome
+BAG1,GRN-related frontotemporal dementia
+BDNF,GRN-related frontotemporal dementia
+CSF2,GRN-related frontotemporal dementia
+CST3,GRN-related frontotemporal dementia
+DPYSL2,GRN-related frontotemporal dementia
+HNRNPA1,GRN-related frontotemporal dementia
+IGFALS,GRN-related frontotemporal dementia
+LAMC2,GRN-related frontotemporal dementia
+NOS3,GRN-related frontotemporal dementia
+PFN1,GRN-related frontotemporal dementia
+PIN1,GRN-related frontotemporal dementia
+PPA1,GRN-related frontotemporal dementia
+PRF1,GRN-related frontotemporal dementia
+PSEN2,GRN-related frontotemporal dementia
+PTBP1,GRN-related frontotemporal dementia
+RBMY1A1,GRN-related frontotemporal dementia
+RRM2,GRN-related frontotemporal dementia
+ATXN2,GRN-related frontotemporal dementia
+CCL2,GRN-related frontotemporal dementia
+CCL8,GRN-related frontotemporal dementia
+SLPI,GRN-related frontotemporal dementia
+TAF12,GRN-related frontotemporal dementia
+VEGFA,GRN-related frontotemporal dementia
+TAF15,GRN-related frontotemporal dementia
+SLC14A2,GRN-related frontotemporal dementia
+CDC7,GRN-related frontotemporal dementia
+INA,GRN-related frontotemporal dementia
+FNDC3A,GRN-related frontotemporal dementia
+PDZD2,GRN-related frontotemporal dementia
+SRRM2,GRN-related frontotemporal dementia
+RBMS3,GRN-related frontotemporal dementia
+UBQLN2,GRN-related frontotemporal dementia
+UBAP1,GRN-related frontotemporal dementia
+DCUN1D1,GRN-related frontotemporal dementia
+Sep.11,GRN-related frontotemporal dementia
+PRMT8,GRN-related frontotemporal dementia
+PNO1,GRN-related frontotemporal dementia
+MAK16,GRN-related frontotemporal dementia
+SPPL2A,GRN-related frontotemporal dementia
+FOXP2,GRN-related frontotemporal dementia
+MIR590,GRN-related frontotemporal dementia
+ABCA1,Creutzfeldt-Jakob Syndrome
+BMP4,Creutzfeldt-Jakob Syndrome
+BMP5,Creutzfeldt-Jakob Syndrome
+CASP3,Creutzfeldt-Jakob Syndrome
+CD68,Creutzfeldt-Jakob Syndrome
+CFTR,Creutzfeldt-Jakob Syndrome
+ENO2,Creutzfeldt-Jakob Syndrome
+GCNT2,Creutzfeldt-Jakob Syndrome
+GRN,Creutzfeldt-Jakob Syndrome
+HSPA4,Creutzfeldt-Jakob Syndrome
+MT1A,Creutzfeldt-Jakob Syndrome
+MT1B,Creutzfeldt-Jakob Syndrome
+MT1E,Creutzfeldt-Jakob Syndrome
+MT1F,Creutzfeldt-Jakob Syndrome
+MT1G,Creutzfeldt-Jakob Syndrome
+MT1H,Creutzfeldt-Jakob Syndrome
+MT1JP,Creutzfeldt-Jakob Syndrome
+MT1M,Creutzfeldt-Jakob Syndrome
+MT1L,Creutzfeldt-Jakob Syndrome
+MT1X,Creutzfeldt-Jakob Syndrome
+MT3,Creutzfeldt-Jakob Syndrome
+COX1,Creutzfeldt-Jakob Syndrome
+COX2,Creutzfeldt-Jakob Syndrome
+MTNR1A,Creutzfeldt-Jakob Syndrome
+NPAS2,Creutzfeldt-Jakob Syndrome
+PARK2,Creutzfeldt-Jakob Syndrome
+PKLR,Creutzfeldt-Jakob Syndrome
+EIF2AK2,Creutzfeldt-Jakob Syndrome
+PTGS1,Creutzfeldt-Jakob Syndrome
+PTGS2,Creutzfeldt-Jakob Syndrome
+RASA2,Creutzfeldt-Jakob Syndrome
+DHX16,Creutzfeldt-Jakob Syndrome
+AHSP,Creutzfeldt-Jakob Syndrome
+ALG1,Creutzfeldt-Jakob Syndrome
+MEPE,Creutzfeldt-Jakob Syndrome
+MUL1,Creutzfeldt-Jakob Syndrome
+TMEM171,Creutzfeldt-Jakob Syndrome
+HECTD2,Creutzfeldt-Jakob Syndrome
+ZNF645,Creutzfeldt-Jakob Syndrome
+ZBTB38,Creutzfeldt-Jakob Syndrome
+MT1IP,Creutzfeldt-Jakob Syndrome
+FAS-AS1,Creutzfeldt-Jakob Syndrome
+MAPT,Familial progressive supranuclear palsy
+ACTG1,Parkinson Disease
+ACTG2,Parkinson Disease
+APP,Parkinson Disease
+AVP,Parkinson Disease
+BCL2,Parkinson Disease
+BNIP3L,Parkinson Disease
+CALCA,Parkinson Disease
+SCARB2,Parkinson Disease
+CLU,Parkinson Disease
+CRAT,Parkinson Disease
+DNAH8,Parkinson Disease
+EGF,Parkinson Disease
+F2R,Parkinson Disease
+FABP3,Parkinson Disease
+FKBP1A,Parkinson Disease
+FKBP1AP1,Parkinson Disease
+FKBP1AP2,Parkinson Disease
+FKBP1AP3,Parkinson Disease
+FKBP1AP4,Parkinson Disease
+FKBP4,Parkinson Disease
+HEXA,Parkinson Disease
+IGFALS,Parkinson Disease
+MPZ,Parkinson Disease
+MS,Parkinson Disease
+MYOC,Parkinson Disease
+NRTN,Parkinson Disease
+NTS,Parkinson Disease
+PAX5,Parkinson Disease
+PCYT1A,Parkinson Disease
+PENK,Parkinson Disease
+PIN1,Parkinson Disease
+PLK1,Parkinson Disease
+PPARG,Parkinson Disease
+PRKCD,Parkinson Disease
+MAPK8,Parkinson Disease
+HTRA1,Parkinson Disease
+PSEN1,Parkinson Disease
+PTBP1,Parkinson Disease
+RBMY1A1,Parkinson Disease
+RET,Parkinson Disease
+SCN9A,Parkinson Disease
+CX3CL1,Parkinson Disease
+SGCG,Parkinson Disease
+SKP1,Parkinson Disease
+SLC1A2,Parkinson Disease
+SLC7A1,Parkinson Disease
+SLC20A2,Parkinson Disease
+SMPD1,Parkinson Disease
+SNCG,Parkinson Disease
+SNRPF,Parkinson Disease
+USP1,Parkinson Disease
+VCP,Parkinson Disease
+MANF,Parkinson Disease
+PICALM,Parkinson Disease
+FHL5,Parkinson Disease
+LRPPRC,Parkinson Disease
+MPHOSPH6,Parkinson Disease
+CD3EAP,Parkinson Disease
+PPARGC1A,Parkinson Disease
+TPPP,Parkinson Disease
+ACOT7,Parkinson Disease
+HMGXB3,Parkinson Disease
+PDZD2,Parkinson Disease
+SRRM2,Parkinson Disease
+ARIH1,Parkinson Disease
+ERC2,Parkinson Disease
+RBMS3,Parkinson Disease
+GIT1,Parkinson Disease
+EHD3,Parkinson Disease
+THAP1,Parkinson Disease
+MAP1S,Parkinson Disease
+RHOT1,Parkinson Disease
+TRPV6,Parkinson Disease
+SAGE1,Parkinson Disease
+PNO1,Parkinson Disease
+SH3RF1,Parkinson Disease
+MUL1,Parkinson Disease
+PGAP1,Parkinson Disease
+MAK16,Parkinson Disease
+ZNF645,Parkinson Disease
+ACTBL2,Parkinson Disease
+ACT,Parkinson Disease
+POTEKP,Parkinson Disease
+MIR433,Parkinson Disease
+POTEM,Parkinson Disease
+POLG,"Spinocerebellar ataxia, autosomal recessive 1"
+TTPA,"Spinocerebellar ataxia, autosomal recessive 1"
+SACS,"Spinocerebellar ataxia, autosomal recessive 1"
+TDP1,"Spinocerebellar ataxia, autosomal recessive 1"
+CANT1,"Spinocerebellar ataxia, autosomal recessive 1"
+MTR,Opticospinal Multiple Sclerosis
+RBM45,Opticospinal Multiple Sclerosis
+CP,Neurodegeneration with brain iron accumulation (NBIA)
+PLA2G4A,Neurodegeneration with brain iron accumulation (NBIA)
+PRPS1,Neurodegeneration with brain iron accumulation (NBIA)
+MFN2,Neurodegeneration with brain iron accumulation (NBIA)
+PANK1,Neurodegeneration with brain iron accumulation (NBIA)
+COASY,Neurodegeneration with brain iron accumulation (NBIA)
+CRK,"Parkinson Disease, Familial, Type 1"
+MAPK14,"Parkinson Disease, Familial, Type 1"
+ICAM1,"Parkinson Disease, Familial, Type 1"
+MAPK1,"Parkinson Disease, Familial, Type 1"
+UTRN,"Parkinson Disease, Familial, Type 1"
+AIMP2,"Parkinson Disease, Familial, Type 1"
+GRAP2,"Parkinson Disease, Familial, Type 1"
+DNM1L,"Parkinson Disease, Familial, Type 1"
+AHSA1,"Parkinson Disease, Familial, Type 1"
+RNF19A,"Parkinson Disease, Familial, Type 1"
+POLDIP2,"Parkinson Disease, Familial, Type 1"
+VPS35,"Parkinson Disease, Familial, Type 1"
+MEPE,"Parkinson Disease, Familial, Type 1"
+PDSS2,"Parkinson Disease, Familial, Type 1"
+C4BPA,"Creutzfeldt-Jakob Disease, Familial"
+GPI,"Creutzfeldt-Jakob Disease, Familial"
+PRDX2,"Creutzfeldt-Jakob Disease, Familial"
+ABCB6,"Creutzfeldt-Jakob Disease, Familial"
+CARD14,"Creutzfeldt-Jakob Disease, Familial"
+PPP2R4,Spinocerebellar Ataxia 12
+PPP2R5B,Spinocerebellar Ataxia 12
+ACHE,"Parkinsonism, Experimental"
+MTOR,"Parkinsonism, Experimental"
+PPP1R1B,"Parkinsonism, Experimental"
+PDYN,SPINOCEREBELLAR ATAXIA 4
+TK2,SPINOCEREBELLAR ATAXIA 4
+BEAN1,SPINOCEREBELLAR ATAXIA 4
+CLN5,Parkinson disease 9
+KARS,Parkinson disease 9
+NCL,Parkinson disease 9
+FA2H,Parkinson disease 9
+PANK2,Parkinson disease 9
+DNAJC5,Parkinson disease 9
+CYP2D6,Pseudoparkinsonism
+ESR1,Alzheimer Disease 12
+RN5S1@,Alzheimer Disease 12
+PRNP,Dementia in Parkinson's disease
+VPS52,Dementia in Parkinson's disease
+AIF1,"Creutzfeldt-Jakob Disease, Sporadic"
+C4BPA,"Creutzfeldt-Jakob Disease, Sporadic"
+CRYAB,"Creutzfeldt-Jakob Disease, Sporadic"
+GFAP,"Creutzfeldt-Jakob Disease, Sporadic"
+GH1,"Creutzfeldt-Jakob Disease, Sporadic"
+GPI,"Creutzfeldt-Jakob Disease, Sporadic"
+UTS2R,"Creutzfeldt-Jakob Disease, Sporadic"
+MICE,"Creutzfeldt-Jakob Disease, Sporadic"
+COX1,"Creutzfeldt-Jakob Disease, Sporadic"
+COX2,"Creutzfeldt-Jakob Disease, Sporadic"
+PARK2,"Creutzfeldt-Jakob Disease, Sporadic"
+PTGS1,"Creutzfeldt-Jakob Disease, Sporadic"
+PTGS2,"Creutzfeldt-Jakob Disease, Sporadic"
+PRDX2,"Creutzfeldt-Jakob Disease, Sporadic"
+SLC14A2,"Creutzfeldt-Jakob Disease, Sporadic"
+ABCB6,"Creutzfeldt-Jakob Disease, Sporadic"
+CASP14,"Creutzfeldt-Jakob Disease, Sporadic"
+CARD14,"Creutzfeldt-Jakob Disease, Sporadic"
+MUL1,"Creutzfeldt-Jakob Disease, Sporadic"
+HECTD2,"Creutzfeldt-Jakob Disease, Sporadic"
+ZNF645,"Creutzfeldt-Jakob Disease, Sporadic"
