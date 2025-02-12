@@ -21,9 +21,6 @@ library(igraph)
 library(readxl)
 source("utility.R")
 
-# ------------------------------------------------------------------------------
-# 1. Read Disease Genes for 'Alzheimer Disease'
-# ------------------------------------------------------------------------------
 nd_file <- file.path("..", "data", "drug", "filtered_neurodegenerative_diseases.csv")
 if (!file.exists(nd_file)) {
   stop(sprintf("Neurodegenerative diseases file not found: %s", nd_file))
@@ -39,9 +36,6 @@ if (length(disease_genes) == 0) {
 # Clean gene names.
 disease_genes <- trimws(disease_genes)
 
-# ------------------------------------------------------------------------------
-# 2. Read Drug Candidate Information from Excel
-# ------------------------------------------------------------------------------
 drug_excel_file <- file.path("..", "data", "drug", "filtered_drug_gene_dataset.xlsx")
 if (!file.exists(drug_excel_file)) {
   stop(sprintf("Drug Excel file not found: %s", drug_excel_file))
@@ -68,9 +62,6 @@ candidate_drug_targets_list <- lapply(candidate_drugs, function(drug) {
 })
 names(candidate_drug_targets_list) <- candidate_drugs
 
-# ------------------------------------------------------------------------------
-# 3. Pick the Top Five Drugs Based on the Intersection with Disease Genes
-# ------------------------------------------------------------------------------
 # Compute the intersection count for each candidate drug.
 candidate_intersections <- sapply(candidate_drugs, function(drug) {
   targets <- candidate_drug_targets_list[[drug]]
@@ -78,8 +69,8 @@ candidate_intersections <- sapply(candidate_drugs, function(drug) {
 })
 # Order candidate drugs in descending order of intersection count.
 ordered_indices <- order(candidate_intersections, decreasing = TRUE)
-# Pick the top five candidate drugs.
-top_n <- 5
+# Pick the top n candidate drugs.
+top_n <- 270
 if(length(ordered_indices) < top_n) {
   top_n <- length(ordered_indices)
 }
@@ -92,9 +83,6 @@ for(i in seq_along(candidate_drugs)) {
   cat(sprintf("  %s: %d\n", candidate_drugs[i], candidate_intersections[top_candidate_indices[i]]))
 }
 
-# ------------------------------------------------------------------------------
-# 4. Configurable Variables for the Tissue Networks
-# ------------------------------------------------------------------------------
 age_group <- 20
 lambda    <- 1
 
@@ -118,9 +106,6 @@ if (!dir.exists(drug_dir)) {
 }
 output_file <- file.path(drug_dir, "efficacy.csv")
 
-# ------------------------------------------------------------------------------
-# 5. Updated Helper Function: Calculate Efficacy Using a Set of Drug Target Genes
-# ------------------------------------------------------------------------------
 calc_efficacy <- function(graph, drug_targets, disease_genes, non_disease_genes, lambda = 1) {
   # Only consider drug targets that are in the graph.
   valid_drug_targets <- intersect(drug_targets, V(graph)$name)
@@ -134,15 +119,24 @@ calc_efficacy <- function(graph, drug_targets, disease_genes, non_disease_genes,
     return(0)
   }
   
-  # Numerator: sum over disease genes using influence_S_g (the influence of the drug target set on gene s).
-  numerator <- sum(sapply(valid_disease_genes, function(s) {
-    influence_S_g(graph, valid_drug_targets, s, lambda)
-  }))
+  # Precompute distances from the set of drug targets to all nodes in the graph.
+  dist_matrix <- distances(graph, v = valid_drug_targets)
   
-  # Denominator: sum over non-disease genes.
-  denominator <- sum(sapply(non_disease_genes, function(n) {
-    influence_S_g(graph, valid_drug_targets, n, lambda)
-  }))
+  # If multiple sources, take the minimum distance for each node.
+  if (length(valid_drug_targets) > 1) {
+    min_distances <- apply(dist_matrix, 2, min)
+  } else {
+    min_distances <- as.vector(dist_matrix)
+  }
+  
+  # Compute influence values for all nodes.
+  influence_values <- exp(-lambda * min_distances)
+  
+  # Calculate numerator: sum of influences for disease genes.
+  numerator <- sum(influence_values[valid_disease_genes])
+  
+  # Calculate denominator: sum of influences for non-disease genes.
+  denominator <- sum(influence_values[non_disease_genes])
   
   if (denominator == 0) {
     return(0)
@@ -151,16 +145,10 @@ calc_efficacy <- function(graph, drug_targets, disease_genes, non_disease_genes,
   return(numerator / denominator)
 }
 
-# ------------------------------------------------------------------------------
-# 6. Prepare the Results Container (one column per candidate drug)
-# ------------------------------------------------------------------------------
 # Header: first column is Tissue-Name, then one column per candidate drug.
 efficacy_matrix <- list()
 efficacy_matrix[[1]] <- c("Tissue-Name", candidate_drugs)
 
-# ------------------------------------------------------------------------------
-# 7. Loop Over Each Tissue CSV and Compute the Efficacy for Each Top Candidate Drug
-# ------------------------------------------------------------------------------
 row_index <- 2  # Row 1 is the header.
 for (mapped_file in mapped_files) {
   filename    <- basename(mapped_file)  # e.g., "mapped_brain_cortex_20.csv"
@@ -208,9 +196,6 @@ for (mapped_file in mapped_files) {
   row_index <- row_index + 1
 }
 
-# ------------------------------------------------------------------------------
-# 8. Write the Efficacy Matrix to CSV
-# ------------------------------------------------------------------------------
 cat(sprintf("\nWriting CSV to: %s\n", output_file))
 file_conn <- file(output_file, open = "w")
 for (row_vec in efficacy_matrix) {
