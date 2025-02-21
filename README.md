@@ -43,3 +43,10 @@
     - Has a configurabe gene_set and tissue_name variable
     - Prints to the screen the age based influence of the gene set on the entire network, for the given tissue
     - Also creates a plot
+
+### algorithm_0.R
+    - Reads mapped data and trrust data as input
+    - Has a configurable tissue_name variable
+    - Iterates through all unique gene symbols in trrust column A
+    - Finds the gene set within the given tissue name's gene network with the highest and lowest collective age-based influence value
+    - Creates plots of the influence values per age group for the sets.

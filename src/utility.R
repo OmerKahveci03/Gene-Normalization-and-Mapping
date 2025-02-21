@@ -18,23 +18,15 @@ influence_S_V <- function(graph, S, lambda = 1) {
 }
 
 # Returns influence_list to be used by age_based_influence
-compute_influence_list <- function(age_groups,
-                                   tissue_name,
-                                   gene_set,
-                                   lambda,
-                                   data_dir = "..") {
-  # Create an empty numeric vector to store influence values
+compute_influence_list <- function(age_groups, tissue_name, gene_set, lambda = 1, data_dir = "..") {
   influence_list <- numeric(length(age_groups))
   
   for (k in seq_along(age_groups)) {
     ag <- age_groups[k]
-    
-    # Build the mapping_file path
     mapping_file <- file.path(data_dir, "data", "mapped",
                               as.character(ag),
                               paste0("mapped_", tissue_name, "_", ag, ".csv"))
     
-    # Check if file exists
     if (!file.exists(mapping_file)) {
       cat(sprintf("Age group %d: File does not exist: %s\n", ag, mapping_file))
       influence_list[k] <- NA
@@ -48,10 +40,17 @@ compute_influence_list <- function(age_groups,
       next
     }
     
-    g <- graph_from_data_frame(edges, directed = FALSE)
+    g <- graph_from_data_frame(edges, directed = TRUE)
     
-    # Calculate Influence(S, V) for this age group
-    result <- influence_S_V(g, gene_set, lambda)
+    # Filter gene_set to valid genes for this graph:
+    valid_gene_set <- intersect(gene_set, V(g)$name)
+    if (length(valid_gene_set) == 0) {
+      cat(sprintf("Age group %d: None of the genes in the gene_set are present.\n", ag))
+      influence_list[k] <- NA
+      next
+    }
+    
+    result <- influence_S_V(g, valid_gene_set, lambda)
     influence_list[k] <- result
   }
   

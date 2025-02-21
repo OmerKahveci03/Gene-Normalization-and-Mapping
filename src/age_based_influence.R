@@ -7,7 +7,7 @@ source("utility.R")  # <-- Brings in compute_influence_list() and age_based_infl
 # Configurable Values
 tissue_name  <- "brain_cortex"
 lambda       <- 1
-gene_set     <- c("AATF", "ABL1", "AES")
+gene_set     <- c("GLI1", "NUPR1", "AES")
 epsilon      <- 0.005
 
 age_groups <- c(20, 30, 40, 50, 60, 70)
