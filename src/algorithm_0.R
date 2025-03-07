@@ -1,13 +1,21 @@
 library(igraph)
+library(writexl)
+
+# -----------------------------
+# Determine Tissue List from mapped files for age 20
+# -----------------------------
+tissue_dir <- file.path("..", "data", "mapped", "20")
+mapped_files <- list.files(path = tissue_dir, pattern = "^mapped_.*_20\\.csv$", full.names = FALSE)
+# Extract tissue names from file names of the form "mapped_{tissue}_20.csv"
+tissues <- unique(gsub("^mapped_(.*)_20\\.csv$", "\\1", mapped_files))
+cat(sprintf("Found %d tissues: %s\n", length(tissues), paste(tissues, collapse = ", ")))
 
 # -----------------------------
 # Configurable Values
 # -----------------------------
-tissue_name  <- "brain_cortex"
-lambda       <- 1
-epsilon      <- 0.005
-age_groups   <- c(20, 30, 40, 50, 60, 70)
-# Instead of a fixed number of iterations, we loop until no candidate improves the metric.
+lambda <- 1
+epsilon <- 0.005
+age_groups <- c(20, 30, 40, 50, 60, 70)
 
 # -----------------------------
 # Start overall timer
@@ -21,88 +29,35 @@ trrust_file <- file.path("..", "data", "raw", "trrust_rawdata.human.tsv")
 if (!file.exists(trrust_file)) {
   stop("TRRUST file not found at: ", trrust_file)
 }
-# Read the TRRUST file (assumes tab-separated; first two columns are gene symbols)
 trrust <- read.delim(trrust_file, header = TRUE, stringsAsFactors = FALSE, sep = "\t")
-# Get all unique genes from both columns
 trrust_genes <- unique(c(trrust[[1]], trrust[[2]]))
 
 # -----------------------------
-# Pre-load Graphs and Collect Source Genes from Mapped Files
+# Define Incremental Update and Greedy Search Functions
 # -----------------------------
-graphs <- list()
-mapped_source_genes <- character(0)  # union of all source genes (column A) from mapped files
-
-for (ag in age_groups) {
-  mapping_file <- file.path("..", "data", "mapped", as.character(ag),
-                            paste0("mapped_", tissue_name, "_", ag, ".csv"))
-  
-  if (!file.exists(mapping_file)) {
-    cat(sprintf("Age group %d: File does not exist => %s\n", ag, mapping_file))
-    graphs[[as.character(ag)]] <- NULL
-    next
-  }
-  
-  edges <- read.csv(mapping_file, header = TRUE, stringsAsFactors = FALSE)
-  if (nrow(edges) == 0) {
-    cat(sprintf("Age group %d: No edges found.\n", ag))
-    graphs[[as.character(ag)]] <- NULL
-    next
-  }
-  
-  # Build the directed graph (column A influences column B)
-  g <- graph_from_data_frame(edges, directed = TRUE)
-  graphs[[as.character(ag)]] <- g
-  
-  # Update candidate source genes: only genes from column A (influencers)
-  source_genes <- unique(edges[[1]])
-  mapped_source_genes <- union(mapped_source_genes, source_genes)
+initialize_distances <- function(g) {
+  if (is.null(g)) return(NULL)
+  rep(Inf, length(V(g)$name))
 }
 
-cat(sprintf("Total unique source genes from mapped files: %d\n", length(mapped_source_genes)))
-
-# Create final candidate gene set: only genes from TRRUST that are found as influencers (column A)
-all_candidate_genes <- intersect(trrust_genes, mapped_source_genes)
-cat(sprintf("Total candidate genes (from TRRUST and mapped sources): %d\n", length(all_candidate_genes)))
-
-# -----------------------------
-# Influence Computation Functions
-# -----------------------------
-# Computes the average influence of set S on all nodes in graph g.
-# Influence(S, G) = (sum_{g in G} e^(-lambda * min_{s in S} dist(s, g))) / |G|
-compute_influence_preloaded <- function(g, S, lambda = 1) {
-  if (length(S) == 0) return(0)
-  
+# Updated: Check if candidate is in the graph. If not, leave distances unchanged.
+update_influence_for_graph <- function(g, d_current, candidate, lambda) {
   all_nodes <- V(g)$name
-  # Filter S to only include valid vertices in the graph.
-  valid_S <- intersect(S, all_nodes)
-  if (length(valid_S) == 0) return(0)
-  
-  # Compute the full distance matrix from valid_S to all nodes in g.
-  dist_mat <- distances(g, v = valid_S, to = all_nodes)
-  # For each node g in G, take the minimum distance from any s in valid_S.
-  min_dists <- apply(dist_mat, 2, min)
-  influence_values <- exp(-lambda * min_dists)
-  
-  return(mean(influence_values))
+  if (!(candidate %in% all_nodes)) {
+    # Candidate not in the graph: return current distances and influence unchanged.
+    return(list(d_new = d_current, influence_new = mean(exp(-lambda * d_current))))
+  }
+  d_candidate <- as.vector(distances(g, v = candidate, to = all_nodes))
+  d_new <- pmin(d_current, d_candidate)
+  influence_new <- mean(exp(-lambda * d_new))
+  list(d_new = d_new, influence_new = influence_new)
 }
 
-# Computes the influence list (one per age group) across all pre-loaded graphs.
-compute_influence_list_preloaded <- function(graphs, gene_set, lambda = 1) {
-  sapply(graphs, function(g) {
-    if (is.null(g)) return(NA)
-    compute_influence_preloaded(g, gene_set, lambda)
-  })
-}
-
-# Computes the age-based influence from the influence list.
 age_based_influence <- function(influence_list, epsilon = 0.005) {
   val <- 0
-  # Compare age groups 2 through 5 with later groups.
   for (i in 2:5) {
     for (j in (i+1):6) {
-      if (is.na(influence_list[i]) || is.na(influence_list[j])) {
-        next
-      }
+      if (is.na(influence_list[i]) || is.na(influence_list[j])) next
       if (influence_list[i] + epsilon < influence_list[j]) {
         val <- val + 1
       } else if (influence_list[j] + epsilon < influence_list[i]) {
@@ -113,107 +68,184 @@ age_based_influence <- function(influence_list, epsilon = 0.005) {
   return(val / 15)
 }
 
-# -----------------------------
-# Greedy Search for Maximum Age-Based Influence
-# -----------------------------
-cat("\n=== Greedy Search for Maximum Age-Based Influence ===\n")
-gene_set_max <- character(0)
-current_metric_max <- age_based_influence(compute_influence_list_preloaded(graphs, gene_set_max, lambda), epsilon)
-improved <- TRUE
-iter_max <- 0
-
-while (improved) {
-  iter_max <- iter_max + 1
-  cat(sprintf("\nMax Iteration %d\n", iter_max))
-  candidate_genes <- setdiff(all_candidate_genes, gene_set_max)
-  best_candidate <- NA
-  best_candidate_metric <- current_metric_max
+greedy_search <- function(mode = c("max", "min"), candidate_genes, graphs, lambda, epsilon) {
+  mode <- match.arg(mode)
+  gene_set <- character(0)
+  current_d <- lapply(graphs, initialize_distances)
+  current_influences <- mapply(function(g, d) {
+    if (is.null(g)) return(NA)
+    mean(exp(-lambda * d))
+  }, graphs, current_d)
+  current_metric <- age_based_influence(current_influences, epsilon)
   
-  for (candidate in candidate_genes) {
-    temp_set <- c(gene_set_max, candidate)
-    influence_list <- compute_influence_list_preloaded(graphs, temp_set, lambda)
-    new_metric <- age_based_influence(influence_list, epsilon)
+  improved <- TRUE
+  iteration <- 0
+  
+  while (improved) {
+    iteration <- iteration + 1
+    cat(sprintf("\n%s Iteration %d\n", toupper(mode), iteration))
+    remaining_candidates <- setdiff(candidate_genes, gene_set)
+    best_candidate <- NA
+    best_metric <- current_metric
+    best_candidate_updates <- NULL
     
-    if (new_metric > best_candidate_metric) {
-      best_candidate_metric <- new_metric
-      best_candidate <- candidate
+    for (candidate in remaining_candidates) {
+      new_influences <- numeric(length(graphs))
+      candidate_updates <- vector("list", length(graphs))
+      
+      for (i in seq_along(graphs)) {
+        g <- graphs[[i]]
+        if (is.null(g)) {
+          new_influences[i] <- NA
+          candidate_updates[[i]] <- NULL
+          next
+        }
+        res <- update_influence_for_graph(g, current_d[[i]], candidate, lambda)
+        candidate_updates[[i]] <- res$d_new
+        new_influences[i] <- res$influence_new
+      }
+      new_metric <- age_based_influence(new_influences, epsilon)
+      
+      if (mode == "max") {
+        if (new_metric > best_metric) {
+          best_metric <- new_metric
+          best_candidate <- candidate
+          best_candidate_updates <- candidate_updates
+        }
+      } else { # mode == "min"
+        if (new_metric < best_metric) {
+          best_metric <- new_metric
+          best_candidate <- candidate
+          best_candidate_updates <- candidate_updates
+        }
+      }
+    }
+    
+    if (!is.na(best_candidate) &&
+        ((mode == "max" && best_metric > current_metric) ||
+         (mode == "min" && best_metric < current_metric))) {
+      gene_set <- c(gene_set, best_candidate)
+      current_metric <- best_metric
+      for (i in seq_along(graphs)) {
+        if (!is.null(graphs[[i]]))
+          current_d[[i]] <- best_candidate_updates[[i]]
+      }
+      cat(sprintf("  Chosen Gene: %s  New Metric: %f\n", best_candidate, current_metric))
+      cat(sprintf("  Gene Set: %s\n", paste(gene_set, collapse = ", ")))
+    } else {
+      cat(sprintf("No candidate gene improves the metric further (%s).\n", mode))
+      improved <- FALSE
     }
   }
-  
-  if (!is.na(best_candidate) && best_candidate_metric > current_metric_max) {
-    gene_set_max <- c(gene_set_max, best_candidate)
-    current_metric_max <- best_candidate_metric
-    cat(sprintf("  Chosen Gene: %s  New Metric: %f\n", best_candidate, current_metric_max))
-    cat(sprintf("  Gene Set: %s\n", paste(gene_set_max, collapse = ", ")))
-  } else {
-    cat("No candidate gene improves the metric further (maximization).\n")
-    improved <- FALSE
-  }
+  final_influences <- mapply(function(g, d) {
+    if (is.null(g)) return(NA)
+    mean(exp(-lambda * d))
+  }, graphs, current_d)
+  list(gene_set = gene_set, metric = current_metric, influences = final_influences)
 }
 
 # -----------------------------
-# Greedy Search for Minimum Age-Based Influence (Most Negative)
+# Prepare to store Excel results for each tissue
 # -----------------------------
-cat("\n=== Greedy Search for Minimum Age-Based Influence ===\n")
-gene_set_min <- character(0)
-current_metric_min <- age_based_influence(compute_influence_list_preloaded(graphs, gene_set_min, lambda), epsilon)
-improved <- TRUE
-iter_min <- 0
+max_results_list <- list()
+min_results_list <- list()
 
-while (improved) {
-  iter_min <- iter_min + 1
-  cat(sprintf("\nMin Iteration %d\n", iter_min))
-  candidate_genes <- setdiff(all_candidate_genes, gene_set_min)
-  best_candidate <- NA
-  best_candidate_metric <- current_metric_min
+# -----------------------------
+# Loop over all tissues
+# -----------------------------
+for (tissue in tissues) {
+  cat(sprintf("\n=============================\nProcessing Tissue: %s\n", tissue))
   
-  for (candidate in candidate_genes) {
-    temp_set <- c(gene_set_min, candidate)
-    influence_list <- compute_influence_list_preloaded(graphs, temp_set, lambda)
-    new_metric <- age_based_influence(influence_list, epsilon)
-    
-    if (new_metric < best_candidate_metric) {  # looking for more negative value
-      best_candidate_metric <- new_metric
-      best_candidate <- candidate
+  # For this tissue, load graphs for each age group
+  graphs_tissue <- list()
+  mapped_source_genes_tissue <- character(0)
+  
+  for (ag in age_groups) {
+    mapping_file <- file.path("..", "data", "mapped", as.character(ag),
+                              paste0("mapped_", tissue, "_", ag, ".csv"))
+    if (!file.exists(mapping_file)) {
+      cat(sprintf("Tissue %s, Age %d: File does not exist => %s\n", tissue, ag, mapping_file))
+      graphs_tissue[[as.character(ag)]] <- NULL
+      next
     }
+    edges <- read.csv(mapping_file, header = TRUE, stringsAsFactors = FALSE)
+    if (nrow(edges) == 0) {
+      cat(sprintf("Tissue %s, Age %d: No edges found.\n", tissue, ag))
+      graphs_tissue[[as.character(ag)]] <- NULL
+      next
+    }
+    g <- graph_from_data_frame(edges, directed = TRUE)
+    graphs_tissue[[as.character(ag)]] <- g
+    source_genes <- unique(edges[[1]])
+    mapped_source_genes_tissue <- union(mapped_source_genes_tissue, source_genes)
   }
   
-  if (!is.na(best_candidate) && best_candidate_metric < current_metric_min) {
-    gene_set_min <- c(gene_set_min, best_candidate)
-    current_metric_min <- best_candidate_metric
-    cat(sprintf("  Chosen Gene: %s  New Metric: %f\n", best_candidate, current_metric_min))
-    cat(sprintf("  Gene Set: %s\n", paste(gene_set_min, collapse = ", ")))
-  } else {
-    cat("No candidate gene improves the metric further (minimization).\n")
-    improved <- FALSE
+  cat(sprintf("Tissue %s: Total unique source genes from mapped files: %d\n",
+              tissue, length(mapped_source_genes_tissue)))
+  
+  candidate_genes_tissue <- intersect(trrust_genes, mapped_source_genes_tissue)
+  cat(sprintf("Tissue %s: Total candidate genes: %d\n", tissue, length(candidate_genes_tissue)))
+  
+  if (length(candidate_genes_tissue) == 0) {
+    cat(sprintf("Tissue %s: No candidate genes available. Skipping.\n", tissue))
+    next
   }
+  
+  cat(sprintf("Tissue %s: Running greedy search for MAX influence...\n", tissue))
+  result_max <- greedy_search("max", candidate_genes_tissue, graphs_tissue, lambda, epsilon)
+  cat(sprintf("Tissue %s: Running greedy search for MIN influence...\n", tissue))
+  result_min <- greedy_search("min", candidate_genes_tissue, graphs_tissue, lambda, epsilon)
+  
+  output_folder <- file.path("..", "data", "age_indexes")
+  if (!dir.exists(output_folder)) {
+    dir.create(output_folder, recursive = TRUE)
+  }
+  
+  max_plot_file <- file.path(output_folder, sprintf("max_%s_plot.png", tissue))
+  png(filename = max_plot_file, width = 800, height = 600)
+  plot(age_groups, result_max$influences, type = "b", pch = 19, col = "blue",
+       xlab = "Age Group", ylab = "Influence(S, V)",
+       main = sprintf("Influence by Age Group (Maximized) - %s", tissue),
+       ylim = c(0, max(result_max$influences, na.rm = TRUE) * 1.1))
+  dev.off()
+  
+  min_plot_file <- file.path(output_folder, sprintf("min_%s_plot.png", tissue))
+  png(filename = min_plot_file, width = 800, height = 600)
+  plot(age_groups, result_min$influences, type = "b", pch = 19, col = "red",
+       xlab = "Age Group", ylab = "Influence(S, V)",
+       main = sprintf("Influence by Age Group (Minimized) - %s", tissue),
+       ylim = c(0, max(result_min$influences, na.rm = TRUE) * 1.1))
+  dev.off()
+  
+  max_row <- c(tissue, result_max$metric, result_max$gene_set)
+  min_row <- c(tissue, result_min$metric, result_min$gene_set)
+  
+  max_results_list[[length(max_results_list) + 1]] <- max_row
+  min_results_list[[length(min_results_list) + 1]] <- min_row
+  
+  cat(sprintf("Tissue %s processed. MAX metric: %f, MIN metric: %f\n", tissue,
+              result_max$metric, result_min$metric))
 }
 
-# -----------------------------
-# Plotting the Final Influence Values for Both Gene Sets
-# -----------------------------
-final_influence_list_max <- compute_influence_list_preloaded(graphs, gene_set_max, lambda)
-final_influence_list_min <- compute_influence_list_preloaded(graphs, gene_set_min, lambda)
+fill_row <- function(x, target_length) {
+  length(x) <- target_length
+  x
+}
 
-# Plot for Maximization
-plot(age_groups, final_influence_list_max, type = "b", pch = 19, col = "blue",
-     xlab = "Age Group", ylab = "Influence(S, V)",
-     main = "Influence by Age Group (Maximized Influence)",
-     ylim = c(0, max(final_influence_list_max, na.rm = TRUE) * 1.1))
-# Plot for Minimization
-plot(age_groups, final_influence_list_min, type = "b", pch = 19, col = "red",
-     xlab = "Age Group", ylab = "Influence(S, V)",
-     main = "Influence by Age Group (Minimized Influence)",
-     ylim = c(0, max(final_influence_list_min, na.rm = TRUE) * 1.1))
+max_ncols <- max(sapply(max_results_list, length))
+min_ncols <- max(sapply(min_results_list, length))
 
-# -----------------------------
-# Report Final Results and Total Runtime
-# -----------------------------
-cat("\n=== Final Results ===\n")
-cat(sprintf("Maximum Influence Gene Set: %s\n", paste(gene_set_max, collapse = ", ")))
-cat(sprintf("Final Maximum Age-Based Influence: %f\n", current_metric_max))
-cat(sprintf("Minimum Influence Gene Set: %s\n", paste(gene_set_min, collapse = ", ")))
-cat(sprintf("Final Minimum Age-Based Influence: %f\n", current_metric_min))
+max_mat <- do.call(rbind, lapply(max_results_list, fill_row, target_length = max_ncols))
+min_mat <- do.call(rbind, lapply(min_results_list, fill_row, target_length = min_ncols))
+
+max_df <- as.data.frame(max_mat, stringsAsFactors = FALSE)
+min_df <- as.data.frame(min_mat, stringsAsFactors = FALSE)
+
+max_excel_file <- file.path("..", "data", "age_indexes", "max_age_indexes.xlsx")
+min_excel_file <- file.path("..", "data", "age_indexes", "min_age_indexes.xlsx")
+
+write_xlsx(max_df, path = max_excel_file, col_names = FALSE)
+write_xlsx(min_df, path = min_excel_file, col_names = FALSE)
 
 end_time_total <- Sys.time()
 total_time_sec <- as.numeric(difftime(end_time_total, start_time_total, units = "secs"))
