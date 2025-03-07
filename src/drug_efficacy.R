@@ -1,7 +1,7 @@
 # drug_efficacy.R - takes roughly 9 minutes
 # -----------------------------------------------------------
 # Input:
-#   - Disease genes S (from filtered_neurodegenerative_diseases.csv) for Alzheimer Disease.
+#   - Disease genes S (from filtered_neurodegenerative_diseases.csv) for Multiple Sclerosis.
 #   - Drug candidate information from filtered_drug_gene_dataset.xlsx:
 #         * "Sorted" sheet: Column A = drug name, Column B = gene count (sorted descending).
 #         * "Raw" sheet: Column A = drug name, Column B = gene name (may be duplicated).
@@ -29,9 +29,9 @@ if (!file.exists(nd_file)) {
 # Read the CSV file (adjust header parameter if needed)
 nd_data <- read.csv(nd_file, header = FALSE, stringsAsFactors = FALSE)
 # Assume Column 1 = gene name, Column 2 = disease name.
-disease_genes <- nd_data[nd_data[, 2] == "Alzheimer Disease", 1]
+disease_genes <- nd_data[nd_data[, 2] == "Multiple Sclerosis", 1]
 if (length(disease_genes) == 0) {
-  stop("No genes found for 'Alzheimer Disease' in the neurodegenerative diseases file.")
+  stop("No genes found for 'Multiple Sclerosis' in the neurodegenerative diseases file.")
 }
 # Clean gene names.
 disease_genes <- trimws(disease_genes)
@@ -107,36 +107,27 @@ if (!dir.exists(drug_dir)) {
 output_file <- file.path(drug_dir, "efficacy.csv")
 
 calc_efficacy <- function(graph, drug_targets, disease_genes, non_disease_genes, lambda = 1) {
-  # Only consider drug targets that are in the graph.
   valid_drug_targets <- intersect(drug_targets, V(graph)$name)
   if (length(valid_drug_targets) == 0) {
     return(0)
   }
   
-  # Only consider disease genes that are in the graph.
   valid_disease_genes <- intersect(disease_genes, V(graph)$name)
   if (length(valid_disease_genes) == 0) {
     return(0)
   }
   
-  # Precompute distances from the set of drug targets to all nodes in the graph.
   dist_matrix <- distances(graph, v = valid_drug_targets)
-  
-  # If multiple sources, take the minimum distance for each node.
-  if (length(valid_drug_targets) > 1) {
-    min_distances <- apply(dist_matrix, 2, min)
+  min_distances <- if (length(valid_drug_targets) > 1) {
+    apply(dist_matrix, 2, min)
   } else {
-    min_distances <- as.vector(dist_matrix)
+    as.vector(dist_matrix)
   }
   
-  # Compute influence values for all nodes.
   influence_values <- exp(-lambda * min_distances)
   
-  # Calculate numerator: sum of influences for disease genes.
   numerator <- sum(influence_values[valid_disease_genes])
-  
-  # Calculate denominator: sum of influences for non-disease genes.
-  denominator <- sum(influence_values[non_disease_genes])
+  denominator <- sum(influence_values[non_disease_genes], na.rm = TRUE)
   
   if (denominator == 0) {
     return(0)
@@ -144,6 +135,7 @@ calc_efficacy <- function(graph, drug_targets, disease_genes, non_disease_genes,
   
   return(numerator / denominator)
 }
+
 
 # Header: first column is Tissue-Name, then one column per candidate drug.
 efficacy_matrix <- list()
