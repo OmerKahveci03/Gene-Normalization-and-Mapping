@@ -1,4 +1,4 @@
-# Total runtime: 1738.537 seconds
+# Total runtime: 9520.918 seconds
 library(igraph)
 library(writexl)
 
@@ -17,7 +17,8 @@ cat(sprintf("Found %d tissues: %s\n", length(tissues), paste(tissues, collapse =
 lambda <- 1
 epsilon <- 0.005
 age_groups <- c(20, 30, 40, 50, 60, 70)
-s_lambda <- 5  # Constant to raise improvement scores
+s_lambda <- 5  # Constant to scale improvement scores
+num_runs <- 5  # Number of stochastic runs per tissue
 
 # -----------------------------
 # Start overall timer
@@ -35,18 +36,17 @@ trrust <- read.delim(trrust_file, header = TRUE, stringsAsFactors = FALSE, sep =
 trrust_genes <- unique(c(trrust[[1]], trrust[[2]]))
 
 # -----------------------------
-# Define Incremental Update and stochastic Search Functions with Stochasticity
+# Define Incremental Update and Stochastic Search Functions
 # -----------------------------
 initialize_distances <- function(g) {
   if (is.null(g)) return(NULL)
   rep(Inf, length(V(g)$name))
 }
 
-# Updated: If candidate is not in the graph, leave distances unchanged.
 update_influence_for_graph <- function(g, d_current, candidate, lambda) {
   all_nodes <- V(g)$name
   if (!(candidate %in% all_nodes)) {
-    # Candidate not in the graph: return current distances and influence unchanged.
+    # Candidate not in the graph: distances and influence unchanged.
     return(list(d_new = d_current, influence_new = mean(exp(-lambda * d_current))))
   }
   d_candidate <- as.vector(distances(g, v = candidate, to = all_nodes))
@@ -88,7 +88,6 @@ stochastic_search <- function(mode = c("max", "min"), candidate_genes, graphs, l
     cat(sprintf("\n%s Iteration %d\n", toupper(mode), iteration))
     remaining_candidates <- setdiff(candidate_genes, gene_set)
     
-    # Storage for candidates that improve the metric.
     candidate_list <- list()
     candidate_updates_list <- list()
     candidate_weights <- numeric()
@@ -110,21 +109,18 @@ stochastic_search <- function(mode = c("max", "min"), candidate_genes, graphs, l
       }
       new_metric <- age_based_influence(new_influences, epsilon)
       
-      # Only consider candidates that improve the metric.
       if ((mode == "max" && new_metric > current_metric) ||
           (mode == "min" && new_metric < current_metric)) {
         
-        # When current_metric is 0, use absolute difference (only meaningful for max mode)
         if (current_metric == 0) {
           if (mode == "max") {
             improvement_factor <- new_metric  # absolute improvement
             weight <- improvement_factor * s_lambda  # multiply by s_lambda
           } else {
-            # For min mode, 0 is the optimal and cannot be improved upon.
+            # In min mode, 0 is optimal; skip.
             next
           }
         } else {
-          # Otherwise, use percentage change.
           if (mode == "max") {
             improvement_factor <- new_metric / current_metric
           } else {
@@ -133,12 +129,10 @@ stochastic_search <- function(mode = c("max", "min"), candidate_genes, graphs, l
           weight <- improvement_factor^s_lambda
         }
         
-        # Only store candidate if the computed values are valid.
         if (is.na(improvement_factor) || !is.finite(improvement_factor) ||
             weight <= 0 || is.na(weight) || !is.finite(weight)) {
           next
         }
-        
         candidate_list <- c(candidate_list, candidate)
         candidate_updates_list[[length(candidate_list)]] <- candidate_updates
         candidate_weights <- c(candidate_weights, weight)
@@ -151,12 +145,10 @@ stochastic_search <- function(mode = c("max", "min"), candidate_genes, graphs, l
       break
     }
     
-    # Randomly select one candidate using the computed weights.
     selected_index <- sample(seq_along(candidate_list), size = 1, prob = candidate_weights)
     best_candidate <- candidate_list[[selected_index]]
     best_candidate_updates <- candidate_updates_list[[selected_index]]
     
-    # Update the current influences using the selected candidate.
     new_influences <- numeric(length(graphs))
     for (i in seq_along(graphs)) {
       g <- graphs[[i]]
@@ -169,7 +161,6 @@ stochastic_search <- function(mode = c("max", "min"), candidate_genes, graphs, l
     }
     new_metric <- age_based_influence(new_influences, epsilon)
     
-    # Update the gene set and current distances.
     gene_set <- c(gene_set, best_candidate)
     current_metric <- new_metric
     for (i in seq_along(graphs)) {
@@ -188,10 +179,18 @@ stochastic_search <- function(mode = c("max", "min"), candidate_genes, graphs, l
 }
 
 # -----------------------------
-# Prepare to store Excel results for each tissue
+# Prepare lists to store Excel results for each mode and run
+# Each will be a list of length = num_runs where each element is a list of rows (one per tissue)
+# Also, for each tissue we will store the best row (based on metric) among runs.
 # -----------------------------
-max_results_list <- list()
-min_results_list <- list()
+max_runs_list <- vector("list", num_runs)
+min_runs_list <- vector("list", num_runs)
+for (i in 1:num_runs) {
+  max_runs_list[[i]] <- list()
+  min_runs_list[[i]] <- list()
+}
+max_best_list <- list()
+min_best_list <- list()
 
 # -----------------------------
 # Loop over all tissues
@@ -234,61 +233,96 @@ for (tissue in tissues) {
     next
   }
   
-  cat(sprintf("Tissue %s: Running stochastic search for MAX influence...\n", tissue))
-  result_max <- stochastic_search("max", candidate_genes_tissue, graphs_tissue, lambda, epsilon, s_lambda)
-  cat(sprintf("Tissue %s: Running stochastic search for MIN influence...\n", tissue))
-  result_min <- stochastic_search("min", candidate_genes_tissue, graphs_tissue, lambda, epsilon, s_lambda)
+  ## For each tissue, run stochastic search num_runs times for MAX and MIN modes.
+  best_max_metric <- -Inf   # For max mode, higher is better.
+  best_min_metric <- Inf    # For min mode, lower is better.
+  best_max_row <- NULL
+  best_min_row <- NULL
   
-  output_folder <- file.path("..", "data", "age_indexes")
-  if (!dir.exists(output_folder)) {
-    dir.create(output_folder, recursive = TRUE)
+  for (run in 1:num_runs) {
+    cat(sprintf("Tissue %s: Run %d of stochastic search for MAX influence...\n", tissue, run))
+    result_max <- stochastic_search("max", candidate_genes_tissue, graphs_tissue, lambda, epsilon, s_lambda)
+    cat(sprintf("Tissue %s: Run %d of stochastic search for MIN influence...\n", tissue, run))
+    result_min <- stochastic_search("min", candidate_genes_tissue, graphs_tissue, lambda, epsilon, s_lambda)
+    
+    # Create rows: Tissue, Metric, Gene Set (as concatenated string)
+    max_row <- c(tissue, result_max$metric, paste(result_max$gene_set, collapse = ", "))
+    min_row <- c(tissue, result_min$metric, paste(result_min$gene_set, collapse = ", "))
+    
+    # Append each run's row to the corresponding list.
+    max_runs_list[[run]][[length(max_runs_list[[run]]) + 1]] <- max_row
+    min_runs_list[[run]][[length(min_runs_list[[run]]) + 1]] <- min_row
+    
+    # Update best result for tissue.
+    if (result_max$metric > best_max_metric) {
+      best_max_metric <- result_max$metric
+      best_max_row <- max_row
+    }
+    if (result_min$metric < best_min_metric) {
+      best_min_metric <- result_min$metric
+      best_min_row <- min_row
+    }
   }
   
-  max_plot_file <- file.path(output_folder, sprintf("max_%s_plot.png", tissue))
-  png(filename = max_plot_file, width = 800, height = 600)
-  plot(age_groups, result_max$influences, type = "b", pch = 19, col = "blue",
-       xlab = "Age Group", ylab = "Influence(S, V)",
-       main = sprintf("Influence by Age Group (Maximized) - %s", tissue),
-       ylim = c(0, max(result_max$influences, na.rm = TRUE) * 1.1))
-  dev.off()
+  # Store best rows for this tissue.
+  max_best_list[[length(max_best_list) + 1]] <- best_max_row
+  min_best_list[[length(min_best_list) + 1]] <- best_min_row
   
-  min_plot_file <- file.path(output_folder, sprintf("min_%s_plot.png", tissue))
-  png(filename = min_plot_file, width = 800, height = 600)
-  plot(age_groups, result_min$influences, type = "b", pch = 19, col = "red",
-       xlab = "Age Group", ylab = "Influence(S, V)",
-       main = sprintf("Influence by Age Group (Minimized) - %s", tissue),
-       ylim = c(0, max(result_min$influences, na.rm = TRUE) * 1.1))
-  dev.off()
-  
-  max_row <- c(tissue, result_max$metric, result_max$gene_set)
-  min_row <- c(tissue, result_min$metric, result_min$gene_set)
-  
-  max_results_list[[length(max_results_list) + 1]] <- max_row
-  min_results_list[[length(min_results_list) + 1]] <- min_row
-  
-  cat(sprintf("Tissue %s processed. MAX metric: %f, MIN metric: %f\n", tissue,
-              result_max$metric, result_min$metric))
+  cat(sprintf("Tissue %s processed. Best MAX metric: %s, Best MIN metric: %s\n", 
+              tissue, best_max_metric, best_min_metric))
 }
 
-fill_row <- function(x, target_length) {
-  length(x) <- target_length
-  x
+# -----------------------------
+# Convert lists to data frames for output.
+# Each run sheet: first column Tissue, second column Metric, third column Gene Set.
+# -----------------------------
+convert_to_df <- function(results_list) {
+  # results_list is a list of lists (each inner list is a row vector)
+  # First, determine the maximum number of columns (should be 3)
+  max_ncols <- max(sapply(results_list, length))
+  fill_row <- function(x, target_length) {
+    length(x) <- target_length
+    x
+  }
+  mat <- do.call(rbind, lapply(results_list, fill_row, target_length = max_ncols))
+  df <- as.data.frame(mat, stringsAsFactors = FALSE)
+  colnames(df) <- c("Tissue", "AgeIndex", "Gene_Set")
+  df
 }
 
-max_ncols <- max(sapply(max_results_list, length))
-min_ncols <- max(sapply(min_results_list, length))
+# For each run in max mode.
+max_run_dfs <- list()
+for (i in 1:num_runs) {
+  max_run_dfs[[paste0("run", i)]] <- convert_to_df(max_runs_list[[i]])
+}
 
-max_mat <- do.call(rbind, lapply(max_results_list, fill_row, target_length = max_ncols))
-min_mat <- do.call(rbind, lapply(min_results_list, fill_row, target_length = min_ncols))
+# For each run in min mode.
+min_run_dfs <- list()
+for (i in 1:num_runs) {
+  min_run_dfs[[paste0("run", i)]] <- convert_to_df(min_runs_list[[i]])
+}
 
-max_df <- as.data.frame(max_mat, stringsAsFactors = FALSE)
-min_df <- as.data.frame(min_mat, stringsAsFactors = FALSE)
+# Convert the best lists to data frames.
+max_best_df <- convert_to_df(max_best_list)
+min_best_df <- convert_to_df(min_best_list)
 
-max_excel_file <- file.path("..", "data", "age_indexes", "a1_max_age_indexes.xlsx")
-min_excel_file <- file.path("..", "data", "age_indexes", "a1_min_age_indexes.xlsx")
+# Combine into a sheet list (adding a "best" sheet).
+max_sheet_list <- c(max_run_dfs, list(best = max_best_df))
+min_sheet_list <- c(min_run_dfs, list(best = min_best_df))
 
-write_xlsx(max_df, path = max_excel_file, col_names = FALSE)
-write_xlsx(min_df, path = min_excel_file, col_names = FALSE)
+# -----------------------------
+# Write the Excel output files.
+# -----------------------------
+output_folder <- file.path("..", "data", "age_indexes", "excel_files")
+if (!dir.exists(output_folder)) {
+  dir.create(output_folder, recursive = TRUE)
+}
+
+max_excel_file <- file.path(output_folder, "a1_max_age_indexes.xlsx")
+min_excel_file <- file.path(output_folder, "a1_min_age_indexes.xlsx")
+
+write_xlsx(max_sheet_list, path = max_excel_file)
+write_xlsx(min_sheet_list, path = min_excel_file)
 
 end_time_total <- Sys.time()
 total_time_sec <- as.numeric(difftime(end_time_total, start_time_total, units = "secs"))
