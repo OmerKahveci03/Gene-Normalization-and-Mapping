@@ -2,176 +2,155 @@
 """
 webscrape.py
 
-- Current directory: src/
-- Age index data directory: data/age_indexes
-- Input Excel files: max_age_indexes.xlsx & min_age_indexes.xlsx (located in data/age_indexes)
-- Output Excel file: pubmed_genes.xlsx (written to data/age_indexes)
-
-For each gene (from columns 3 onward in each row), this script:
-  1. Collects gene names (duplicates removed).
-  2. Searches PubMed using the query "{gene name} aging" with a review filter.
-  3. Extracts the number of results and, if any are found, the link to the top article.
-  4. Writes the gene, result count, and top article link to the first sheet (Sheet1) 
-     of the output Excel file.
-  5. Additionally, creates separate sheets for tissue-level summary for each input file:
-     - "max_tissues" for data from max_age_indexes.xlsx
-     - "min_tissues" for data from min_age_indexes.xlsx
-     
-     Each tissue-level sheet includes the following columns:
-       * Tissue Name
-       * # of Age Associated Genes
-       * # of Non-Age Associated Genes
-       * Gene Set from Pubmed
-       * Gene Set Not in Pubmed
-
-Note: It is assumed that:
-  - Each row in the input files represents a tissue.
-  - The tissue name is in the first column.
-  - Gene symbols start from the third column (i.e. index 2 onward).
+- Located in src/age_indexing
+- Reads 'best' sheets from Excel files in data/age_indexes/excel_files:
+    * a1_max_age_indexes.xlsx
+    * a1_min_age_indexes.xlsx
+- Writes PubMed summary Excel to data/age_indexes/pubmed_genes.xlsx
+- Generates bar charts in visuals/:
+    * max_pubmed_age.png
+    * min_pubmed_age.png
 """
-
 import os
 import time
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import quote_plus
+import matplotlib.pyplot as plt
 
-def get_gene_set(file_paths):
+
+def get_gene_set_from_best(files):
     """
-    Reads all input files and extracts the set of unique gene symbols.
+    Reads the 'best' sheet of each file, collects unique genes from the 'Gene_Set' column.
     """
-    gene_set = set()
-    for file_path in file_paths:
-        print(f"Reading file: {file_path}")
-        df = pd.read_excel(file_path, header=None)
-        for _, row in df.iterrows():
-            # Columns 0 and 1 are not gene symbols; genes start at index 2.
-            for gene in row[2:]:
-                if pd.notnull(gene):
-                    gene_set.add(str(gene).strip())
-    return gene_set
+    genes = set()
+    for fp in files:
+        print(f"Reading 'best' sheet: {fp}")
+        df = pd.read_excel(fp, sheet_name='best', usecols=['Gene_Set'])
+        for cell in df['Gene_Set'].dropna():
+            for gene in str(cell).split(','):
+                g = gene.strip()
+                if g:
+                    genes.add(g)
+    return genes
+
 
 def search_pubmed(gene):
     """
-    Searches PubMed for the gene with the query "{gene} aging".
-    Returns the number of results and, if found, the link to the top article.
+    Searches PubMed for "{gene} aging" (review filter).
+    Returns count and top article link.
     """
     query = quote_plus(f"{gene} aging")
     url = f"https://pubmed.ncbi.nlm.nih.gov/?term={query}&filter=pubt.review"
     print(f"Searching PubMed for gene: {gene}")
-    
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0 Safari/537.36"
-    }
-    
+    headers = {"User-Agent": "Mozilla/5.0"}
     try:
-        response = requests.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
+        resp = requests.get(url, headers=headers, timeout=10)
+        resp.raise_for_status()
     except requests.RequestException as e:
         print(f"Request failed for {gene}: {e}")
         return 0, ""
-    
-    soup = BeautifulSoup(response.text, "html.parser")
-
-    # Extract the number of results from the element with class "value".
-    count_element = soup.find("span", class_="value")
-    if count_element and count_element.text:
+    soup = BeautifulSoup(resp.text, "html.parser")
+    span = soup.find("span", class_="value")
+    if span and span.text:
         try:
-            count = int(count_element.text.replace(",", ""))
+            count = int(span.text.replace(",", ""))
         except ValueError:
             count = 0
     else:
         count = 0
-
-    # If results are found, extract the link to the top article.
     link = ""
     if count > 0:
-        a_tag = soup.find("a", class_="docsum-title")
-        if a_tag:
-            href = a_tag.get("href")
-            if href:
-                link = "https://pubmed.ncbi.nlm.nih.gov" + href
-
-    # Pause to be polite to the server.
+        a = soup.find("a", class_="docsum-title")
+        if a and a.get("href"):
+            link = "https://pubmed.ncbi.nlm.nih.gov" + a["href"]
     time.sleep(1)
     return count, link
 
-def main():
-    base_path = os.path.join(os.path.dirname(__file__), "..", "data", "age_indexes")
-    input_files = [
-        os.path.join(base_path, "max_age_indexes.xlsx"),
-        os.path.join(base_path, "min_age_indexes.xlsx")
-    ]
-    
-    # 1. Get the unique gene set from all input files.
-    gene_set = get_gene_set(input_files)
-    print(f"Total unique genes found: {len(gene_set)}")
-    
-    gene_results = []
-    # Dictionary for quick lookup when processing tissue-level info.
-    gene_info = {}
-    
-    # 2. Search PubMed for each gene.
-    for gene in gene_set:
-        count, top_link = search_pubmed(gene)
-        gene_results.append({
-            "Gene Name": gene,
-            "number of results": count,
-            "link to article": top_link if count > 0 else ""
-        })
-        gene_info[gene] = {"count": count, "link": top_link}
-        
-    # Create DataFrame for gene-level results (this will be Sheet1).
-    gene_df = pd.DataFrame(gene_results)
-    gene_df.sort_values(by="Gene Name", inplace=True)
-    
-    # 3. Process each input file separately to create tissue-level summaries.
-    max_tissue_rows = []
-    min_tissue_rows = []
-    
-    for file_path in input_files:
-        print(f"Processing tissue data from: {file_path}")
-        df = pd.read_excel(file_path, header=None)
-        for index, row in df.iterrows():
-            # Tissue name is assumed to be in the first column.
-            tissue_name = row[0] if pd.notnull(row[0]) else f"Tissue_{index}"
-            # Genes are from the third column onward (index 2).
-            genes = [str(gene).strip() for gene in row[2:] if pd.notnull(gene)]
-            age_associated_genes = []
-            non_age_associated_genes = []
-            for gene in genes:
-                if gene in gene_info and gene_info[gene]["count"] > 0:
-                    age_associated_genes.append(gene)
-                else:
-                    non_age_associated_genes.append(gene)
-                    
-            summary = {
-                "Tissue Name": tissue_name,
-                "# of Age Associated Genes": len(age_associated_genes),
-                "# of Non-Age Associated Genes": len(non_age_associated_genes),
-                "Gene Set from Pubmed": ", ".join(age_associated_genes),
-                "Gene Set Not in Pubmed": ", ".join(non_age_associated_genes)
-            }
-            
-            # Determine which file this row came from.
-            if "min_age_indexes" in os.path.basename(file_path):
-                min_tissue_rows.append(summary)
-            elif "max_age_indexes" in os.path.basename(file_path):
-                max_tissue_rows.append(summary)
-    
-    # Create DataFrames for each tissue-level summary.
-    min_tissue_df = pd.DataFrame(min_tissue_rows)
-    max_tissue_df = pd.DataFrame(max_tissue_rows)
-    
-    # 4. Write all DataFrames into separate sheets in the same Excel file.
-    output_path = os.path.join(base_path, "pubmed_genes.xlsx")
-    with pd.ExcelWriter(output_path) as writer:
-        gene_df.to_excel(writer, sheet_name="Sheet1", index=False)
-        min_tissue_df.to_excel(writer, sheet_name="min_tissues", index=False)
-        max_tissue_df.to_excel(writer, sheet_name="max_tissues", index=False)
-    
-    print(f"Done. Results saved to {output_path}")
 
-if __name__ == "__main__":
+def plot_pubmed_summary(df, kind, output_path):
+    """
+    Creates a bar chart: green bars = total genes, red bars = non-age-associated.
+    """
+    tissues = df['Tissue Name']
+    age_assoc = df['# of Age Associated Genes']
+    non_age = df['# of Non-Age Associated Genes']
+    total = age_assoc + non_age
+
+    x = range(len(tissues))
+    plt.figure(figsize=(10, 6))
+    plt.bar(x, total, color='green', label='Total Genes')
+    plt.bar(x, non_age, color='red', label='Non-Age-Associated')
+    plt.xticks(x, tissues, rotation=45, ha='right')
+    plt.xlabel('Tissue')
+    plt.ylabel('# of Genes')
+    plt.title(f'{kind.title()} PubMed Aging Gene Summary')
+    plt.legend()
+    plt.tight_layout()
+    plt.savefig(output_path)
+    plt.close()
+
+
+def main():
+    # Base paths
+    script_dir = os.path.dirname(__file__)
+    project_root = os.path.abspath(os.path.join(script_dir, '..', '..'))
+    excel_dir = os.path.join(project_root, 'data', 'age_indexes', 'excel_files')
+    files = [
+        os.path.join(excel_dir, 'a1_max_age_indexes.xlsx'),
+        os.path.join(excel_dir, 'a1_min_age_indexes.xlsx')
+    ]
+
+    # 1. Collect genes from 'best' sheets only
+    gene_set = get_gene_set_from_best(files)
+    print(f"Total unique genes to query: {len(gene_set)}")
+
+    # 2. PubMed search per gene
+    gene_results, gene_info = [], {}
+    for gene in sorted(gene_set):
+        cnt, link = search_pubmed(gene)
+        gene_results.append({'Gene Name': gene, 'number of results': cnt, 'link to article': link})
+        gene_info[gene] = cnt
+
+    gene_df = pd.DataFrame(gene_results).sort_values('Gene Name')
+
+    # 3. Summarize per-tissue from 'best' sheets
+    max_rows, min_rows = [], []
+    for fp in files:
+        print(f"Summarizing tissue-level for: {fp}")
+        df = pd.read_excel(fp, sheet_name='best', usecols=['Tissue', 'Gene_Set'])
+        for _, row in df.iterrows():
+            tissue = row['Tissue']
+            genes = [g.strip() for g in str(row['Gene_Set']).split(',') if g.strip()]
+            age_assoc = [g for g in genes if gene_info.get(g,0)>0]
+            non_age = [g for g in genes if gene_info.get(g,0)==0]
+            rec = {
+                'Tissue Name': tissue,
+                '# of Age Associated Genes': len(age_assoc),
+                '# of Non-Age Associated Genes': len(non_age),
+                'Gene Set from Pubmed': ', '.join(age_assoc),
+                'Gene Set Not in Pubmed': ', '.join(non_age)
+            }
+            if os.path.basename(fp).startswith('a1_max'): max_rows.append(rec)
+            else: min_rows.append(rec)
+
+    max_df, min_df = pd.DataFrame(max_rows), pd.DataFrame(min_rows)
+
+    # 4. Write results
+    out_excel = os.path.join(project_root, 'data', 'age_indexes', 'pubmed_genes.xlsx')
+    with pd.ExcelWriter(out_excel) as w:
+        gene_df.to_excel(w, sheet_name='Sheet1', index=False)
+        min_df.to_excel(w, sheet_name='min_tissues', index=False)
+        max_df.to_excel(w, sheet_name='max_tissues', index=False)
+    print(f"PubMed results written to {out_excel}")
+
+    # 5. Create bar charts
+    visuals = os.path.join(project_root, 'visuals')
+    os.makedirs(visuals, exist_ok=True)
+    plot_pubmed_summary(max_df, 'max', os.path.join(visuals, 'max_pubmed_age.png'))
+    plot_pubmed_summary(min_df, 'min', os.path.join(visuals, 'min_pubmed_age.png'))
+    print(f"Charts saved in {visuals}")
+
+if __name__=='__main__':
     main()

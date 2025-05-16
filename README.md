@@ -21,6 +21,9 @@
 ### src
     -Contains all R scripts
 
+### visuals
+    - Contains all graphs, plots, and other visuals created
+
 ## R Scripts
 ### normalize_tissue.R
     -Creates a 'normlaized_{tissue name}.csv' file for a single input file
@@ -42,11 +45,23 @@
     - Reads mapped data as input
     - Has a configurabe gene_set and tissue_name variable
     - Prints to the screen the age based influence of the gene set on the entire network, for the given tissue
-    - Also creates a plot
+    - Also creates plots
 
 ### algorithm_0.R
     - Reads mapped data and trrust data as input
-    - Has a configurable tissue_name variable
+    - Iterates through all tissues
     - Iterates through all unique gene symbols in trrust column A
-    - Finds the gene set within the given tissue name's gene network with the highest and lowest collective age-based influence value
+    - Finds the gene set within each tissue's gene network with the highest and lowest collective age-based influence value
     - Creates plots of the influence values per age group for the sets.
+
+### algorithm_1.R
+    - Does everything algorithm_0.R does
+    - Also runs a stochastic search five times
+    - Documents all the results in an excel file at 'data/age_indexes/excel_files/'. The best runs each tissue had are saved under the 'best' sheet within the excel file.
+
+### null_algorithm.R
+    - Iterates through every tissue 100 times
+    - For each iteration, it randomly selects k genes (the number of genes 'algorithm_1.R' picked)
+    - Computes the mean, standard deviations, and Z scores of the results
+    - Compares the finidngs with the results created from 'algorithm_1.R'
+    - Creates bar charts and circle plots under 'visuals/'

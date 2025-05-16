@@ -5,9 +5,6 @@ import matplotlib.pyplot as plt
 
 
 def load_best_df(path: Path) -> pd.DataFrame:
-    """
-    Load the 'best' sheet from the given Excel file.
-    """
     if not path.exists():
         raise FileNotFoundError(f"Excel file not found: {path}")
     df = pd.read_excel(path, sheet_name='best')
@@ -17,18 +14,12 @@ def load_best_df(path: Path) -> pd.DataFrame:
 
 
 def prepare_output_dir(root: Path) -> Path:
-    """
-    Ensure the visuals directory exists at the project root.
-    """
     visuals_dir = root / 'visuals'
     visuals_dir.mkdir(parents=True, exist_ok=True)
     return visuals_dir
 
 
 def plot_bar(df: pd.DataFrame, output_path: Path, title: str) -> None:
-    """
-    Plot a bar chart of Metric by Tissue, sorted by descending absolute Metric.
-    """
     # Sort by absolute Metric descending
     df = df.copy()
     df['abs_metric'] = df['Metric'].abs()
